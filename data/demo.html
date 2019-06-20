@@ -6,7 +6,10 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
     <title>D3: A simple packed Bubble Chart</title>
-    <script type="text/javascript" src="./demo_files/d3.v4.min.js.download"></script>
+    <!-- <script type="text/javascript" src="./demo_files/d3.v4.min.js.download"></script>
+    <script src="https://d3js.org/d3-dsv.v1.min.js"></script> -->
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
 
     <style type="text/css">
         /* No style rules here yet */
@@ -15,6 +18,14 @@
 
 <body>
     <script type="text/javascript">
+
+        // var ballData = d3.csv("team-stats.csv", ({ year, rank, team, w, l, oRtg, dRtg }) => {
+        //     console.log(year, rank, team, w, l, oRtg, dRtg);
+        // });
+
+        var ballData = d3.csv("team-stats.csv", ({ Year, Rk, Team, W, L, ORtg, DRtg }) => {
+            console.log(Year, Rk, Team, W, L, ORtg, DRtg);
+        });
 
         dataset = {
             "children": [{ "Name": "Olives", "Count": 4319 },
@@ -41,7 +52,7 @@
         };
 
         var diameter = 600;
-        var color = d3.scaleOrdinal(d3.schemeCategory20);
+        var color = d3.scaleOrdinal(d3.schemeCategory10);
 
         var bubble = d3.pack(dataset)
             .size([diameter, diameter])
@@ -107,7 +118,7 @@
 
         d3.select(self.frameElement)
             .style("height", diameter + "px");
-    
+
     </script>
 </body>
 
