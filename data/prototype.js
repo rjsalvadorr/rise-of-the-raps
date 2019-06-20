@@ -1,4 +1,4 @@
-var currentYear = "1996";
+var currentYear = "2019";
 var dataByYear = {};
 for (var yr = 1996; yr <= 2019; yr++) {
   dataByYear["" + yr] = {
@@ -37,7 +37,7 @@ ballData.then(function (dataValue) {
   dataset = dataByYear[currentYear];
   console.log(dataset, dataByYear);
 
-  var diameter = 700;
+  var diameter = 710;
   var color = d3.scaleOrdinal(d3.schemeCategory10);
 
   var bubble = d3.pack(dataset)
