@@ -1,4 +1,4 @@
-var currentYear = "2016";
+var currentYear = "1996";
 var dataByYear = {};
 for (var yr = 1996; yr <= 2019; yr++) {
   dataByYear["" + yr] = {
@@ -20,9 +20,14 @@ var ballData = d3.csv("team-stats.csv", ({ Year, Rk, Team, W, L, ORtg, DRtg }) =
     year: Year,
     rank: Rk,
     team: Team,
-    winRate: Number(Math.round(winRate * 100 + 'e2') + 'e-2'),
+    winRate: Number(Math.round((winRate * 100) + 'e2') + 'e-2'),
     netRtg: Number(Math.round(netRtg + 'e2') + 'e-2'),
   };
+
+  const additions = getAdditionalTeamInfo(newRecord);
+  console.log(additions);
+  newRecord.playoffs = additions.playoffs;
+  newRecord.abbrev = additions.abbrev;
 
   dataByYear[Year].children.push(newRecord);
   return newRecord;
@@ -46,7 +51,7 @@ ballData.then(function (dataValue) {
     .attr("class", "bubble");
 
   var nodes = d3.hierarchy(dataset)
-    .sum(function (d) { return Math.pow(d.winRate, 2.5); });
+    .sum(function (d) { return Math.pow(d.winRate, 3.5); });
 
   var node = svg.selectAll(".node")
     .data(bubble(nodes).descendants())
@@ -62,12 +67,11 @@ ballData.then(function (dataValue) {
 
   node.append("title")
     .text(function (d) {
-      return d.team + ": " + d.winRate;
+      return d.abbrev + ": " + d.winRate;
     });
 
   node.append("circle")
     .attr("r", function (d) {
-      console.log(d.r, Math.pow(d.r, 1.01));
       return d.r;
     })
     .style("fill", function (d, i) {
@@ -75,28 +79,28 @@ ballData.then(function (dataValue) {
     });
 
   node.append("text")
-    .attr("dy", ".2em")
+    .attr("dy", ".4em")
     .style("text-anchor", "middle")
     .text(function (d) {
-      return d.data.team.substring(0, d.r / 3);
+      return d.data.abbrev;
     })
     .attr("font-family", "sans-serif")
     .attr("font-size", function (d) {
-      return d.r / 5;
+      return d.r / 1.5;
     })
     .attr("fill", "white");
 
-  node.append("text")
-    .attr("dy", "1.3em")
-    .style("text-anchor", "middle")
-    .text(function (d) {
-      return d.data.winRate + "%";
-    })
-    .attr("font-family", "Gill Sans", "Gill Sans MT")
-    .attr("font-size", function (d) {
-      return d.r / 5;
-    })
-    .attr("fill", "white");
+  // node.append("text")
+  //   .attr("dy", "1.3em")
+  //   .style("text-anchor", "middle")
+  //   .text(function (d) {
+  //     return d.data.winRate + "%";
+  //   })
+  //   .attr("font-family", "Gill Sans", "Gill Sans MT")
+  //   .attr("font-size", function (d) {
+  //     return d.r / 5;
+  //   })
+  //   .attr("fill", "white");
 
   d3.select(self.frameElement)
     .style("height", diameter + "px");
