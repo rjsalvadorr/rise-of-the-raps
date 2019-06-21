@@ -1,6 +1,11 @@
 const START_YEAR = 1996;
 const CHAMP_YEAR = 2019;
 
+/**
+* Data store containing the NBA season summaries for every year since the
+* Toronto Raptors expansion year. Methods are centred around reading data
+* from two large CSV files and stitching them together.
+*/
 class SeasonStats {
   constructor() {
     this.stats = {};
@@ -13,26 +18,35 @@ class SeasonStats {
     }
   }
 
+  /**
+  * Gets a given year's season summary
+  */
   getStatsByYear(year) {
     return this.stats[year];
   }
 
-  getTeamRecord(year, additions) {
+  /**
+  * Gets a given year's season summary
+  */
+  getTeamRecord(year, teamInfo) {
     const currentYear = this.getStatsByYear(year);
     for (let rec of currentYear.children) {
-      if (rec.teamAbbrev === additions.teamAbbrev) {
+      if (rec.teamAbbrev === teamInfo.teamAbbrev) {
         return rec;
       }
     }
     return null;
   }
 
-  initializeTeamRecord(csvRecord, additions, type) {
+  /**
+  * Initializes a given team's record
+  */
+  initializeTeamRecord(csvRecord, teamInfo, type) {
     const currentYear = this.getStatsByYear(csvRecord.Year);
     const newRecord = {
       // team: csvRecord.Team,
-      teamAbbrev: additions.teamAbbrev,
-      playoffs: type === 'playoffs' || additions.playoffs,
+      teamAbbrev: teamInfo.teamAbbrev,
+      playoffs: type === 'playoffs' || teamInfo.playoffs,
       adjWinRate: 0,
       adjPlayoffWinRate: 0,
       overallRtg: 0,
@@ -41,13 +55,17 @@ class SeasonStats {
     return newRecord;
   }
 
+  /**
+  * Reads data from a CSV record, and adds them to the data store
+  * instance
+  */
   addData(csvRecord, type) {
     const currentYear = this.getStatsByYear(csvRecord.Year);
-    const additions = getBasicTeamInfo(csvRecord);
-    let newRecord = this.getTeamRecord(csvRecord.Year, additions);
+    const teamInfo = getBasicTeamInfo(csvRecord);
+    let newRecord = this.getTeamRecord(csvRecord.Year, teamInfo);
 
     if (!newRecord) {
-      newRecord = this.initializeTeamRecord(csvRecord, additions);
+      newRecord = this.initializeTeamRecord(csvRecord, teamInfo);
     }
 
     if (type === 'season') {
@@ -78,6 +96,9 @@ class SeasonStats {
     this.recalculateStats(csvRecord.Year, newRecord);
   }
 
+  /**
+  * Recalculates relative stats as CSV records are added in
+  */
   recalculateStats(year, newRecord) {
     const currentYear = this.getStatsByYear(year);
     let seasonStatsChanged = false;
@@ -85,33 +106,29 @@ class SeasonStats {
 
     if (newRecord.winRate && newRecord.winRate > currentYear.bestSeasonWins) {
       currentYear.bestSeasonWins = newRecord.winRate;
-      // seasonStatsChanged = true;
     }
 
     if (newRecord.playoffWinRate && newRecord.playoffWinRate > currentYear.bestPlayoffWins) {
       currentYear.bestPlayoffWins = newRecord.playoffWinRate;
-      // playoffStatsChanged = true;
     }
 
-    // if (seasonStatsChanged || playoffStatsChanged) {
-      for (let rec of currentYear.children) {
-        let wRate;
-        let pWins;
+    for (let rec of currentYear.children) {
+      let wRate;
+      let pWins;
 
-        wRate = rec.winRate / currentYear.bestSeasonWins;
-        rec.adjWinRate = Number(Math.round((wRate * 100) + 'e2') + 'e-2')
+      wRate = rec.winRate / currentYear.bestSeasonWins;
+      rec.adjWinRate = Number(Math.round((wRate * 100) + 'e2') + 'e-2')
 
-        if (rec.playoffs) {
-          pWins = rec.playoffWinRate / currentYear.bestPlayoffWins;
-          rec.adjPlayoffWinRate = Number(Math.round((pWins * 100) + 'e2') + 'e-2')
-        }
-        else {
-          pWins = 0;
-        }
-
-        const overallRtg = (wRate + wRate + pWins) / 3;
-        rec.overallRtg = Number(Math.round((overallRtg * 100) + 'e2') + 'e-2')
+      if (rec.playoffs) {
+        pWins = rec.playoffWinRate / currentYear.bestPlayoffWins;
+        rec.adjPlayoffWinRate = Number(Math.round((pWins * 100) + 'e2') + 'e-2')
       }
-    // }
+      else {
+        pWins = 0;
+      }
+
+      const overallRtg = (wRate + pWins) / 2;
+      rec.overallRtg = Number(Math.round((overallRtg * 100) + 'e2') + 'e-2')
+    }
   }
 }
