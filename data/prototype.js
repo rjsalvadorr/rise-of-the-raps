@@ -1,32 +1,27 @@
 ///////////////////////////////////////////////////////////////////////////////
 ///// CONSTANTS & UTILS
 
-const currentYear = "1996";
+const currentYear = "2019";
 const seasonStats = new SeasonStats();
 
 ///////////////////////////////////////////////////////////////////////////////
 ///// LOADING DATA
 
-var loadData = new Promise(function (resolve, reject) {
-  var regSeasonData = d3.csv("team-stats.csv", ({ Year, Rk, Team, W, L, ORtg, DRtg }) => {
-    seasonStats.addData({ Year, Rk, Team, W, L, ORtg, DRtg }, 'season');
-  });
-
-  var playoffData = d3.csv("playoff-stats.csv", ({ Year, Rk, Team, W, L, ORtg, DRtg }) => {
-    seasonStats.addData({ Year, Rk, Team, W, L, ORtg, DRtg }, 'playoffs');
-  });
-
-  Promise.all([regSeasonData, playoffData]).then(function (values) {
-    resolve(seasonStats);
-  });
+var regSeasonData = d3.csv("team-stats.csv", ({ Year, Rk, Team, W, L, ORtg, DRtg }) => {
+  seasonStats.addData({ Year, Rk, Team, W, L, ORtg, DRtg }, 'season');
 });
+
+var playoffData = d3.csv("playoff-stats.csv", ({ Year, Rk, Team, W, L, ORtg, DRtg }) => {
+  seasonStats.addData({ Year, Rk, Team, W, L, ORtg, DRtg }, 'playoffs');
+});
+
 
 ///////////////////////////////////////////////////////////////////////////////
 ///// RENDERING WITH D3
 
-loadData.then(function (dataValue) {
-  dataset = dataValue.stats[currentYear];
-  console.log(dataValue, dataset);
+Promise.all([regSeasonData, playoffData]).then(function (values) {
+  dataset = seasonStats.stats[currentYear];
+  console.log(seasonStats, dataset);
 
   var diameter = 710;
   var color = d3.scaleOrdinal(d3.schemeCategory10);
