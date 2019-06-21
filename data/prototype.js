@@ -38,7 +38,7 @@ Promise.all([regSeasonData, playoffData]).then(function (values) {
 
   var nodes = d3.hierarchy(dataset)
     .sum(function (d) {
-      return Math.pow(d.overallRtg, 3);
+      return Math.pow(d.overallRtg, 3.5);
     });
 
   var node = svg.selectAll(".node")
@@ -62,6 +62,9 @@ Promise.all([regSeasonData, playoffData]).then(function (values) {
     .attr("r", function (d) {
       return d.r;
     })
+    .attr("class", function(d) {
+      return `circle circle--${d.data.teamAbbrev}`;
+    })
     .style("fill", function (d, i) {
       return color(i);
     });
@@ -72,9 +75,12 @@ Promise.all([regSeasonData, playoffData]).then(function (values) {
     .text(function (d) {
       return d.data.teamAbbrev;
     })
+    .attr("class", function(d) {
+      return `text text--${d.data.teamAbbrev}`;
+    })
     .attr("font-family", "sans-serif")
     .attr("font-size", function (d) {
-      return d.r / 1.5;
+      return d.r / 1.33;
     })
     .attr("fill", "white");
 
