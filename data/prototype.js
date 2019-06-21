@@ -1,55 +1,23 @@
 ///////////////////////////////////////////////////////////////////////////////
 ///// CONSTANTS & UTILS
 
-var currentYear = "2019";
-var dataByYear = {};
-for (var yr = 1996; yr <= 2019; yr++) {
-  dataByYear["" + yr] = {
-    "children": [],
-  };
-}
-
+const currentYear = "1996";
 const seasonStats = new SeasonStats();
 
 ///////////////////////////////////////////////////////////////////////////////
 ///// LOADING DATA
 
-var loadData = new Promise(function(resolve, reject) {
+var loadData = new Promise(function (resolve, reject) {
   var regSeasonData = d3.csv("team-stats.csv", ({ Year, Rk, Team, W, L, ORtg, DRtg }) => {
-    const wins = parseInt(W, 10);
-    const losses = parseInt(L, 10);
-    const oRtg = parseFloat(ORtg);
-    const dRtg = parseFloat(DRtg);
-
     seasonStats.addData({ Year, Rk, Team, W, L, ORtg, DRtg }, 'season');
-  
-    const totalGames = wins + losses;
-    const winRate = wins / totalGames;
-    const netRtg = oRtg - dRtg;
-  
-    const newRecord = {
-      year: Year,
-      team: Team,
-      winRate: Number(Math.round((winRate * 100) + 'e2') + 'e-2'),
-      netRtg: Number(Math.round(netRtg + 'e2') + 'e-2'),
-    };
-  
-    const additions = getAdditionalTeamInfo(newRecord);
-    // console.log(additions);
-    newRecord.playoffs = additions.playoffs;
-    newRecord.abbrev = additions.abbrev;
-  
-    dataByYear[Year].children.push(newRecord);
-    return newRecord;
   });
 
   var playoffData = d3.csv("playoff-stats.csv", ({ Year, Rk, Team, W, L, ORtg, DRtg }) => {
-    // console.log( Year, Rk, Team, W, L, ORtg, DRtg);
     seasonStats.addData({ Year, Rk, Team, W, L, ORtg, DRtg }, 'playoffs');
   });
 
-  Promise.all([regSeasonData, playoffData]).then(function(values) {
-    resolve(values[0]);
+  Promise.all([regSeasonData, playoffData]).then(function (values) {
+    resolve(seasonStats);
   });
 });
 
@@ -57,9 +25,8 @@ var loadData = new Promise(function(resolve, reject) {
 ///// RENDERING WITH D3
 
 loadData.then(function (dataValue) {
-  dataset = dataByYear[currentYear];
-  // console.log(dataset, dataByYear);
-  console.log(seasonStats);
+  dataset = dataValue.stats[currentYear];
+  console.log(dataValue, dataset);
 
   var diameter = 710;
   var color = d3.scaleOrdinal(d3.schemeCategory10);
@@ -75,13 +42,15 @@ loadData.then(function (dataValue) {
     .attr("class", "bubble");
 
   var nodes = d3.hierarchy(dataset)
-    .sum(function (d) { return Math.pow(d.winRate, 3.5); });
+    .sum(function (d) {
+      return Math.pow(d.overallRtg, 3);
+    });
 
   var node = svg.selectAll(".node")
     .data(bubble(nodes).descendants())
     .enter()
     .filter(function (d) {
-      return !d.children
+      return !d.children;
     })
     .append("g")
     .attr("class", "node")
@@ -91,7 +60,7 @@ loadData.then(function (dataValue) {
 
   node.append("title")
     .text(function (d) {
-      return d.abbrev + ": " + d.winRate;
+      return d.teamAbbrev + ": " + d.overallRtg;
     });
 
   node.append("circle")
@@ -106,7 +75,7 @@ loadData.then(function (dataValue) {
     .attr("dy", ".4em")
     .style("text-anchor", "middle")
     .text(function (d) {
-      return d.data.abbrev;
+      return d.data.teamAbbrev;
     })
     .attr("font-family", "sans-serif")
     .attr("font-size", function (d) {

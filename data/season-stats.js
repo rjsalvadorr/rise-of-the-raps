@@ -6,7 +6,7 @@ class SeasonStats {
     this.stats = {};
     for (var yr = START_YEAR; yr <= CHAMP_YEAR; yr++) {
       this.stats["" + yr] = {
-        records: [],
+        children: [],
         bestSeasonWins: 0,
         bestPlayoffWins: 0,
       };
@@ -19,7 +19,7 @@ class SeasonStats {
 
   getTeamRecord(year, additions) {
     const currentYear = this.getStatsByYear(year);
-    for (let rec of currentYear.records) {
+    for (let rec of currentYear.children) {
       if (rec.teamAbbrev === additions.teamAbbrev) {
         return rec;
       }
@@ -37,7 +37,7 @@ class SeasonStats {
       adjPlayoffWinRate: 0,
       overallRtg: 0,
     }
-    currentYear.records.push(newRecord);
+    currentYear.children.push(newRecord);
     return newRecord;
   }
 
@@ -94,7 +94,7 @@ class SeasonStats {
     }
 
     // if (seasonStatsChanged || playoffStatsChanged) {
-      for (let rec of currentYear.records) {
+      for (let rec of currentYear.children) {
         let wRate;
         let pWins;
 
