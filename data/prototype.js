@@ -1,3 +1,6 @@
+///////////////////////////////////////////////////////////////////////////////
+///// CONSTANTS & UTILS
+
 var currentYear = "2019";
 var dataByYear = {};
 for (var yr = 1996; yr <= 2019; yr++) {
@@ -6,36 +9,57 @@ for (var yr = 1996; yr <= 2019; yr++) {
   };
 }
 
-var ballData = d3.csv("team-stats.csv", ({ Year, Rk, Team, W, L, ORtg, DRtg }) => {
-  const wins = parseInt(W, 10);
-  const losses = parseInt(L, 10);
-  const oRtg = parseFloat(ORtg);
-  const dRtg = parseFloat(DRtg);
+const seasonStats = new SeasonStats();
 
-  const totalGames = wins + losses;
-  const winRate = wins / totalGames;
-  const netRtg = oRtg - dRtg;
+///////////////////////////////////////////////////////////////////////////////
+///// LOADING DATA
 
-  const newRecord = {
-    year: Year,
-    rank: Rk,
-    team: Team,
-    winRate: Number(Math.round((winRate * 100) + 'e2') + 'e-2'),
-    netRtg: Number(Math.round(netRtg + 'e2') + 'e-2'),
-  };
+var loadData = new Promise(function(resolve, reject) {
+  var regSeasonData = d3.csv("team-stats.csv", ({ Year, Rk, Team, W, L, ORtg, DRtg }) => {
+    const wins = parseInt(W, 10);
+    const losses = parseInt(L, 10);
+    const oRtg = parseFloat(ORtg);
+    const dRtg = parseFloat(DRtg);
 
-  const additions = getAdditionalTeamInfo(newRecord);
-  console.log(additions);
-  newRecord.playoffs = additions.playoffs;
-  newRecord.abbrev = additions.abbrev;
+    seasonStats.addData({ Year, Rk, Team, W, L, ORtg, DRtg }, 'season');
+  
+    const totalGames = wins + losses;
+    const winRate = wins / totalGames;
+    const netRtg = oRtg - dRtg;
+  
+    const newRecord = {
+      year: Year,
+      team: Team,
+      winRate: Number(Math.round((winRate * 100) + 'e2') + 'e-2'),
+      netRtg: Number(Math.round(netRtg + 'e2') + 'e-2'),
+    };
+  
+    const additions = getAdditionalTeamInfo(newRecord);
+    // console.log(additions);
+    newRecord.playoffs = additions.playoffs;
+    newRecord.abbrev = additions.abbrev;
+  
+    dataByYear[Year].children.push(newRecord);
+    return newRecord;
+  });
 
-  dataByYear[Year].children.push(newRecord);
-  return newRecord;
+  var playoffData = d3.csv("playoff-stats.csv", ({ Year, Rk, Team, W, L, ORtg, DRtg }) => {
+    // console.log( Year, Rk, Team, W, L, ORtg, DRtg);
+    seasonStats.addData({ Year, Rk, Team, W, L, ORtg, DRtg }, 'playoffs');
+  });
+
+  Promise.all([regSeasonData, playoffData]).then(function(values) {
+    resolve(values[0]);
+  });
 });
 
-ballData.then(function (dataValue) {
+///////////////////////////////////////////////////////////////////////////////
+///// RENDERING WITH D3
+
+loadData.then(function (dataValue) {
   dataset = dataByYear[currentYear];
-  console.log(dataset, dataByYear);
+  // console.log(dataset, dataByYear);
+  console.log(seasonStats);
 
   var diameter = 710;
   var color = d3.scaleOrdinal(d3.schemeCategory10);

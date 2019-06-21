@@ -2,8 +2,8 @@ const TEAM_ABBREVS = {
   "Atlanta Hawks": "ATL",
   "Brooklyn Nets": "BKN",
   "Boston Celtics": "BOS",
-  "Charlotte Hornets": "CHA",
-  "Charlotte Bobcats": "CHN",
+  "Charlotte Hornets": "CHO",
+  "Charlotte Bobcats": "CHA",
   "Chicago Bulls": "CHI",
   "Cleveland Cavaliers": "CLE",
   "Dallas Mavericks": "DAL",
@@ -51,6 +51,7 @@ const getTeamAbbrev = (teamName) => {
   return abbr;
 }
 
+// DEPRECATED
 const getAdditionalTeamInfo = (record) => {
   const isPlayoffTeam = record.team.includes('*');
   const formattedName = !isPlayoffTeam ? record.team : record.team.replace("*", "");
@@ -58,5 +59,16 @@ const getAdditionalTeamInfo = (record) => {
   return {
     playoffs: isPlayoffTeam,
     abbrev: getTeamAbbrev(formattedName),
+  }
+};
+
+const getBasicTeamInfo = (csvRecord) => {
+  const isPlayoffTeam = csvRecord.Team.includes('*');
+  const formattedName = !isPlayoffTeam ? csvRecord.Team : csvRecord.Team.replace("*", "");
+
+  return {
+    team: formattedName,
+    teamAbbrev: getTeamAbbrev(formattedName),
+    playoffs: isPlayoffTeam,
   }
 };
