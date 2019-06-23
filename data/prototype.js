@@ -18,101 +18,131 @@ var playoffData = d3.csv("playoff-stats.csv", ({ Year, Rk, Team, W, L, ORtg, DRt
 ///////////////////////////////////////////////////////////////////////////////
 ///  RENDERING WITH D3
 
-var bubble;
-var nodes;
-var svg;
-var node;
+var width = window.innerWidth * 0.9;
+var height = window.innerHeight * 0.9;
+const shorter = height > width ? width : height;
+
+var svg = d3.select("body")
+  .append("svg")
+  .attr("width", shorter)
+  .attr("height", shorter);
+
+var pack = d3.pack()
+  .size([shorter, shorter])
+  .padding(1.5);
 
 Promise.all([regSeasonData, playoffData]).then(function (values) {
-  dataset = seasonStats.stats[currentYear];
-  console.log(seasonStats, dataset);
-
-  var diameter = 710;
-  var color = d3.scaleOrdinal(d3.schemeCategory10);
-
-  bubble = d3.pack(dataset)
-    .size([diameter, diameter])
-    .padding(1.5);
-
-  svg = d3.select("body")
-    .append("svg")
-    .attr("width", diameter)
-    .attr("height", diameter)
-    .attr("class", "bubble");
-
-  nodes = d3.hierarchy(dataset)
-    .sum(function (d) {
-      return Math.pow(d.overallRtg, 3.5);
-    });
-
-  node = svg.selectAll(".node")
-    .data(bubble(nodes).descendants())
-    .enter()
-    .filter(function (d) {
-      return !d.children;
-    })
-    .append("g")
-    .attr("class", "node")
-    .attr("transform", function (d) {
-      return "translate(" + d.x + "," + d.y + ")";
-    });
-
-  node.append("title")
-    .text(function (d) {
-      console.log(d);
-      return d.data.teamAbbrev + ": " + d.data.overallRtg + "%";
-    });
-
-  node.append("circle")
-    .attr("r", function (d) {
-      return d.r;
-    })
-    .attr("class", function (d) {
-      return `circle circle--${d.data.teamAbbrev}`;
-    })
-    .style("fill", function (d, i) {
-      return color(i);
-    });
-
-  node.append("text")
-    .attr("dy", ".4em")
-    .style("text-anchor", "middle")
-    .text(function (d) {
-      return d.data.teamAbbrev;
-    })
-    .attr("class", function (d) {
-      return `text text--${d.data.teamAbbrev}`;
-    })
-    .attr("font-family", "sans-serif")
-    .attr("font-size", function (d) {
-      return d.r / 1.33;
-    })
-    .attr("fill", "white");
-
-  d3.select(self.frameElement)
-    .style("height", diameter + "px");
+  redraw(seasonStats.stats[currentYear].children);
 });
 
 ///////////////////////////////////////////////////////////////////////////////
 ///  UPDATING DATA
 
-const updateData = () => {
-  console.log('updating data...');
-  // nodes = d3.hierarchy(seasonStats.stats[currentYear])
-  //   .sum(function (d) {
-  //     return Math.pow(d.overallRtg, 3.5);
-  //   });
-  // node.data(bubble(nodes).descendants());
+function redraw(classes) {
+  // transition
+  var t = d3.transition()
+    .duration(750);
 
-  // svg.selectAll("circle")
-  //   .attr("r", function (d) {
-  //     return d.r;
-  //   });
+  // hierarchy
+  var h = d3.hierarchy({ children: classes })
+    .sum(function (d) { return Math.pow(d.overallRtg, 2.33); })
 
-  // svg.selectAll("text")
-  //   .attr("font-size", function (d) {
-  //     return d.r / 1.33;
-  //   });
+  //JOIN
+  var circle = svg.selectAll("circle")
+    .data(pack(h).leaves(), function (d) { return d.data.teamAbbrev; });
+
+  var text = svg.selectAll("text")
+    .data(pack(h).leaves(), function (d) { return d.data.teamAbbrev; });
+
+  //EXIT
+  circle.exit()
+    .style("fill", "#b26745")
+    .transition(t)
+    .attr("r", 1e-6)
+    .remove();
+
+  text.exit()
+    .style("font-size", 1e-6)
+    .transition(t)
+    .attr("r", 1e-6)
+    .attr("opacity", 1e-6)
+    .remove();
+
+  //UPDATE
+  circle
+    .transition(t)
+    // .style("fill", "#3a403d")
+    .attr("r", function (d) { return d.r })
+    .attr("class", function (d) {
+      console.log(d);
+      const champMod = d.data.adjPlayoffWinRate === 100 ? 'circle--champion' : '';
+      return `circle circle--${d.data.teamAbbrev} ${champMod}`;
+    })
+    .style("stroke", function(d) {
+      if(d.data.adjPlayoffWinRate === 100) {
+        return "black"
+      }
+    })
+    .style("stroke-width", function(d) {
+      if(d.data.adjPlayoffWinRate === 100) {
+        return "5"
+      }
+    })
+    .attr("cx", function (d) { return d.x; })
+    .attr("cy", function (d) { return d.y; });
+
+  text
+    .transition(t)
+    .attr("x", function (d) { return d.x; })
+    .attr("y", function (d) { return d.y; })
+    .style("font-size", function (d) {
+      return `${ d.r / 1.33 }px`;
+    });
+
+  //ENTER
+  circle.enter().append("circle")
+    .attr("r", 1e-6)
+    .attr("cx", function (d) { return d.x; })
+    .attr("cy", function (d) { return d.y; })
+    .style("fill", "#fff")
+    .transition(t)
+    .style("fill", "#45b29d")
+    .attr("r", function (d) {
+      return d.r
+    })
+    .style("stroke", function(d) {
+      if(d.data.adjPlayoffWinRate === 100) {
+        return "black"
+      }
+    })
+    .style("stroke-width", function(d) {
+      if(d.data.adjPlayoffWinRate === 100) {
+        return "5"
+      }
+    })
+    .attr("class", function (d) {
+      console.log(d);
+      const champMod = d.data.adjPlayoffWinRate === 100 ? 'circle--champion' : '';
+      return `circle circle--${d.data.teamAbbrev} ${champMod}`;
+    });
+
+  circle.enter().append("text")
+    .attr("opacity", 1e-6)
+    .style("font-size", 1e-6)
+    .attr("x", function (d) { return d.x })
+    .attr("y", function (d) { return d.y })
+    .text(function (d) { return d.data.teamAbbrev; })
+    .attr("class", function (d) {
+      return `text text--${d.data.teamAbbrev}`;
+    })
+    .attr("font-family", "sans-serif")
+    .style("text-anchor", "middle")
+    .attr("dy", ".4em")
+    .style("font-size", function (d) {
+      return `${ d.r / 1.33 }px`;
+    })
+    .transition(t)
+    .attr("opacity", 1);
 }
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -135,6 +165,6 @@ document.addEventListener('click', function (event) {
   }
 
   console.log(currentYear);
-  updateData();
+  redraw(seasonStats.stats[currentYear].children);
 
 }, false);
