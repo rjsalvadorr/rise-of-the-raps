@@ -1,10 +1,12 @@
 <template>
   <div class="graphic-wrapper">
     <div class="scroll-btn scroll-btn--left" v-on:click="scrollPrev" v-if="currentSlide > 1">
-      <span class="scroll-btn-icon">⇦</span>
+      <!-- <img class="scroll-btn-icon"src="/icons/left-arrow.svg" /> -->
+      <LeftArrow class="scroll-btn-icon"></LeftArrow>
     </div>
     <div class="scroll-btn scroll-btn--right" v-on:click="scrollNext"  v-if="currentSlide < 25">
-      <span class="scroll-btn-icon">⇨</span>
+      <!-- <img class="scroll-btn-icon"src="/icons/right-arrow.svg" /> -->
+      <RightArrow class="scroll-btn-icon"></RightArrow>
     </div>
   </div>
 </template>
@@ -12,6 +14,8 @@
 <script>
 import * as d3 from "d3";
 import SeasonStats from "../utils/season-stats";
+import LeftArrow from "./LeftArrow.vue";
+import RightArrow from "./RightArrow.vue";
 
 export default {
   name: 'Graphic',
@@ -223,6 +227,10 @@ export default {
         }, delay);
       });
     })();
+  },
+  components: {
+    LeftArrow,
+    RightArrow,
   }
 }
 </script>
@@ -241,26 +249,20 @@ export default {
     top: 0;
     bottom: 0;
     width: 15%;
-    cursor: pointer;
     z-index: 11;
-    transition: background-color 0.25s;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
     &--left {
       left: 0;
+      padding: $space-unit $space-unit $space-unit $space-unit/2;
     }
 
     &--right {
       right: 0;
-    }
-
-    &-icon {
-      position: relative;
-      color: #FFFFFF;
-      z-index: 12;
-    }
-
-    &:hover {
-      background-color: rgba(64, 64, 64, 0.25);
+      padding: $space-unit $space-unit/2 $space-unit $space-unit;
     }
   }
 
