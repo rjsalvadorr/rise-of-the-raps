@@ -48,7 +48,7 @@ function redraw(classes) {
 
   // hierarchy
   var h = d3.hierarchy({ children: classes })
-    .sum(function (d) { return Math.pow(d.overallRtg, 2.75); })
+    .sum(function (d) { return Math.pow(d.overallRtg, 2.5); })
     .sort((a, b) => b.overallRtg - a.overallRtg);
 
   //JOIN
