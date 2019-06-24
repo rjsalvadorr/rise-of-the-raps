@@ -1,0 +1,27 @@
+{
+  "name": "rise-of-the-raps",
+  "version": "1.0.0",
+  "description": "Rise of the Raptors",
+  "main": "index.js",
+  "scripts": {
+    "start": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjsalvadorr/rise-of-the-raps.git"
+  },
+  "keywords": [],
+  "author": "rjsalvadorr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rjsalvadorr/rise-of-the-raps/issues"
+  },
+  "homepage": "https://github.com/rjsalvadorr/rise-of-the-raps#readme",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "luxon": "^1.13.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0"
+  }
+}
