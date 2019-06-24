@@ -5,8 +5,10 @@
         <slot>
           <!-- if <Layout> has children, they go here -->
         </slot>
-        <Content>
-        </Content>
+        <div class="text-wrapper">
+          <Content>
+          </Content>
+        </div>
       </div>
     </div>
     <DebugPanel :enabled="debugPanelEnabled" :siteData="$site" :pageData="$page" ></DebugPanel>
@@ -17,6 +19,7 @@
 import { DateTime } from "luxon";
 import filter from "lodash/filter";
 import DebugPanel from "../components/DebugPanel.vue";
+import Graphic from "../components/Graphic.vue";
 
 export default {
   name: 'Layout',
@@ -27,7 +30,7 @@ export default {
   },
   methods: {
     getContentClasses(pageData) {
-      let classes = 'content-wrapper';
+      let classes = `content-wrapper content-wrapper--${pageData.frontmatter.category}`;
       if(pageData.frontmatter.type === "post") {
         classes += ' content-wrapper--post';
       }
@@ -41,7 +44,8 @@ export default {
     },
   },
   components: {
-    DebugPanel
+    DebugPanel,
+    Graphic
   }
 }
 </script>

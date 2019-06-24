@@ -6,7 +6,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: $footer-bg-color;
+  background-color: $palette-primary;
 }
 
 * {
@@ -24,9 +24,6 @@ code {
   padding-right: $space-unit;
   padding-bottom: $space-unit;
   padding-left: $space-unit;
-  max-width: 960px;
-  // 100% - headerHeight - footerHeight
-  min-height: calc(100vh - #{$expected-header-height} - #{$expected-footer-height});
   margin: 0 auto;
   
   .language-text code {
@@ -36,17 +33,23 @@ code {
   }
 }
 
-/* Larger than phablet */
-@media (min-width: 550px) {
-  padding-bottom: $space-unit * 2;
-}
-
 /* Larger than tablet */
 @media (min-width: 750px) {
-  padding-top: $space-unit;
-  padding-right: 0;
-  padding-bottom: $space-unit * 3;
-  padding-left: 0;
+  .content-wrapper--home {
+    .text-wrapper {
+      width: 30%;
+      margin-left: 70%;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .content-wrapper--home {
+    .text-wrapper {
+      width: 30%;
+      margin-left: 70%;
+    }
+  }
 }
 
 @import "./text.scss";

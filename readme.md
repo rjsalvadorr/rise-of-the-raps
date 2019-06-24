@@ -1,4 +1,14 @@
+---
+title: Home
+subtitle:
+date: 2019-03-24 13:35:57
+type: page
+category: home
+---
+
 # Rise of the Raptors
+
+<Graphic></Graphic>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget fermentum sapien. Aenean non rutrum mi. Nunc tempor dictum urna a ultrices. Pellentesque euismod enim mauris, id pretium dolor gravida at. Duis efficitur urna ipsum, id dignissim orci faucibus non. Morbi finibus rhoncus pharetra. Phasellus facilisis, mauris nec condimentum commodo, leo tellus ullamcorper enim, ac hendrerit est enim sit amet nisl. Fusce vulputate orci et commodo ultricies. Etiam bibendum vulputate tortor quis laoreet. Fusce quis enim ex. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam tempor nisl pretium purus posuere, id faucibus diam venenatis. Donec a iaculis arcu. Duis vitae lobortis neque. Donec non efficitur justo, vitae ultricies dolor. Morbi consequat lacinia ultricies.
 
