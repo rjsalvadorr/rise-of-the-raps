@@ -1,19 +1,15 @@
 <template>
   <div class="theme-container theme-container--404" @keyup.esc="toggleDebugPanel">
-    <Header :title="$site.title" :desc="$site.description"></Header>
     <div class="content-wrapper">
       <h1>404</h1>
       <p>{{ getMsg() }}</p>
       <router-link to="/">Take me home.</router-link>
     </div>
-    <Footer></Footer>
     <DebugPanel :enabled="debugPanelEnabled" :siteData="$site" :pageData="$page" ></DebugPanel>
   </div>
 </template>
 
 <script>
-import Header from "../components/Header.vue";
-import Footer from "../components/Footer.vue";
 import DebugPanel from "../components/DebugPanel.vue";
 
 const msgs = [
@@ -39,8 +35,6 @@ export default {
     }
   },
   components: {
-    Header,
-    Footer,
     DebugPanel
   }
 }

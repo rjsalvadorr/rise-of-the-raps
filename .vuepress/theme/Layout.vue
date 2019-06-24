@@ -1,8 +1,5 @@
 <template>
   <div class="theme-container" @keyup.esc="toggleDebugPanel()">
-    <div class="theme-header">
-      <Header :title="$site.title" :desc="$site.description"></Header>
-    </div>
     <div class="theme-content">
       <div :class="getContentClasses($page)">
         <slot>
@@ -10,9 +7,7 @@
         </slot>
         <Content>
         </Content>
-        <PostList :enabled="isCategoryPage($page)" :posts="filterPostsByCategory($site.pages, $page.frontmatter.category)"></PostList>
       </div>
-      <Footer></Footer>
     </div>
     <DebugPanel :enabled="debugPanelEnabled" :siteData="$site" :pageData="$page" ></DebugPanel>
   </div>
@@ -21,9 +16,6 @@
 <script>
 import { DateTime } from "luxon";
 import filter from "lodash/filter";
-import Header from "../components/Header.vue";
-import Footer from "../components/Footer.vue";
-import PostList from "../components/PostList.vue";
 import DebugPanel from "../components/DebugPanel.vue";
 
 export default {
@@ -33,12 +25,6 @@ export default {
       debugPanelEnabled: false,
     };
   },
-  // mounted() {
-  //   // add stuff for component mount
-  // },
-  // beforeDestroy() {
-  //   // add stuff for component cleanup
-  // },
   methods: {
     getContentClasses(pageData) {
       let classes = 'content-wrapper';
@@ -53,37 +39,8 @@ export default {
     toggleDebugPanel() {
       this.debugPanelEnabled = !this.debugPanelEnabled;
     },
-    isCategoryPage(pageData) {
-      return pageData.frontmatter.type === 'category';
-    },
-    filterPostsByCategory(allPages, category) {
-      // Filtering by category
-      const filteredPosts = filter(allPages, (page) => {
-        const isPost = page.frontmatter.type === "post";
-        const isCorrectCategory = page.frontmatter.category === category;
-        return isPost && isCorrectCategory;
-      });
-
-      // Sorting by reverse chronological order (newest first)
-      return filteredPosts.sort((post1, post2) => {
-        const dt1 = DateTime.fromISO(post1.frontmatter.date).toUTC();
-        const dt2 = DateTime.fromISO(post2.frontmatter.date).toUTC();
-
-        // post1 was written after post2
-        if(dt1 > dt2) {
-          return -1;
-        } else if(dt1 < dt2) {
-          return 1
-        }
-        // dt1 === dt2
-        return 0;
-      });
-    },
   },
   components: {
-    Header,
-    Footer,
-    PostList,
     DebugPanel
   }
 }
