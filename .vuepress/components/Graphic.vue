@@ -193,6 +193,36 @@ export default {
 
     const labelElement = document.querySelector('.main-title');
     labelElement.innerHTML = this.currentYear;
+
+    ///////////////////////////////////////////////////////////////////////////////
+    //   HANDLING WINDOW RESIZES
+
+    const resizeHandler = evt => {
+      const width = this.$el.clientWidth;
+      const height = this.$el.clientHeight;
+      const shorter = height > width ? width : height;
+
+      this.svg.attr("width", shorter);
+      this.svg.attr("height", shorter);
+      this.pack = d3.pack()
+        .size([shorter, shorter])
+        .padding(1.5);
+      this.redraw(this.seasonStats.stats[this.currentYear].children);
+    };
+    
+    const delay = 100;  // Your delay here
+    (() => {
+      let resizeTaskId = null;
+      window.addEventListener('resize', evt => {
+        if (resizeTaskId !== null) {
+          clearTimeout(resizeTaskId);
+        }
+        resizeTaskId = setTimeout(() => {
+          resizeTaskId = null;
+          resizeHandler(evt);
+        }, delay);
+      });
+    })();
   }
 }
 </script>
