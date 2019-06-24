@@ -127,7 +127,7 @@ class SeasonStats {
         pWins = 0;
       }
 
-      const overallRtg = (wRate + pWins) / 2;
+      const overallRtg = (wRate + wRate + pWins) / 3;
       rec.overallRtg = Number(Math.round((overallRtg * 100) + 'e2') + 'e-2')
     }
   }

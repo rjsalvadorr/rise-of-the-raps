@@ -35,6 +35,9 @@ Promise.all([regSeasonData, playoffData]).then(function (values) {
   redraw(seasonStats.stats[currentYear].children);
 });
 
+var labelElement = document.querySelector('.label-year');
+labelElement.innerHTML = currentYear;
+
 ///////////////////////////////////////////////////////////////////////////////
 ///  UPDATING DATA
 
@@ -45,7 +48,8 @@ function redraw(classes) {
 
   // hierarchy
   var h = d3.hierarchy({ children: classes })
-    .sum(function (d) { return Math.pow(d.overallRtg, 2.33); })
+    .sum(function (d) { return Math.pow(d.overallRtg, 2.5); })
+    .sort((a, b) => b.overallRtg - a.overallRtg);
 
   //JOIN
   var circle = svg.selectAll("circle")
@@ -80,12 +84,12 @@ function redraw(classes) {
     })
     .style("stroke", function(d) {
       if(d.data.adjPlayoffWinRate === 100) {
-        return "black"
+        return "FFFFFF"
       }
     })
     .style("stroke-width", function(d) {
       if(d.data.adjPlayoffWinRate === 100) {
-        return "5"
+        return "6"
       }
     })
     .attr("cx", function (d) { return d.x; })
@@ -112,12 +116,12 @@ function redraw(classes) {
     })
     .style("stroke", function(d) {
       if(d.data.adjPlayoffWinRate === 100) {
-        return "black"
+        return "FFFFFF"
       }
     })
     .style("stroke-width", function(d) {
       if(d.data.adjPlayoffWinRate === 100) {
-        return "5"
+        return "6"
       }
     })
     .attr("class", function (d) {
@@ -166,5 +170,8 @@ document.addEventListener('click', function (event) {
 
   console.log(currentYear);
   redraw(seasonStats.stats[currentYear].children);
+
+  var labelElement = document.querySelector('.label-year');
+  labelElement.innerHTML = currentYear;
 
 }, false);

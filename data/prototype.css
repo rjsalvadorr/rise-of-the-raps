@@ -1,5 +1,14 @@
+body {
+  background-color: #111111;
+  color: #EEEEEE;
+}
+
+
 .circle--TOR {
   fill: #CE1141 !important;
+}
+.circle--TOR.circle--champion {
+  stroke: #FFFFFF !important;
 }
 .text--TOR {
   fill: #FFFFFF !important;
@@ -7,6 +16,9 @@
 
 .circle--GSW {
   fill: #006BB6 !important;
+}
+.circle--GSW.circle--champion {
+  stroke: #FDB927 !important;
 }
 .text--GSW {
   fill: #FDB927 !important;

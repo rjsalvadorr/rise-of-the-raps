@@ -20,6 +20,7 @@ const TEAM_ABBREVS = {
   "Minnesota Timberwolves": "MIN",
   "New Jersey Nets": "NJN",
   "New Orleans Hornets": "NOH",
+  "New Orleans/Oklahoma City Hornets": "NOK",
   "Oklahoma City Hornets": "OKH",
   "Oklahoma City Thunder": "OKC",
   "New Orleans Pelicans": "NOP",
