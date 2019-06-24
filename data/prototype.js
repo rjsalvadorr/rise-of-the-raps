@@ -7,12 +7,8 @@ const seasonStats = new SeasonStats();
 ///////////////////////////////////////////////////////////////////////////////
 ///  LOADING DATA
 
-var regSeasonData = d3.csv("team-stats.csv", ({ Year, Rk, Team, W, L, ORtg, DRtg }) => {
-  seasonStats.addData({ Year, Rk, Team, W, L, ORtg, DRtg }, 'season');
-});
-
-var playoffData = d3.csv("playoff-stats.csv", ({ Year, Rk, Team, W, L, ORtg, DRtg }) => {
-  seasonStats.addData({ Year, Rk, Team, W, L, ORtg, DRtg }, 'playoffs');
+var seasonData = d3.csv("stats.csv", ({ Type, Year, Rk, Team, W, L, ORtg, DRtg }) => {
+  seasonStats.addData({ Year, Rk, Team, W, L, ORtg, DRtg }, Type);
 });
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -31,7 +27,7 @@ var pack = d3.pack()
   .size([shorter, shorter])
   .padding(1.5);
 
-Promise.all([regSeasonData, playoffData]).then(function (values) {
+seasonData.then(function (values) {
   redraw(seasonStats.stats[currentYear].children);
 });
 

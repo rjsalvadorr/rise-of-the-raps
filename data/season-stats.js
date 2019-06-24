@@ -76,7 +76,7 @@ class SeasonStats {
       newRecord = this.initializeTeamRecord(csvRecord, teamInfo);
     }
 
-    if (type === 'season') {
+    if (type === 'regSeason') {
       const wins = parseInt(csvRecord.W, 10);
       const losses = parseInt(csvRecord.L, 10);
       const oRtg = parseFloat(csvRecord.ORtg);
