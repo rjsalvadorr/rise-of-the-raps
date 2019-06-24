@@ -1,9 +1,9 @@
 <template>
   <div class="graphic-wrapper">
-    <div class="scroll-btn scroll-btn--left" v-on:click="scrollPrev">
+    <div class="scroll-btn scroll-btn--left" v-on:click="scrollPrev" v-if="currentSlide > 1">
       <span class="scroll-btn-icon">⇦</span>
     </div>
-    <div class="scroll-btn scroll-btn--right" v-on:click="scrollNext">
+    <div class="scroll-btn scroll-btn--right" v-on:click="scrollNext"  v-if="currentSlide < 25">
       <span class="scroll-btn-icon">⇨</span>
     </div>
   </div>
