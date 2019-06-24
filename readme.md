@@ -6,7 +6,7 @@ type: page
 category: home
 ---
 
-# Rise of the Raptors
+<h1 class="main-title">Rise of the Raptors</h1>
 
 <Graphic></Graphic>
 

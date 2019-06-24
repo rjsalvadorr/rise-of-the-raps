@@ -1,3 +1,5 @@
+import { getBasicTeamInfo } from './utils';
+
 const START_YEAR = 1996;
 const CHAMP_YEAR = 2019;
 
@@ -140,3 +142,5 @@ class SeasonStats {
     }
   }
 }
+
+export default SeasonStats;

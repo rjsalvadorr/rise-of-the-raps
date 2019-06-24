@@ -44,7 +44,7 @@ const TEAM_ABBREVS = {
   "Washington Bullets": "WAS",
 }
 
-const getTeamAbbrev = (teamName) => {
+export const getTeamAbbrev = (teamName) => {
   let abbr = TEAM_ABBREVS[teamName];
   if(!abbr || abbr.length < 1) {
     abbr = teamName
@@ -52,18 +52,7 @@ const getTeamAbbrev = (teamName) => {
   return abbr;
 }
 
-// DEPRECATED
-const getAdditionalTeamInfo = (record) => {
-  const isPlayoffTeam = record.team.includes('*');
-  const formattedName = !isPlayoffTeam ? record.team : record.team.replace("*", "");
-
-  return {
-    playoffs: isPlayoffTeam,
-    abbrev: getTeamAbbrev(formattedName),
-  }
-};
-
-const getBasicTeamInfo = (csvRecord) => {
+export const getBasicTeamInfo = (csvRecord) => {
   const isPlayoffTeam = csvRecord.Team.includes('*');
   const formattedName = !isPlayoffTeam ? csvRecord.Team : csvRecord.Team.replace("*", "");
 
