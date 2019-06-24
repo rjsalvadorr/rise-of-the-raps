@@ -1,12 +1,13 @@
 <template>
-  <div class="graphic-wrapper">
-    <div class="scroll-btn scroll-btn--left" v-on:click="scrollPrev" v-if="currentSlide > 1">
+  <div class="graphic-container">
+    <div class="scroll-btn scroll-btn--left" v-on:click="scrollPrev">
       <!-- <img class="scroll-btn-icon"src="/icons/left-arrow.svg" /> -->
-      <LeftArrow class="scroll-btn-icon"></LeftArrow>
+      <LeftArrow class="scroll-btn-icon" v-if="currentSlide > 1"></LeftArrow>
     </div>
-    <div class="scroll-btn scroll-btn--right" v-on:click="scrollNext"  v-if="currentSlide < 25">
+    <div class="graphic-wrapper"></div>
+    <div class="scroll-btn scroll-btn--right" v-on:click="scrollNext">
       <!-- <img class="scroll-btn-icon"src="/icons/right-arrow.svg" /> -->
-      <RightArrow class="scroll-btn-icon"></RightArrow>
+      <RightArrow class="scroll-btn-icon" v-if="currentSlide < 25"></RightArrow>
     </div>
   </div>
 </template>
@@ -43,8 +44,6 @@ export default {
       this.redraw(this.seasonStats.stats[this.currentYear].children);
       const labelElement = document.querySelector('.main-title');
       labelElement.innerHTML = this.currentYear;
-
-      console.log(`currentSlide: ${this.currentSlide}, currentYear: ${this.currentYear}`);
     },
     scrollNext: function(evt) {
       if(this.currentSlide < 25) {
@@ -53,8 +52,6 @@ export default {
       this.redraw(this.seasonStats.stats[this.currentYear].children);
       const labelElement = document.querySelector('.main-title');
       labelElement.innerHTML = this.currentYear;
-
-      console.log(`currentSlide: ${this.currentSlide}, currentYear: ${this.currentYear}`);
     },
     redraw: function(classes) {
       // transition
@@ -238,43 +235,46 @@ export default {
 <style scoped lang="scss">
   @import "../styles/vars.scss";
 
-  .graphic-wrapper {
+  .graphic-container {
     position: relative;
     background-color: #111111;
     min-height: 400px;
+
+    display: flex;
+    justify-content: center;
   }
 
   .scroll-btn {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 15%;
+    width: 40px;
     z-index: 11;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
 
-    &--left {
-      left: 0;
-      padding: $space-unit $space-unit $space-unit $space-unit/2;
+    &-icon {
+      flex: 0 0 auto;
     }
+  }
 
-    &--right {
-      right: 0;
-      padding: $space-unit $space-unit/2 $space-unit $space-unit;
-    }
+  .graphic-wrapper svg {
+    width: 100%;
+    flex: 0 1 auto;
   }
 
   /* Larger than tablet */
   @media (min-width: 750px) {
-    .graphic-wrapper {
+    .graphic-container {
       position: fixed;
       width: calc(70% - 40px);
       left: 0;
       top: 0;
       bottom: 0;
       z-index: 10;
+    }
+
+    .scroll-btn {
+      width: 60px;
     }
   }
 </style>

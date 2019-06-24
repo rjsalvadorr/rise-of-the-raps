@@ -16,6 +16,7 @@ export default {
     cursor: pointer;
     fill: #666666;
     opacity: 0.5;
+    padding: 5px;
 
     &:hover {
       fill: #888888;
@@ -26,6 +27,7 @@ export default {
   @media (min-width: 750px) {
     .right-arrow {
       width: 60px;
+      padding: 10px;
     }
   }
 </style>
