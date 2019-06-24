@@ -18,6 +18,14 @@ class SeasonStats {
     }
   }
 
+  isValidYear(year) {
+    console.log(year, year >= START_YEAR && year <= CHAMP_YEAR);
+    if(year >= START_YEAR && year <= CHAMP_YEAR) {
+      return true;
+    }
+    return false;
+   }
+
   /**
   * Gets a given year's season summary
   */

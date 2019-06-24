@@ -1,7 +1,7 @@
 ///////////////////////////////////////////////////////////////////////////////
 ///  CONSTANTS & UTILS
 
-let currentYear = "1996";
+let currentYear = 1996;
 const seasonStats = new SeasonStats();
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -78,7 +78,6 @@ function redraw(classes) {
     // .style("fill", "#3a403d")
     .attr("r", function (d) { return d.r })
     .attr("class", function (d) {
-      console.log(d);
       const champMod = d.data.adjPlayoffWinRate === 100 ? 'circle--champion' : '';
       return `circle circle--${d.data.teamAbbrev} ${champMod}`;
     })
@@ -125,7 +124,6 @@ function redraw(classes) {
       }
     })
     .attr("class", function (d) {
-      console.log(d);
       const champMod = d.data.adjPlayoffWinRate === 100 ? 'circle--champion' : '';
       return `circle circle--${d.data.teamAbbrev} ${champMod}`;
     });
@@ -161,17 +159,21 @@ document.addEventListener('click', function (event) {
   event.preventDefault();
 
   if (event.target.matches('.btn-scroll--prev')) {
-    currentYear--;
+    if(seasonStats.isValidYear(currentYear - 1)) {
+      currentYear--;
+      redraw(seasonStats.stats[currentYear].children);
+      var labelElement = document.querySelector('.label-year');
+      labelElement.innerHTML = currentYear;
+    }
   }
 
   if (event.target.matches('.btn-scroll--next')) {
-    currentYear++;
+    if(seasonStats.isValidYear(currentYear + 1)) {
+      currentYear++;
+      redraw(seasonStats.stats[currentYear].children);
+      var labelElement = document.querySelector('.label-year');
+      labelElement.innerHTML = currentYear;
+    }
   }
-
-  console.log(currentYear);
-  redraw(seasonStats.stats[currentYear].children);
-
-  var labelElement = document.querySelector('.label-year');
-  labelElement.innerHTML = currentYear;
 
 }, false);
