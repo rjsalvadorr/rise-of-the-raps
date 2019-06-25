@@ -60,6 +60,7 @@ class SeasonStats {
       adjWinRate: 0,
       adjPlayoffWinRate: 0,
       overallRtg: 0,
+      champion: false,
       colours: teamInfo.colours,
     }
     currentYear.children.push(newRecord);
@@ -134,13 +135,17 @@ class SeasonStats {
       if (rec.playoffs) {
         pWins = rec.playoffWinRate / currentYear.bestPlayoffWins;
         rec.adjPlayoffWinRate = Number(Math.round((pWins * 100) + 'e2') + 'e-2')
+        rec.champion = rec.adjPlayoffWinRate === 100;
       }
       else {
         pWins = 0;
       }
 
-      const overallRtg = (wRate + wRate + pWins) / 3;
-      rec.overallRtg = Number(Math.round((overallRtg * 100) + 'e2') + 'e-2')
+      let overallRtg = (wRate + wRate + pWins) / 3;
+      if(rec.champion) {
+        overallRtg += 0.2;
+      }
+      rec.overallRtg = Number(Math.round((overallRtg * 100) + 'e2') + 'e-2');
     }
   }
 }

@@ -102,12 +102,14 @@ export default {
         .sum(function (d) { return Math.pow(d.overallRtg, 2.75); })
         .sort((a, b) => b.overallRtg - a.overallRtg);
 
+
       //JOIN
       var circle = this.svg.selectAll("circle")
         .data(this.pack(h).leaves(), function (d) { return d.data.teamAbbrev; });
 
       var text = this.svg.selectAll("text")
         .data(this.pack(h).leaves(), function (d) { return d.data.teamAbbrev; });
+
 
       //EXIT
       circle.exit()
@@ -123,23 +125,26 @@ export default {
         .attr("opacity", 1e-6)
         .remove();
 
+
       //UPDATE
       circle
         .transition(t)
         // .style("fill", "#3a403d")
         .attr("r", function (d) { return d.r })
         .attr("class", function (d) {
-          const champMod = d.data.adjPlayoffWinRate === 100 ? 'circle--champion' : '';
+          const champMod = d.data.champion ? 'circle--champion' : '';
           return `circle circle--${d.data.teamAbbrev} ${champMod}`;
         })
         .style("stroke", function(d) {
-          if(d.data.adjPlayoffWinRate === 100) {
+          // if(d.data.champion) {
             return `#${d.data.colours.text}`
-          }
+          // }
         })
         .style("stroke-width", function(d) {
-          if(d.data.adjPlayoffWinRate === 100) {
-            return "6"
+          if(d.data.champion) {
+            return "9"
+          } else {
+            return "2"
           }
         })
         .style("fill", function(d) {
@@ -147,6 +152,16 @@ export default {
             console.log(d.data.colours);
           }
           return `#${d.data.colours.bg}`
+        })
+        .attr("opacity", function(d) {
+          if(d.data.playoffs) {
+            return 1;
+          } else {
+            if(d.data.teamAbbrev === "TOR") {
+              return 0.4;
+            }
+            return 0.25;
+          }
         })
         .attr("cx", function (d) { return d.x; })
         .attr("cy", function (d) { return d.y; });
@@ -158,13 +173,25 @@ export default {
         .style("fill", function(d) {
           return `#${d.data.colours.text}`
         })
+        .attr("opacity", function(d) {
+          if(d.data.playoffs) {
+            return 1;
+          } else {
+            if(d.data.teamAbbrev === "TOR") {
+              return 0.4;
+            }
+            return 0.25;
+          }
+        })
         .style("font-size", function (d) {
           return `${ d.r / 1.33 }px`;
         });
 
+
       //ENTER
       circle.enter().append("circle")
         .attr("r", 1e-6)
+        .attr("opacity", 1e-6)
         .attr("cx", function (d) { return d.x; })
         .attr("cy", function (d) { return d.y; })
         .style("fill", "#fff")
@@ -173,20 +200,32 @@ export default {
           return d.r
         })
         .style("stroke", function(d) {
-          if(d.data.adjPlayoffWinRate === 100) {
+          // if(d.data.champion) {
             return `#${d.data.colours.text}`
-          }
+          // }
         })
         .style("stroke-width", function(d) {
-          if(d.data.adjPlayoffWinRate === 100) {
-            return "6"
+          if(d.data.champion) {
+            return "9"
+          } else {
+            return "2"
           }
         })
         .style("fill", function(d) {
           return `#${d.data.colours.bg}`
         })
+        .attr("opacity", function(d) {
+          if(d.data.playoffs) {
+            return 1;
+          } else {
+            if(d.data.teamAbbrev === "TOR") {
+              return 0.4;
+            }
+            return 0.25;
+          }
+        })
         .attr("class", function (d) {
-          const champMod = d.data.adjPlayoffWinRate === 100 ? 'circle--champion' : '';
+          const champMod = d.data.champion ? 'circle--champion' : '';
           return `circle circle--${d.data.teamAbbrev} ${champMod}`;
         });
 
@@ -210,7 +249,16 @@ export default {
           return `${ d.r / 1.33 }px`;
         })
         .transition(t)
-        .attr("opacity", 1);
+        .attr("opacity", function(d) {
+          if(d.data.playoffs) {
+            return 1;
+          } else {
+            if(d.data.teamAbbrev === "TOR") {
+              return 0.4;
+            }
+            return 0.25;
+          }
+        });
     }
   },
   mounted() {
@@ -237,7 +285,7 @@ export default {
 
     this.pack = d3.pack()
       .size([appliedWidth, appliedWidth])
-      .padding(1.5);
+      .padding(5);
 
     seasonData.then(function (values) {
       that.updateGraphic();
