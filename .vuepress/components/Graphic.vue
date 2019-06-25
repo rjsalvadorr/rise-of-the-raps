@@ -37,21 +37,36 @@ export default {
     }
   },
   methods: {
+    updateGraphic: function() {
+      this.redraw(this.seasonStats.stats[this.currentYear].children);
+
+      let titles = document.querySelectorAll('.main-title');
+      let texts = document.querySelectorAll('.main-text');
+
+      for(let title of titles) {
+        title.classList.remove("active");
+        if(title.dataset.slide == this.currentSlide) {
+          title.classList.add("active");``
+        }
+      }
+      for(let text of texts) {
+        text.classList.remove("active");
+        if(text.dataset.slide == this.currentSlide) {
+          text.classList.add("active");``
+        }
+      }
+    },
     scrollPrev: function(evt) {
       if(this.currentSlide > 1) {
         this.currentSlide = this.currentSlide - 1;
       }
-      this.redraw(this.seasonStats.stats[this.currentYear].children);
-      const labelElement = document.querySelector('.main-title');
-      labelElement.innerHTML = this.currentYear;
+      this.updateGraphic();
     },
     scrollNext: function(evt) {
       if(this.currentSlide < 25) {
         this.currentSlide = this.currentSlide + 1;
       }
-      this.redraw(this.seasonStats.stats[this.currentYear].children);
-      const labelElement = document.querySelector('.main-title');
-      labelElement.innerHTML = this.currentYear;
+      this.updateGraphic();
     },
     getGraphicDimensions: function() {
       const width = this.$el.clientWidth;
@@ -210,11 +225,8 @@ export default {
       .padding(1.5);
 
     seasonData.then(function (values) {
-      that.redraw(that.seasonStats.stats[that.currentYear].children);
+      that.updateGraphic();
     });
-
-    const labelElement = document.querySelector('.main-title');
-    labelElement.innerHTML = this.currentYear;
 
     ///////////////////////////////////////////////////////////////////////////////
     //   HANDLING WINDOW RESIZES

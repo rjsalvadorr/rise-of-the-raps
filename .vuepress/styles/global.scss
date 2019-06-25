@@ -61,3 +61,19 @@ code {
 
 @import "./teams.scss";
 @import "./text.scss";
+
+.main-title {
+  display: none;
+
+  &.active {
+    display: block;
+  }
+}
+
+.main-text {
+  display: none;
+
+  &.active {
+    display: block;
+  }
+}
