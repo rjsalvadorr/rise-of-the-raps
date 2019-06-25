@@ -1,4 +1,4 @@
-import { getBasicTeamInfo } from './utils';
+import { getTeamInfo } from './team-data';
 
 const START_YEAR = 1996;
 const CHAMP_YEAR = 2019;
@@ -60,6 +60,7 @@ class SeasonStats {
       adjWinRate: 0,
       adjPlayoffWinRate: 0,
       overallRtg: 0,
+      colours: teamInfo.colours,
     }
     currentYear.children.push(newRecord);
     return newRecord;
@@ -71,7 +72,8 @@ class SeasonStats {
   */
   addData(csvRecord, type) {
     const currentYear = this.getStatsByYear(csvRecord.Year);
-    const teamInfo = getBasicTeamInfo(csvRecord);
+    const teamInfo = getTeamInfo(csvRecord);
+    console.log(teamInfo);
     let newRecord = this.getTeamRecord(csvRecord.Year, teamInfo);
 
     if (!newRecord) {

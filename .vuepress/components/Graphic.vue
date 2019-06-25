@@ -134,13 +134,19 @@ export default {
         })
         .style("stroke", function(d) {
           if(d.data.adjPlayoffWinRate === 100) {
-            return "FFFFFF"
+            return `#${d.data.colours.text}`
           }
         })
         .style("stroke-width", function(d) {
           if(d.data.adjPlayoffWinRate === 100) {
             return "6"
           }
+        })
+        .style("fill", function(d) {
+          if(d.data.teamAbbrev === "TOR") {
+            console.log(d.data.colours);
+          }
+          return `#${d.data.colours.bg}`
         })
         .attr("cx", function (d) { return d.x; })
         .attr("cy", function (d) { return d.y; });
@@ -149,6 +155,9 @@ export default {
         .transition(t)
         .attr("x", function (d) { return d.x; })
         .attr("y", function (d) { return d.y; })
+        .style("fill", function(d) {
+          return `#${d.data.colours.text}`
+        })
         .style("font-size", function (d) {
           return `${ d.r / 1.33 }px`;
         });
@@ -160,19 +169,21 @@ export default {
         .attr("cy", function (d) { return d.y; })
         .style("fill", "#fff")
         .transition(t)
-        .style("fill", "#45b29d")
         .attr("r", function (d) {
           return d.r
         })
         .style("stroke", function(d) {
           if(d.data.adjPlayoffWinRate === 100) {
-            return "FFFFFF"
+            return `#${d.data.colours.text}`
           }
         })
         .style("stroke-width", function(d) {
           if(d.data.adjPlayoffWinRate === 100) {
             return "6"
           }
+        })
+        .style("fill", function(d) {
+          return `#${d.data.colours.bg}`
         })
         .attr("class", function (d) {
           const champMod = d.data.adjPlayoffWinRate === 100 ? 'circle--champion' : '';
@@ -188,9 +199,13 @@ export default {
         .attr("class", function (d) {
           return `text text--${d.data.teamAbbrev}`;
         })
+        .style("fill", function(d) {
+          return `#${d.data.colours.text}`
+        })
         .attr("font-family", "sans-serif")
         .style("text-anchor", "middle")
         .attr("dy", ".4em")
+        .style("font-weight", "bold")
         .style("font-size", function (d) {
           return `${ d.r / 1.33 }px`;
         })
