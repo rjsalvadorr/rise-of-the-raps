@@ -14,14 +14,13 @@ class SeasonStats {
     for (var yr = START_YEAR; yr <= CHAMP_YEAR; yr++) {
       this.stats["" + yr] = {
         children: [],
-        bestSeasonWins: 0,
-        bestPlayoffWins: 0,
+        bestSeasonWins: 1e-6,
+        bestPlayoffWins: 1e-6,
       };
     }
   }
 
   isValidYear(year) {
-    console.log(year, year >= START_YEAR && year <= CHAMP_YEAR);
     if(year >= START_YEAR && year <= CHAMP_YEAR) {
       return true;
     }
@@ -62,6 +61,10 @@ class SeasonStats {
       overallRtg: 0,
       champion: false,
       colours: teamInfo.colours,
+      winRate: 0,
+      netRtg: 0,
+      playoffWinRate: 0,
+      playoffNetRtg: 0,
     }
     currentYear.children.push(newRecord);
     return newRecord;
@@ -74,7 +77,6 @@ class SeasonStats {
   addData(csvRecord, type) {
     const currentYear = this.getStatsByYear(csvRecord.Year);
     const teamInfo = getTeamInfo(csvRecord);
-    console.log(teamInfo);
     let newRecord = this.getTeamRecord(csvRecord.Year, teamInfo);
 
     if (!newRecord) {
@@ -127,7 +129,7 @@ class SeasonStats {
 
     for (let rec of currentYear.children) {
       let wRate;
-      let pWins;
+      let pWins = 0;
 
       wRate = rec.winRate / currentYear.bestSeasonWins;
       rec.adjWinRate = Number(Math.round((wRate * 100) + 'e2') + 'e-2')
@@ -136,9 +138,6 @@ class SeasonStats {
         pWins = rec.playoffWinRate / currentYear.bestPlayoffWins;
         rec.adjPlayoffWinRate = Number(Math.round((pWins * 100) + 'e2') + 'e-2')
         rec.champion = rec.adjPlayoffWinRate === 100;
-      }
-      else {
-        pWins = 0;
       }
 
       let overallRtg = (wRate + wRate + pWins) / 3;

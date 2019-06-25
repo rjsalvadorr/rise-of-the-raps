@@ -80,15 +80,15 @@ export default {
       const maxGraphicWidth = shorter + (2 * buttonWidth);
       const appliedWidth = shorter - (2 * buttonWidth);
 
-      let debugMsg = `width = ${width}\n`;
-      debugMsg += `height = ${height}\n`;
-      debugMsg += `viewportHeight = ${viewportHeight}\n`;
-      debugMsg += `shorter = ${shorter}\n`;
-      debugMsg += `isMobile = ${isMobile}\n`;
-      debugMsg += `buttonWidth = ${buttonWidth}\n`;
-      debugMsg += `maxGraphicWidth = ${maxGraphicWidth}\n`;
-      debugMsg += `appliedWidth = ${appliedWidth}`;
-      console.log(debugMsg);
+      // let debugMsg = `width = ${width}\n`;
+      // debugMsg += `height = ${height}\n`;
+      // debugMsg += `viewportHeight = ${viewportHeight}\n`;
+      // debugMsg += `shorter = ${shorter}\n`;
+      // debugMsg += `isMobile = ${isMobile}\n`;
+      // debugMsg += `buttonWidth = ${buttonWidth}\n`;
+      // debugMsg += `maxGraphicWidth = ${maxGraphicWidth}\n`;
+      // debugMsg += `appliedWidth = ${appliedWidth}`;
+      // console.log(debugMsg);
 
       return appliedWidth;
     },
@@ -147,9 +147,6 @@ export default {
           }
         })
         .style("fill", function(d) {
-          if(d.data.teamAbbrev === "TOR") {
-            console.log(d.data.colours);
-          }
           return `#${d.data.colours.bg}`
         })
         .attr("opacity", function(d) {
