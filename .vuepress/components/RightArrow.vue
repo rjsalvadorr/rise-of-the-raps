@@ -17,12 +17,13 @@ export default {
   .right-arrow {
     width: 40px;
     cursor: pointer;
-    fill: #666666;
+    fill: #777777;
     opacity: 0.5;
-    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
 
     &:hover {
-      fill: #888888;
+      fill: #AAAAAA;
     }
 
     &.hidden {
@@ -34,7 +35,8 @@ export default {
   @media (min-width: 750px) {
     .right-arrow {
       width: 60px;
-      padding: 10px;
+      padding-left: 12px;
+      padding-right: 0;
     }
   }
 </style>

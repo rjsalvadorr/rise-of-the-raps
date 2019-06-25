@@ -40,29 +40,9 @@ code {
   }
 }
 
-/* Larger than tablet */
-@media (min-width: 750px) {
-  .content-wrapper--home {
-    .text-wrapper {
-      width: 30%;
-      margin-left: 70%;
-    }
-  }
-}
-
-@media (min-width: 1200px) {
-  .content-wrapper--home {
-    .text-wrapper {
-      width: 30%;
-      margin-left: 70%;
-    }
-  }
-}
-
-// @import "./teams.scss";
-@import "./text.scss";
-
 .main-title {
+  padding: 0 $space-unit;
+  text-align: center;
   display: none;
 
   &.active {
@@ -71,9 +51,36 @@ code {
 }
 
 .main-text {
+  padding: 0 $space-unit;
   display: none;
 
   &.active {
     display: block;
   }
 }
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+  .content-wrapper--home {
+    .text-wrapper {
+      width: 33vw;
+      margin-left: 67vw;
+    }
+    
+    .main-title {
+      text-align: left; 
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .content-wrapper--home {
+    .text-wrapper {
+      width: 30vw;
+      margin-left: 70vw;
+    }
+  }
+}
+
+// @import "./teams.scss";
+@import "./text.scss";

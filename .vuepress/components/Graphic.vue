@@ -359,7 +359,7 @@ export default {
   @media (min-width: 750px) {
     .graphic-container {
       position: fixed;
-      width: calc(70% - 40px);
+      width: 67vw;
       left: 0;
       top: 0;
       bottom: 0;
