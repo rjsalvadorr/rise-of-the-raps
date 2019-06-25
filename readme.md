@@ -37,16 +37,20 @@ category: home
 
 <div class="main-text main-text--1" data-slide="1">
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget fermentum sapien. Aenean non rutrum mi. Nunc tempor dictum urna a ultrices. Pellentesque euismod enim mauris, id pretium dolor gravida at. Duis efficitur urna ipsum, id dignissim orci faucibus non. Morbi finibus rhoncus pharetra. Phasellus facilisis, mauris nec condimentum commodo, leo tellus ullamcorper enim, ac hendrerit est enim sit amet nisl. Fusce vulputate orci et commodo ultricies. Etiam bibendum vulputate tortor quis laoreet. Fusce quis enim ex. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam tempor nisl pretium purus posuere, id faucibus diam venenatis. Donec a iaculis arcu. Duis vitae lobortis neque. Donec non efficitur justo, vitae ultricies dolor. Morbi consequat lacinia ultricies.
+The world now knows that the Toronto Raptors are an awesome team.
+But they weren't always awesome.
+Let's see how they went from chumps to champs.
 
-Praesent lacinia leo felis, in elementum nibh blandit a. Nulla efficitur eget justo ut accumsan. Mauris mattis, ex congue lacinia auctor, orci purus efficitur metus, eu vestibulum tortor felis et risus. Proin ac elit id quam tincidunt malesuada. Cras auctor magna a ex efficitur condimentum. Proin consequat turpis ac odio dictum, sed eleifend urna dignissim. Vivamus aliquam massa non mi aliquam malesuada. Pellentesque porttitor felis non lacus feugiat feugiat. Sed risus diam, rutrum ultricies enim id, blandit cursus nulla. Fusce sodales sapien a velit commodo, at aliquet nulla pharetra. Suspendisse metus massa, interdum id mattis quis, mollis ut nisl. Sed luctus nulla velit, at feugiat nulla finibus ac.
+- Each slide shows key events for every Raptors season
+- The season summary shows the strength of each team (shown by size)
+- The season's champion is the largest circle, with a thicker trim
+- Teams that didn't make the playoffs are shown in faded colours
 
 </div>
 <div class="main-text main-text--2" data-slide="2">
 
-Nam tempor commodo rhoncus. Curabitur nec massa et velit eleifend congue sed vel neque. In ligula tellus, fermentum non sapien imperdiet, condimentum blandit enim. Sed efficitur lobortis tellus, eget gravida metus efficitur in. Curabitur sit amet lectus id massa ultricies vehicula id vitae ligula. Aenean turpis tellus, consequat vel posuere sit amet, pretium non nibh. Sed finibus massa id quam maximus accumsan. Curabitur tempus nibh vitae purus fringilla bibendum non at nunc. Ut lacus magna, ultrices a ultrices vel, aliquet sed nulla. Praesent congue laoreet nisi, id auctor erat fringilla ac. Nam pretium dolor vitae nunc tristique, quis auctor leo semper. Duis in eros vitae lacus lacinia egestas et in mi. Etiam quis velit gravida, venenatis tellus in, pellentesque felis. Curabitur rutrum lorem dui, non rhoncus tortor interdum sed. Cras malesuada in orci at consectetur. Sed efficitur sapien dui, accumsan egestas nibh lacinia sed.
-
-Sed sed sagittis diam. Vestibulum eu erat mollis, viverra felis et, pharetra lorem. Nulla pulvinar est eget erat tempus maximus. Aenean mollis nibh diam, at sodales nisl dictum eget. Pellentesque vestibulum quam diam, a posuere ante iaculis nec. In sed suscipit eros, a consequat velit. Fusce luctus euismod lorem, vitae vulputate mi porta sit amet. Duis semper quam dui, vitae pharetra elit rutrum in. Ut semper placerat nulla id tempus. Sed vitae odio vitae nisl auctor feugiat non sed arcu. Nam tempor mauris purus, sed luctus arcu viverra a. Ut aliquam tellus in mattis fringilla. Pellentesque mi leo, bibendum quis nunc ullamcorper, convallis dictum nibh. Praesent tempus auctor nunc, sed semper mi pellentesque non. Sed ac ornare sem, at efficitur sapien. Vivamus porta purus non risus gravida faucibus.
+- The NBA expands into Canada, and the Toronto Raptors are established alongside the Vancouver Grizzlies.
+- The Raptors do not do well in their inaugural season.
 
 </div>
 <div class="main-text main-text--3" data-slide="3">
@@ -205,9 +209,7 @@ Sed dictum euismod porttitor. Mauris eu luctus diam. Morbi ut massa purus. Vivam
 </div>
 <div class="main-text main-text--25" data-slide="25">
 
-Nam nec commodo nisl. Mauris quis turpis eget neque ornare varius quis ac ligula. Vivamus quis tincidunt urna. Phasellus vel leo rhoncus, accumsan augue lobortis, ullamcorper ex. Cras vel suscipit ex. Phasellus cursus metus et mi mollis, non facilisis orci lacinia. Mauris pellentesque sit amet ante vel lacinia.
-
-Pellentesque non dolor ut mi condimentum imperdiet et eu dolor. Fusce malesuada diam quis velit auctor, sed laoreet odio maximus. Vivamus viverra, lorem non mattis consequat, odio odio aliquam purus, a convallis justo nisi sit amet neque. Maecenas sed volutpat nunc, non blandit tellus. Duis pulvinar enim risus, vel tristique leo viverra at. Nullam quis commodo magna. Donec elementum aliquam odio non mattis. Sed sit amet nunc purus. Vivamus iaculis urna vel justo viverra, ut vulputate dolor tempus. Donec ornare eget dolor vel semper. Pellentesque sit amet blandit nisl. Quisque et venenatis urna.
+WE THE CHAMPS, BETCH
 
 </div>
 <div class="main-text main-text--26" data-slide="26">

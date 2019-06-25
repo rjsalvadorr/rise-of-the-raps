@@ -564,6 +564,12 @@ const TEAM_DATA = [
         text: 'FFFFFF',
         trim: '000000',
       },
+      {
+        year: 2015,
+        bg: '000000',
+        text: 'FFFFFF',
+        trim: 'CE1141',
+      },
     ]
   },
   {
