@@ -113,7 +113,8 @@ export default {
 
       //EXIT
       circle.exit()
-        .style("fill", "#b26745")
+        .style("fill", "#666666")
+        .style("stroke", "#666666")
         .transition(t)
         .attr("r", 1e-6)
         .remove();
@@ -136,15 +137,13 @@ export default {
           return `circle circle--${d.data.teamAbbrev} ${champMod}`;
         })
         .style("stroke", function(d) {
-          // if(d.data.champion) {
-            return `#${d.data.colours.text}`
-          // }
+          return `#${d.data.colours.trim}`
         })
         .style("stroke-width", function(d) {
           if(d.data.champion) {
             return "9"
           } else {
-            return "2"
+            return "3"
           }
         })
         .style("fill", function(d) {
@@ -200,15 +199,13 @@ export default {
           return d.r
         })
         .style("stroke", function(d) {
-          // if(d.data.champion) {
-            return `#${d.data.colours.text}`
-          // }
+          return `#${d.data.colours.trim}`
         })
         .style("stroke-width", function(d) {
           if(d.data.champion) {
             return "9"
           } else {
-            return "2"
+            return "3"
           }
         })
         .style("fill", function(d) {
@@ -285,7 +282,7 @@ export default {
 
     this.pack = d3.pack()
       .size([appliedWidth, appliedWidth])
-      .padding(5);
+      .padding(8);
 
     seasonData.then(function (values) {
       that.updateGraphic();

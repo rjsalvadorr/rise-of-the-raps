@@ -52,13 +52,15 @@ const TEAM_DATA = [
     colours: [
       {
         year: 1996,
-        text: '222222',
-        bg: 'FFFFFF',
+        bg: 'C8102E',
+        text: '000000',
+        trim: 'FFCD00',
       },
       {
-        year: 1999,
-        text: '222222',
-        bg: 'FFFFFF',
+        year: 2008,
+        bg: 'E03A3E',
+        text: 'FFFFFF',
+        trim: 'C1D32F',
       },
     ]
   },
@@ -69,13 +71,15 @@ const TEAM_DATA = [
     colours: [
       {
         year: 1996,
-        text: 'C6CFD4',
         bg: '002A60',
+        text: 'C6CFD4',
+        trim: 'CD1041',
       },
       {
         year: 2013,
-        text: 'FFFFFF',
         bg: '000000',
+        text: 'FFFFFF',
+        trim: 'FFFFFF',
       },
     ]
   },
@@ -86,8 +90,9 @@ const TEAM_DATA = [
     colours: [
       {
         year: 1996,
-        text: 'FFFFFF',
         bg: '007A33',
+        text: 'FFFFFF',
+        trim: 'FFFFFF',
       },
     ]
   },
@@ -98,13 +103,15 @@ const TEAM_DATA = [
     colours: [
       {
         year: 1996,
-        text: '222222',
-        bg: 'FFFFFF',
+        bg: '00778B',
+        text: 'FFFFFF',
+        trim: '280071',
       },
       {
         year: 1999,
-        text: '222222',
-        bg: 'FFFFFF',
+        bg: '00788C',
+        text: 'FFFFFF',
+        trim: '1D1160',
       },
     ]
   },
@@ -115,8 +122,9 @@ const TEAM_DATA = [
     colours: [
       {
         year: 1996,
-        text: '000000',
         bg: 'CE1141',
+        text: '000000',
+        trim: '000000',
       },
     ]
   },
@@ -127,13 +135,15 @@ const TEAM_DATA = [
     colours: [
       {
         year: 1996,
-        text: '5C88DA',
         bg: 'E35205',
+        text: '5C88DA',
+        trim: '27251F',
       },
       {
         year: 2004,
-        text: '000000',
         bg: '6F263D',
+        text: '000000',
+        trim: 'FFB81C',
       },
     ]
   },
@@ -144,13 +154,15 @@ const TEAM_DATA = [
     colours: [
       {
         year: 1996,
-        text: '222222',
-        bg: 'FFFFFF',
+        bg: '002855',
+        text: 'FFFFFF',
+        trim: '00843D',
       },
       {
-        year: 1999,
-        text: '222222',
-        bg: 'FFFFFF',
+        year: 2002,
+        bg: '00538C',
+        text: 'FFFFFF',
+        trim: 'B8C4CA',
       },
     ]
   },
@@ -161,13 +173,21 @@ const TEAM_DATA = [
     colours: [
       {
         year: 1996,
-        text: '222222',
-        bg: 'FFFFFF',
+        bg: '041E42',
+        text: 'FFFFFF',
+        trim: '9D2235',
       },
       {
-        year: 1999,
-        text: '222222',
-        bg: 'FFFFFF',
+        year: 2004,
+        bg: '00285E',
+        text: 'FDB927',
+        trim: '418FDE',
+      },
+      {
+        year: 2017,
+        bg: '0E2240',
+        text: 'FEC524',
+        trim: '8B2131',
       },
     ]
   },
@@ -178,18 +198,21 @@ const TEAM_DATA = [
     colours: [
       {
         year: 1996,
-        text: 'FFFFFF',
         bg: '006272',
+        text: 'FFFFFF',
+        trim: '9D2235',
       },
       {
         year: 2002,
-        text: 'D50032',
-        bg: '003DA5',
+        bg: 'D50032',
+        text: 'FFFFFF',
+        trim: '003DA5',
       },
       {
         year: 2017,
-        text: 'ED174C',
-        bg: '006BB6',
+        bg: 'ED174C',
+        text: 'FFFFFF',
+        trim: '006BB6',
       },
     ]
   },
@@ -200,13 +223,15 @@ const TEAM_DATA = [
     colours: [
       {
         year: 1996,
-        text: 'FFA300',
         bg: '041E42',
+        text: 'FFA300',
+        trim: 'BE3A34',
       },
       {
         year: 2011,
-        text: 'FDB927',
         bg: '006BB6',
+        text: 'FDB927',
+        trim: 'FDB927',
       },
     ]
   },
@@ -217,13 +242,15 @@ const TEAM_DATA = [
     colours: [
       {
         year: 1996,
-        text: '222222',
-        bg: 'FFFFFF',
+        bg: 'BA0C2F',
+        text: 'FFFFFF',
+        trim: '041E42',
       },
       {
-        year: 1999,
-        text: '222222',
-        bg: 'FFFFFF',
+        year: 2004,
+        bg: 'CE1141',
+        text: 'FFFFFF',
+        trim: '000000',
       },
     ]
   },
@@ -234,8 +261,9 @@ const TEAM_DATA = [
     colours: [
       {
         year: 1996,
-        text: 'FDBB30',
         bg: '002D62',
+        text: 'FDBB30',
+        trim: 'FDBB30',
       },
     ]
   },
@@ -246,13 +274,9 @@ const TEAM_DATA = [
     colours: [
       {
         year: 1996,
-        text: '222222',
         bg: 'FFFFFF',
-      },
-      {
-        year: 1999,
-        text: '222222',
-        bg: 'FFFFFF',
+        text: 'C8102E',
+        trim: '1D428A',
       },
     ]
   },
@@ -263,8 +287,9 @@ const TEAM_DATA = [
     colours: [
       {
         year: 1996,
-        text: '552583',
         bg: 'FDB927',
+        text: '552583',
+        trim: '552583',
       },
     ]
   },
@@ -275,13 +300,21 @@ const TEAM_DATA = [
     colours: [
       {
         year: 1996,
-        text: '222222',
-        bg: 'FFFFFF',
+        bg: '00B2A9',
+        text: 'FFFFF',
+        trim: 'E43C40',
       },
       {
-        year: 1999,
-        text: '222222',
-        bg: 'FFFFFF',
+        year: 2004,
+        bg: '6189B9',
+        text: 'FDB927',
+        trim: '00285E',
+      },
+      {
+        year: 2018,
+        bg: '5D76A9',
+        text: 'F5B112',
+        trim: '12173F',
       },
     ]
   },
@@ -292,13 +325,15 @@ const TEAM_DATA = [
     colours: [
       {
         year: 1996,
-        text: 'FEDD00',
         bg: 'BA0C2F',
+        text: 'FEDD00',
+        trim: '000000',
       },
       {
         year: 2000,
-        text: 'F9A01B',
         bg: '98002E',
+        text: 'F9A01B',
+        trim: '000000',
       },
     ]
   },
@@ -309,13 +344,27 @@ const TEAM_DATA = [
     colours: [
       {
         year: 1996,
-        text: '222222',
-        bg: 'FFFFFF',
+        bg: '702F8A',
+        text: 'FFFFFF',
+        trim: '2C5234',
       },
       {
-        year: 1999,
-        text: '222222',
-        bg: 'FFFFFF',
+        year: 2006,
+        bg: '274E37',
+        text: 'FFFFFF',
+        trim: 'AC1A2F',
+      },
+      {
+        year: 2015,
+        bg: '00471B',
+        text: 'FFFFFF',
+        trim: 'EEE1C6',
+      },
+      {
+        year: 2006,
+        bg: '274E37',
+        text: 'FFFFFF',
+        trim: 'AC1A2F',
       },
     ]
   },
@@ -326,13 +375,15 @@ const TEAM_DATA = [
     colours: [
       {
         year: 1996,
-        text: '222222',
-        bg: 'FFFFFF',
+        bg: '236192',
+        text: 'FFFFFF',
+        trim: '00843D',
       },
       {
-        year: 1999,
-        text: '222222',
-        bg: 'FFFFFF',
+        year: 2017,
+        bg: '0C2340',
+        text: 'FFFFFF',
+        trim: '78BE20',
       },
     ]
   },
@@ -343,13 +394,9 @@ const TEAM_DATA = [
     colours: [
       {
         year: 1996,
-        text: '222222',
-        bg: 'FFFFFF',
-      },
-      {
-        year: 1999,
-        text: '222222',
-        bg: 'FFFFFF',
+        bg: '007AC1',
+        text: 'FFFFFF',
+        trim: 'EF3B24',
       },
     ]
   },
@@ -360,13 +407,15 @@ const TEAM_DATA = [
     colours: [
       {
         year: 1996,
-        text: '222222',
-        bg: 'FFFFFF',
+        bg: '00778B',
+        text: 'FFFFFF',
+        trim: '280071',
       },
       {
-        year: 1999,
-        text: '222222',
-        bg: 'FFFFFF',
+        year: 2014,
+        bg: '0C2340',
+        text: 'FFFFFF',
+        trim: '85714D',
       },
     ]
   },
@@ -377,13 +426,15 @@ const TEAM_DATA = [
     colours: [
       {
         year: 1996,
-        text: 'FE5000',
         bg: '0072CE',
+        text: 'FE5000',
+        trim: 'FE5000',
       },
       {
         year: 1998,
-        text: 'F58426',
         bg: '006BB6',
+        text: 'F58426',
+        trim: 'F58426',
       },
     ]
   },
@@ -394,13 +445,9 @@ const TEAM_DATA = [
     colours: [
       {
         year: 1996,
-        text: '222222',
-        bg: 'FFFFFF',
-      },
-      {
-        year: 1999,
-        text: '222222',
-        bg: 'FFFFFF',
+        bg: '0077C0',
+        text: 'FFFFFF',
+        trim: '000000',
       },
     ]
   },
@@ -411,8 +458,9 @@ const TEAM_DATA = [
     colours: [
       {
         year: 1996,
-        text: 'FFFFFF',
         bg: '006BB6',
+        text: 'FFFFFF',
+        trim: 'ED174C',
       },
     ]
   },
@@ -423,13 +471,15 @@ const TEAM_DATA = [
     colours: [
       {
         year: 1996,
-        text: '222222',
-        bg: 'FFFFFF',
+        bg: '5F259F',
+        text: 'FF6900',
+        trim: 'EF3340',
       },
       {
-        year: 1999,
-        text: '222222',
-        bg: 'FFFFFF',
+        year: 2001,
+        bg: '1D1160',
+        text: 'E56020',
+        trim: 'B95915',
       },
     ]
   },
@@ -440,13 +490,9 @@ const TEAM_DATA = [
     colours: [
       {
         year: 1996,
-        text: '222222',
-        bg: 'FFFFFF',
-      },
-      {
-        year: 1999,
-        text: '222222',
-        bg: 'FFFFFF',
+        bg: 'E03A3E',
+        text: '000000',
+        trim: 'FFFFFF',
       },
     ]
   },
@@ -457,13 +503,15 @@ const TEAM_DATA = [
     colours: [
       {
         year: 1996,
-        text: '222222',
-        bg: 'FFFFFF',
+        bg: '542E91',
+        text: 'FFFFFF',
+        trim: 'C4CED4',
       },
       {
-        year: 1999,
-        text: '222222',
-        bg: 'FFFFFF',
+        year: 2016,
+        bg: '5A2D81',
+        text: 'FFFFFF',
+        trim: '63727A',
       },
     ]
   },
@@ -474,8 +522,9 @@ const TEAM_DATA = [
     colours: [
       {
         year: 1996,
-        text: '000000',
         bg: 'C4CED4',
+        text: '000000',
+        trim: '000000',
       },
     ]
   },
@@ -486,13 +535,15 @@ const TEAM_DATA = [
     colours: [
       {
         year: 1996,
-        text: 'FFA300',
         bg: '173F35',
+        text: 'FFA300',
+        trim: '9E2A2F',
       },
       {
         year: 2002,
-        text: 'FFC200',
         bg: '00653A',
+        text: 'FFC200',
+        trim: 'FFFFFF',
       },
     ]
   },
@@ -503,13 +554,15 @@ const TEAM_DATA = [
     colours: [
       {
         year: 1996,
-        text: 'FFFFFF',
         bg: '753BBD',
+        text: 'FFFFFF',
+        trim: 'BA0C2F',
       },
       {
         year: 2003,
-        text: 'FFFFFF',
         bg: 'CE1141',
+        text: 'FFFFFF',
+        trim: '000000',
       },
     ]
   },
@@ -520,18 +573,21 @@ const TEAM_DATA = [
     colours: [
       {
         year: 1996,
-        text: '00A9E0',
         bg: '753BBD',
+        text: '00A9E0',
+        trim: '006272',
       },
       {
         year: 2005,
-        text: '6CAEDF',
         bg: '00275D',
+        text: '6CAEDF',
+        trim: '3E2680',
       },
       {
         year: 2011,
+        bg: '002B5C',
         text: 'F9A01B',
-        bg: '00471B',
+        trim: '00471B',
       },
     ]
   },
@@ -542,13 +598,9 @@ const TEAM_DATA = [
     colours: [
       {
         year: 1996,
-        text: '222222',
-        bg: 'FFFFFF',
-      },
-      {
-        year: 1999,
-        text: '222222',
-        bg: 'FFFFFF',
+        bg: '002B5C',
+        text: 'FFFFFF',
+        trim: 'E31837',
       },
     ]
   },
@@ -592,9 +644,11 @@ export const getTeamInfo = (csvRecord) => {
     team: formattedName,
     teamAbbrev: teamAbbrev,
     playoffs: isPlayoffTeam,
+    bg: colours[0].bg,
     colours: {
-      bg: colours[0].bg,
+      trim: colours[0].trim,
       text: colours[0].text,
+      bg: colours[0].bg,
     },
   }
 };
