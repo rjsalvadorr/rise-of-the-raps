@@ -2,12 +2,12 @@
   <div class="graphic-container">
     <div class="scroll-btn scroll-btn--left" v-on:click="scrollPrev">
       <!-- <img class="scroll-btn-icon"src="/icons/left-arrow.svg" /> -->
-      <LeftArrow class="scroll-btn-icon" v-if="currentSlide > 1"></LeftArrow>
+      <LeftArrow class="scroll-btn-icon" :hidden="currentSlide === 1"></LeftArrow>
     </div>
     <div class="graphic-wrapper"></div>
     <div class="scroll-btn scroll-btn--right" v-on:click="scrollNext">
       <!-- <img class="scroll-btn-icon"src="/icons/right-arrow.svg" /> -->
-      <RightArrow class="scroll-btn-icon" v-if="currentSlide < 25"></RightArrow>
+      <RightArrow class="scroll-btn-icon" :hidden="currentSlide === 25"></RightArrow>
     </div>
   </div>
 </template>
@@ -52,6 +52,30 @@ export default {
       this.redraw(this.seasonStats.stats[this.currentYear].children);
       const labelElement = document.querySelector('.main-title');
       labelElement.innerHTML = this.currentYear;
+    },
+    getGraphicDimensions: function() {
+      const width = this.$el.clientWidth;
+      const height = this.$el.clientHeight;
+      const viewportWidth = window.innerWidth;
+      const viewportHeight = window.innerHeight;
+      const isMobile = viewportWidth <= 750;
+
+      const buttonWidth = isMobile ? 40 : 60;
+      const shorter = viewportHeight > width ? width : viewportHeight;
+      const maxGraphicWidth = shorter + (2 * buttonWidth);
+      const appliedWidth = shorter - (2 * buttonWidth);
+
+      let debugMsg = `width = ${width}\n`;
+      debugMsg += `height = ${height}\n`;
+      debugMsg += `viewportHeight = ${viewportHeight}\n`;
+      debugMsg += `shorter = ${shorter}\n`;
+      debugMsg += `isMobile = ${isMobile}\n`;
+      debugMsg += `buttonWidth = ${buttonWidth}\n`;
+      debugMsg += `maxGraphicWidth = ${maxGraphicWidth}\n`;
+      debugMsg += `appliedWidth = ${appliedWidth}`;
+      console.log(debugMsg);
+
+      return appliedWidth;
     },
     redraw: function(classes) {
       // transition
@@ -173,19 +197,16 @@ export default {
     ///////////////////////////////////////////////////////////////////////////////
     ///  RENDERING WITH D3
 
-    const width = this.$el.clientWidth;
-    const height = this.$el.clientHeight;
-    const shorter = height > width ? width : height;
-
+    const appliedWidth = this.getGraphicDimensions();
     this.svg = d3.select(".graphic-wrapper")
       .append("svg")
       .style("margin", "0 auto")
       .style("display", "block")
-      .attr("width", shorter)
-      .attr("height", shorter);
+      .attr("width", appliedWidth)
+      .attr("height", appliedWidth);
 
     this.pack = d3.pack()
-      .size([shorter, shorter])
+      .size([appliedWidth, appliedWidth])
       .padding(1.5);
 
     seasonData.then(function (values) {
@@ -199,14 +220,11 @@ export default {
     //   HANDLING WINDOW RESIZES
 
     const resizeHandler = evt => {
-      const width = this.$el.clientWidth;
-      const height = this.$el.clientHeight;
-      const shorter = height > width ? width : height;
-
-      this.svg.attr("width", shorter);
-      this.svg.attr("height", shorter);
+      const appliedWidth = this.getGraphicDimensions();
+      this.svg.attr("width", appliedWidth);
+      this.svg.attr("height", appliedWidth);
       this.pack = d3.pack()
-        .size([shorter, shorter])
+        .size([appliedWidth, appliedWidth])
         .padding(1.5);
       this.redraw(this.seasonStats.stats[this.currentYear].children);
     };
@@ -257,9 +275,15 @@ export default {
     }
   }
 
-  .graphic-wrapper svg {
-    width: 100%;
-    flex: 0 1 auto;
+  .graphic-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    svg {
+      width: 100%;
+      flex: 0 1 auto;
+    }
   }
 
   /* Larger than tablet */
