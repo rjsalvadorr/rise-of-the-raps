@@ -18,7 +18,7 @@ module.exports = {
     ['link', { rel: 'mask-icon', href: '/icons/icon.png', color: '#3eaf7c' }],
     ['meta', { name: 'msapplication-TileImage', content: '/icons/icon.png' }],
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
-    ['link', { rel: 'stylesheet', href: `https://fonts.googleapis.com/css?family=Open+Sans:400|PT+Sans:700` }],
+    ['link', { rel: 'stylesheet', href: `https://fonts.googleapis.com/css?family=Bungee+Shade|Open+Sans:400&display=swap` }],
   ],
   dest: 'dist'
 }

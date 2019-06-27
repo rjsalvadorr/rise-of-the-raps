@@ -73,6 +73,7 @@ export default {
     .theme-content {
       overflow: auto;
       flex-grow: 1;
+      padding: 20px;
     }
   }
 </style>
