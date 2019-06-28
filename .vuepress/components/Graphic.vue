@@ -279,7 +279,7 @@ export default {
 
     this.pack = d3.pack()
       .size([appliedWidth, appliedWidth])
-      .padding(8);
+      .padding(10);
 
     seasonData.then(function (values) {
       that.updateGraphic();
@@ -325,7 +325,6 @@ export default {
   .graphic-container {
     position: relative;
     background-color: #111111;
-    min-height: 400px;
 
     display: flex;
     justify-content: center;
@@ -358,11 +357,11 @@ export default {
   /* Larger than tablet */
   @media (min-width: 750px) {
     .graphic-container {
-      position: fixed;
-      width: calc(67vw - 20px);
-      left: 20px;
-      top: 0;
-      bottom: 0;
+      position: absolute;
+      width: calc(67% - 20px);
+      left: $space-unit;
+      top: $space-unit;
+      bottom: $space-unit;
       z-index: 10;
     }
 

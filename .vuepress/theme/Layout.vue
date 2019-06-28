@@ -60,11 +60,10 @@ export default {
   @import "../styles/vars.scss";
 
   .theme-container {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    max-width: 1280px;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
     background-color: $body-bg-color;
     color: $body-color;
     display: flex;
