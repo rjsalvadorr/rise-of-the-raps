@@ -37,6 +37,19 @@ div, span, p, a, li, ol, ul, {
   line-height: 1.15rem;
 }
 
+p {
+  margin-top: $space-unit;
+}
+
+ol, ul {
+  margin-top: $space-unit;
+  padding-inline-start: $space-unit * 0.75;
+}
+
+li {
+  margin-top: $space-unit * 0.75;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Bungee Shade', sans-serif;
   font-weight: 700;

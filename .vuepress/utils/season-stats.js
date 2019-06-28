@@ -53,7 +53,7 @@ class SeasonStats {
   initializeTeamRecord(csvRecord, teamInfo, type) {
     const currentYear = this.getStatsByYear(csvRecord.Year);
     const newRecord = {
-      // team: csvRecord.Team,
+      team: teamInfo.team,
       teamAbbrev: teamInfo.teamAbbrev,
       playoffs: type === 'playoffs' || teamInfo.playoffs,
       adjWinRate: 0,

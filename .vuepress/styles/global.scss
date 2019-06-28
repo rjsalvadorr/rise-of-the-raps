@@ -11,6 +11,8 @@ body {
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 code {
@@ -73,14 +75,14 @@ code {
   }
 }
 
-@media (min-width: 1200px) {
-  .content-wrapper--home {
-    .text-wrapper {
-      width: calc(30vw - 20px);
-      margin-left: 70vw;
-    }
-  }
-}
+// @media (min-width: 1200px) {
+//   .content-wrapper--home {
+//     .text-wrapper {
+//       width: calc(30vw - 20px);
+//       margin-left: 70vw;
+//     }
+//   }
+// }
 
 // @import "./teams.scss";
 @import "./text.scss";
