@@ -20,6 +20,7 @@ import { DateTime } from "luxon";
 import filter from "lodash/filter";
 import DebugPanel from "../components/DebugPanel.vue";
 import Graphic from "../components/Graphic.vue";
+import MainText from "../components/Graphic.vue";
 
 export default {
   name: 'Layout',
@@ -45,7 +46,8 @@ export default {
   },
   components: {
     DebugPanel,
-    Graphic
+    Graphic,
+    MainText
   }
 }
 </script>

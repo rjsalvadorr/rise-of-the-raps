@@ -46,13 +46,13 @@ export default {
       for(let title of titles) {
         title.classList.remove("active");
         if(title.dataset.slide == this.currentSlide) {
-          title.classList.add("active");``
+          title.classList.add("active");
         }
       }
       for(let text of texts) {
         text.classList.remove("active");
         if(text.dataset.slide == this.currentSlide) {
-          text.classList.add("active");``
+          text.classList.add("active");
         }
       }
     },
