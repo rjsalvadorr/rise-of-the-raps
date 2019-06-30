@@ -6,35 +6,35 @@ type: page
 category: home
 ---
 
-<h1 class="main-title main-title--1" data-slide="1">Rise of the Raptors</h1>
-<h1 class="main-title main-title--2" data-slide="2">1996</h1>
-<h1 class="main-title main-title--3" data-slide="3">1997</h1>
-<h1 class="main-title main-title--4" data-slide="4">1998</h1>
-<h1 class="main-title main-title--5" data-slide="5">1999</h1>
-<h1 class="main-title main-title--6" data-slide="6">2000</h1>
-<h1 class="main-title main-title--7" data-slide="7">2001</h1>
-<h1 class="main-title main-title--8" data-slide="8">2002</h1>
-<h1 class="main-title main-title--9" data-slide="9">2003</h1>
-<h1 class="main-title main-title--10" data-slide="10">2004</h1>
-<h1 class="main-title main-title--11" data-slide="11">2005</h1>
-<h1 class="main-title main-title--12" data-slide="12">2006</h1>
-<h1 class="main-title main-title--13" data-slide="13">2007</h1>
-<h1 class="main-title main-title--14" data-slide="14">2008</h1>
-<h1 class="main-title main-title--15" data-slide="15">2009</h1>
-<h1 class="main-title main-title--16" data-slide="16">2010</h1>
-<h1 class="main-title main-title--17" data-slide="17">2011</h1>
-<h1 class="main-title main-title--18" data-slide="18">2012</h1>
-<h1 class="main-title main-title--19" data-slide="19">2013</h1>
-<h1 class="main-title main-title--20" data-slide="20">2014</h1>
-<h1 class="main-title main-title--21" data-slide="21">2015</h1>
-<h1 class="main-title main-title--22" data-slide="22">2016</h1>
-<h1 class="main-title main-title--23" data-slide="23">2017</h1>
-<h1 class="main-title main-title--24" data-slide="24">2018</h1>
-<h1 class="main-title main-title--25" data-slide="25">2019</h1>
-<h1 class="main-title main-title--26" data-slide="26">2020</h1>
+<h1 class="main-title main-title--mobile main-title--1" data-slide="1">Rise of the Raptors</h1>
+<h1 class="main-title main-title--mobile main-title--2" data-slide="2">1996</h1>
+<h1 class="main-title main-title--mobile main-title--3" data-slide="3">1997</h1>
+<h1 class="main-title main-title--mobile main-title--4" data-slide="4">1998</h1>
+<h1 class="main-title main-title--mobile main-title--5" data-slide="5">1999</h1>
+<h1 class="main-title main-title--mobile main-title--6" data-slide="6">2000</h1>
+<h1 class="main-title main-title--mobile main-title--7" data-slide="7">2001</h1>
+<h1 class="main-title main-title--mobile main-title--8" data-slide="8">2002</h1>
+<h1 class="main-title main-title--mobile main-title--9" data-slide="9">2003</h1>
+<h1 class="main-title main-title--mobile main-title--10" data-slide="10">2004</h1>
+<h1 class="main-title main-title--mobile main-title--11" data-slide="11">2005</h1>
+<h1 class="main-title main-title--mobile main-title--12" data-slide="12">2006</h1>
+<h1 class="main-title main-title--mobile main-title--13" data-slide="13">2007</h1>
+<h1 class="main-title main-title--mobile main-title--14" data-slide="14">2008</h1>
+<h1 class="main-title main-title--mobile main-title--15" data-slide="15">2009</h1>
+<h1 class="main-title main-title--mobile main-title--16" data-slide="16">2010</h1>
+<h1 class="main-title main-title--mobile main-title--17" data-slide="17">2011</h1>
+<h1 class="main-title main-title--mobile main-title--18" data-slide="18">2012</h1>
+<h1 class="main-title main-title--mobile main-title--19" data-slide="19">2013</h1>
+<h1 class="main-title main-title--mobile main-title--20" data-slide="20">2014</h1>
+<h1 class="main-title main-title--mobile main-title--21" data-slide="21">2015</h1>
+<h1 class="main-title main-title--mobile main-title--22" data-slide="22">2016</h1>
+<h1 class="main-title main-title--mobile main-title--23" data-slide="23">2017</h1>
+<h1 class="main-title main-title--mobile main-title--24" data-slide="24">2018</h1>
+<h1 class="main-title main-title--mobile main-title--25" data-slide="25">2019</h1>
 
 <Graphic></Graphic>
 
+<h1 class="main-title main-title--desktop main-title--1" data-slide="1">Rise of the Raptors</h1>
 <MainText :slide="1">
 
 The world now knows that the Toronto Raptors are an awesome team.
@@ -48,6 +48,7 @@ Let's see how they went from chumps to champs.
 
 </MainText>
 
+<h1 class="main-title main-title--desktop main-title--2" data-slide="2">1996</h1>
 <MainText :slide="2">
 
 COACH: ???  
@@ -58,6 +59,7 @@ SEASON RECORD: ?? wins, ?? losses
 
 </MainText>
 
+<h1 class="main-title main-title--desktop main-title--3" data-slide="3">1997</h1>
 <MainText :slide="3">
 
 COACH: ???  
@@ -70,6 +72,7 @@ SEASON RECORD: ?? wins, ?? losses
 
 </MainText>
 
+<h1 class="main-title main-title--desktop main-title--4" data-slide="4">1998</h1>
 <MainText :slide="4">
 
 COACH: ???  
@@ -81,6 +84,7 @@ SEASON RECORD: ?? wins, ?? losses
 
 </MainText>
 
+<h1 class="main-title main-title--desktop main-title--5" data-slide="5">1999</h1>
 <MainText :slide="5">
 
 COACH: ???  
@@ -94,6 +98,7 @@ SEASON RECORD: ?? wins, ?? losses
 
 </MainText>
 
+<h1 class="main-title main-title--desktop main-title--6" data-slide="6">2000</h1>
 <MainText :slide="6">
 
 COACH: Butch Carter  
@@ -106,6 +111,7 @@ PLAYOFFS: First round exit vs Knicks
 
 </MainText>
 
+<h1 class="main-title main-title--desktop main-title--7" data-slide="7">2001</h1>
 <MainText :slide="7">
 
 COACH: ???  
@@ -117,6 +123,7 @@ SEASON RECORD: ?? wins, ?? losses
 
 </MainText>
 
+<h1 class="main-title main-title--desktop main-title--8" data-slide="8">2002</h1>
 <MainText :slide="8">
 
 COACH: ???  
@@ -129,6 +136,7 @@ SEASON RECORD: ?? wins, ?? losses
 
 </MainText>
 
+<h1 class="main-title main-title--desktop main-title--9" data-slide="9">2003</h1>
 <MainText :slide="9">
 
 COACH: ???  
@@ -142,6 +150,7 @@ SEASON RECORD: ?? wins, ?? losses
 
 </MainText>
 
+<h1 class="main-title main-title--desktop main-title--10" data-slide="10">2004</h1>
 <MainText :slide="10">
 
 COACH: ???  
@@ -153,6 +162,7 @@ SEASON RECORD: ?? wins, ?? losses
 
 </MainText>
 
+<h1 class="main-title main-title--desktop main-title--11" data-slide="11">2005</h1>
 <MainText :slide="11">
 
 COACH: ???  
@@ -165,6 +175,7 @@ SEASON RECORD: ?? wins, ?? losses
 
 </MainText>
 
+<h1 class="main-title main-title--desktop main-title--12" data-slide="12">2006</h1>
 <MainText :slide="12">
 
 COACH: ???  
@@ -177,6 +188,7 @@ SEASON RECORD: ?? wins, ?? losses
 
 </MainText>
 
+<h1 class="main-title main-title--desktop main-title--13" data-slide="13">2007</h1>
 <MainText :slide="13">
 
 COACH: ???  
@@ -190,6 +202,7 @@ PLAYOFFS: ???
 
 </MainText>
 
+<h1 class="main-title main-title--desktop main-title--14" data-slide="14">2008</h1>
 <MainText :slide="14">
 
 COACH: ???  
@@ -204,6 +217,7 @@ PLAYOFFS: ???
 
 </MainText>
 
+<h1 class="main-title main-title--desktop main-title--15" data-slide="15">2009</h1>
 <MainText :slide="15">
 
 COACH: ???  
@@ -217,6 +231,7 @@ SEASON RECORD: ?? wins, ?? losses
 
 </MainText>
 
+<h1 class="main-title main-title--desktop main-title--16" data-slide="16">2010</h1>
 <MainText :slide="16">
 
 COACH: ???  
@@ -229,6 +244,7 @@ SEASON RECORD: ?? wins, ?? losses
 
 </MainText>
 
+<h1 class="main-title main-title--desktop main-title--17" data-slide="17">2011</h1>
 <MainText :slide="17">
 
 COACH: ???  
@@ -241,6 +257,7 @@ SEASON RECORD: ?? wins, ?? losses
 
 </MainText>
 
+<h1 class="main-title main-title--desktop main-title--18" data-slide="18">2012</h1>
 <MainText :slide="18">
 
 COACH: ???  
@@ -253,6 +270,7 @@ SEASON RECORD: ?? wins, ?? losses
 
 </MainText>
 
+<h1 class="main-title main-title--desktop main-title--19" data-slide="19">2013</h1>
 <MainText :slide="19">
 
 COACH: ???  
@@ -266,6 +284,7 @@ SEASON RECORD: ?? wins, ?? losses
 
 </MainText>
 
+<h1 class="main-title main-title--desktop main-title--20" data-slide="20">2014</h1>
 <MainText :slide="20">
 
 COACH: ???  
@@ -280,6 +299,7 @@ PLAYOFFS: ???
 
 </MainText>
 
+<h1 class="main-title main-title--desktop main-title--21" data-slide="21">2015</h1>
 <MainText :slide="21">
 
 COACH: ???  
@@ -292,6 +312,7 @@ PLAYOFFS: ???
 
 </MainText>
 
+<h1 class="main-title main-title--desktop main-title--22" data-slide="22">2016</h1>
 <MainText :slide="22">
 
 COACH: ???  
@@ -305,6 +326,7 @@ PLAYOFFS: ???
 
 </MainText>
 
+<h1 class="main-title main-title--desktop main-title--23" data-slide="23">2017</h1>
 <MainText :slide="23">
 
 COACH: ???  
@@ -319,6 +341,7 @@ PLAYOFFS: ???
 
 </MainText>
 
+<h1 class="main-title main-title--desktop main-title--24" data-slide="24">2018</h1>
 <MainText :slide="24">
 
 COACH: ???  
@@ -333,6 +356,8 @@ PLAYOFFS: ???
 
 </MainText>
 
+
+<h1 class="main-title main-title--desktop main-title--25" data-slide="25">2019</h1>
 <MainText :slide="25">
 
 COACH: ???  
@@ -344,29 +369,5 @@ PLAYOFFS: Won the NBA championship
 - Praesent iaculis eu leo in ultricies. Donec eu luctus lorem, pretium vestibulum quam.
 - Vivamus gravida, lectus ac pretium hendrerit, dui dolor sagittis libero, in vehicula velit lacus eu quam.
 - Sed vestibulum tellus eu metus pharetra commodo. Nam euismod sed nisl eget semper.
-
-</MainText>
-
-<MainText :slide="26">
-
-COACH: ???  
-SEASON RECORD: ?? wins, ?? losses  
-
-- Curabitur a tempor elit. Proin vel facilisis nisl, non fermentum risus.
-- Quisque dictum, purus non fermentum iaculis, nibh magna porttitor enim, sit amettincidunt enim quam ultricies nisl.
-- Nulla maximus laoreet rhoncus. Vivamus a libero lorem. Vestibulum nec tincidunt justo.
-
-</MainText>
-
-<MainText :slide="27">
-
-COACH: ???  
-SEASON RECORD: ?? wins, ?? losses  
-
-- Maecenas imperdiet sagittis enim, a posuere dolor lobortis vitae.
-- Quisque elit ipsum, tempor sed semper vitae, elementum id libero.
-- Phasellus rhoncus, ex eu bibendum auctor, metus quam porta tortor, a iaculis eros orci ac dolor.
-- Integer laoreet venenatis dui, quis viverra nulla pulvinar sed. Donec augue nulla, cursus nec ligula nec, dignissim consectetur diam.
-- Suspendisse ac nisl malesuada, viverra velit vitae, tincidunt ex.
 
 </MainText>
