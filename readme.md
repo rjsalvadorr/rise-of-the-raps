@@ -53,10 +53,10 @@ Let's see how they went from chumps to champs.
 <h1 class="main-title main-title--desktop main-title--2" data-slide="2">1996</h1>
 <MainText :slide="2">
 
-HEAD COACH:  
+HEAD COACH  
 Brendan Malone  
 
-SEASON RECORD:  
+SEASON RECORD  
 <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
 ---
@@ -69,10 +69,10 @@ SEASON RECORD:
 <h1 class="main-title main-title--desktop main-title--3" data-slide="3">1997</h1>
 <MainText :slide="3">
 
-HEAD COACH:  
+HEAD COACH  
 Darrell Walker  
 
-SEASON RECORD:  
+SEASON RECORD  
 <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
 ---
@@ -87,10 +87,10 @@ SEASON RECORD:
 <h1 class="main-title main-title--desktop main-title--4" data-slide="4">1998</h1>
 <MainText :slide="4">
 
-HEAD COACH:  
+HEAD COACH  
 Darrell Walker  
 
-SEASON RECORD:  
+SEASON RECORD  
 <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
 ---
@@ -104,10 +104,10 @@ SEASON RECORD:
 <h1 class="main-title main-title--desktop main-title--5" data-slide="5">1999</h1>
 <MainText :slide="5">
 
-HEAD COACH:  
+HEAD COACH  
 Butch Carter  
 
-SEASON RECORD:  
+SEASON RECORD  
 <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
 ---
@@ -123,13 +123,13 @@ SEASON RECORD:
 <h1 class="main-title main-title--desktop main-title--6" data-slide="6">2000</h1>
 <MainText :slide="6">
 
-HEAD COACH:  
+HEAD COACH  
 Butch Carter  
 
-SEASON RECORD:  
+SEASON RECORD  
 <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
-PLAYOFFS:  
+PLAYOFFS  
 First round loss vs. Knicks
 
 ---
@@ -143,13 +143,13 @@ First round loss vs. Knicks
 <h1 class="main-title main-title--desktop main-title--7" data-slide="7">2001</h1>
 <MainText :slide="7">
 
-HEAD COACH:  
+HEAD COACH  
 Lenny Wilkens  
 
-SEASON RECORD:  
+SEASON RECORD  
 <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
-PLAYOFFS:  
+PLAYOFFS  
 Second round loss vs. 76ers
 
 ---
@@ -163,13 +163,13 @@ Second round loss vs. 76ers
 <h1 class="main-title main-title--desktop main-title--8" data-slide="8">2002</h1>
 <MainText :slide="8">
 
-HEAD COACH:  
+HEAD COACH  
 Lenny Wilkens  
 
-SEASON RECORD:  
+SEASON RECORD  
 <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
-PLAYOFFS:  
+PLAYOFFS  
 First round loss vs. Pistons
 
 ---
@@ -184,10 +184,10 @@ First round loss vs. Pistons
 <h1 class="main-title main-title--desktop main-title--9" data-slide="9">2003</h1>
 <MainText :slide="9">
 
-HEAD COACH:  
+HEAD COACH  
 Lenny Wilkens  
 
-SEASON RECORD:  
+SEASON RECORD  
 <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
 ---
@@ -203,11 +203,11 @@ SEASON RECORD:
 <h1 class="main-title main-title--desktop main-title--10" data-slide="10">2004</h1>
 <MainText :slide="10">
 
-HEAD COACH:  
+HEAD COACH  
 Kevin O'Neill
 
 
-SEASON RECORD:  
+SEASON RECORD  
 <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
 ---
@@ -221,10 +221,10 @@ SEASON RECORD:
 <h1 class="main-title main-title--desktop main-title--11" data-slide="11">2005</h1>
 <MainText :slide="11">
 
-HEAD COACH:  
+HEAD COACH  
 Sam Mitchell  
 
-SEASON RECORD:  
+SEASON RECORD  
 <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
 ---
@@ -239,10 +239,10 @@ SEASON RECORD:
 <h1 class="main-title main-title--desktop main-title--12" data-slide="12">2006</h1>
 <MainText :slide="12">
 
-HEAD COACH:  
+HEAD COACH  
 Sam Mitchell  
 
-SEASON RECORD:  
+SEASON RECORD  
 <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
 ---
@@ -257,13 +257,13 @@ SEASON RECORD:
 <h1 class="main-title main-title--desktop main-title--13" data-slide="13">2007</h1>
 <MainText :slide="13">
 
-HEAD COACH:  
+HEAD COACH  
 Sam Mitchell  
 
-SEASON RECORD:  
+SEASON RECORD  
 <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
-PLAYOFFS:  
+PLAYOFFS  
 First round loss vs Nets
 
 ---
@@ -278,13 +278,13 @@ First round loss vs Nets
 <h1 class="main-title main-title--desktop main-title--14" data-slide="14">2008</h1>
 <MainText :slide="14">
 
-HEAD COACH:  
+HEAD COACH  
 Sam Mitchell  
 
-SEASON RECORD:  
+SEASON RECORD  
 <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
-PLAYOFFS:  
+PLAYOFFS  
 First round loss vs Magic
 
 ---
@@ -300,10 +300,10 @@ First round loss vs Magic
 <h1 class="main-title main-title--desktop main-title--15" data-slide="15">2009</h1>
 <MainText :slide="15">
 
-HEAD COACH:  
+HEAD COACH  
 Sam Mitchell, Jay Triano  
 
-SEASON RECORD:  
+SEASON RECORD  
 <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
 ---
@@ -319,10 +319,10 @@ SEASON RECORD:
 <h1 class="main-title main-title--desktop main-title--16" data-slide="16">2010</h1>
 <MainText :slide="16">
 
-HEAD COACH:  
+HEAD COACH  
 Jay Triano  
 
-SEASON RECORD:  
+SEASON RECORD  
 <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
 ---
@@ -337,10 +337,10 @@ SEASON RECORD:
 <h1 class="main-title main-title--desktop main-title--17" data-slide="17">2011</h1>
 <MainText :slide="17">
 
-HEAD COACH:  
+HEAD COACH  
 Jay Triano  
 
-SEASON RECORD:  
+SEASON RECORD  
 <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
 ---
@@ -355,10 +355,10 @@ SEASON RECORD:
 <h1 class="main-title main-title--desktop main-title--18" data-slide="18">2012</h1>
 <MainText :slide="18">
 
-HEAD COACH:  
+HEAD COACH  
 Dwane Casey  
 
-SEASON RECORD:  
+SEASON RECORD  
 <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
 ---
@@ -373,10 +373,10 @@ SEASON RECORD:
 <h1 class="main-title main-title--desktop main-title--19" data-slide="19">2013</h1>
 <MainText :slide="19">
 
-HEAD COACH:  
+HEAD COACH  
 Dwane Casey  
 
-SEASON RECORD:  
+SEASON RECORD  
 <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
 ---
@@ -392,13 +392,13 @@ SEASON RECORD:
 <h1 class="main-title main-title--desktop main-title--20" data-slide="20">2014</h1>
 <MainText :slide="20">
 
-HEAD COACH:  
+HEAD COACH  
 Dwane Casey  
 
-SEASON RECORD:  
+SEASON RECORD  
 <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
-PLAYOFFS:  
+PLAYOFFS  
 First round loss vs. Nets
 
 ---
@@ -413,13 +413,13 @@ First round loss vs. Nets
 <h1 class="main-title main-title--desktop main-title--21" data-slide="21">2015</h1>
 <MainText :slide="21">
 
-HEAD COACH:  
+HEAD COACH  
 Dwane Casey  
 
-SEASON RECORD:  
+SEASON RECORD  
 <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
-PLAYOFFS:  
+PLAYOFFS  
 First round loss vs. Wizards
 
 ---
@@ -433,13 +433,13 @@ First round loss vs. Wizards
 <h1 class="main-title main-title--desktop main-title--22" data-slide="22">2016</h1>
 <MainText :slide="22">
 
-HEAD COACH:  
+HEAD COACH  
 Dwane Casey  
 
-SEASON RECORD:  
+SEASON RECORD  
 <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
-PLAYOFFS:  
+PLAYOFFS  
 Lost the Eastern Conference Finals vs. Cavaliers
 
 ---
@@ -454,14 +454,14 @@ Lost the Eastern Conference Finals vs. Cavaliers
 <h1 class="main-title main-title--desktop main-title--23" data-slide="23">2017</h1>
 <MainText :slide="23">
 
-HEAD COACH:  
+HEAD COACH  
 Dwane Casey  
 
-SEASON RECORD:  
+SEASON RECORD  
 <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
-PLAYOFFS:  
-First round loss vs Bucks
+PLAYOFFS  
+First round loss vs Cavaliers
 
 ---
 
@@ -476,14 +476,14 @@ First round loss vs Bucks
 <h1 class="main-title main-title--desktop main-title--24" data-slide="24">2018</h1>
 <MainText :slide="24">
 
-HEAD COACH:  
+HEAD COACH  
 Dwane Casey  
 
-SEASON RECORD:  
+SEASON RECORD  
 <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
-PLAYOFFS:  
-First round loss vs Wizards
+PLAYOFFS  
+Second round loss vs Cavaliers
 
 ---
 
@@ -499,13 +499,13 @@ First round loss vs Wizards
 <h1 class="main-title main-title--desktop main-title--25" data-slide="25">2019</h1>
 <MainText :slide="25">
 
-HEAD COACH:  
+HEAD COACH  
 Nick Nurse  
 
-SEASON RECORD:  
+SEASON RECORD  
 <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
-PLAYOFFS:  
+PLAYOFFS  
 Won the NBA Finals
 
 ---
