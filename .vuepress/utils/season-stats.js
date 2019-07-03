@@ -65,6 +65,9 @@ class SeasonStats {
       netRtg: 0,
       playoffWinRate: 0,
       playoffNetRtg: 0,
+      regWins: 0,
+      regLosses: 0,
+      wr: 0,
     }
     currentYear.children.push(newRecord);
     return newRecord;
@@ -93,6 +96,9 @@ class SeasonStats {
       const winRate = wins / totalGames;
       const netRtg = oRtg - dRtg;
 
+      newRecord.regWins = wins;
+      newRecord.regLosses = losses;
+      newRecord.wr = winRate;
       newRecord.winRate = Number(Math.round((winRate * 100) + 'e2') + 'e-2');
       newRecord.netRtg = Number(Math.round(netRtg + 'e2') + 'e-2');
     }

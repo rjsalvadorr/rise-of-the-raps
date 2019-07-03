@@ -24,6 +24,7 @@ export default {
     return {
       currentSlide: 1,
       seasonStats: null,
+      torontoStats: null,
       svg: null,
       pack: null,
     }
@@ -38,7 +39,13 @@ export default {
   },
   methods: {
     updateGraphic: function() {
-      this.redraw(this.seasonStats.stats[this.currentYear].children);
+      const currentYearStats = this.seasonStats.stats[this.currentYear];
+      const torStats = currentYearStats.children.filter(stat => stat.teamAbbrev === 'TOR');
+      if(torStats.length > 0) {
+        this.torontoStats = torStats[0];
+      }
+
+      this.redraw(currentYearStats.children);
 
       let titles = document.querySelectorAll('.main-title');
       let texts = document.querySelectorAll('.main-text');
@@ -54,6 +61,21 @@ export default {
         if(text.dataset.slide == this.currentSlide) {
           text.classList.add("active");
         }
+      }
+
+      const winsText = document.querySelector('.main-text.active .text-wins');
+      const lossesText = document.querySelector('.main-text.active .text-losses');
+      const wrText = document.querySelector('.main-text.active .text-winrate');
+      console.log(this.torontoStats, winsText, lossesText);
+
+      if(winsText) {
+        winsText.textContent = this.torontoStats.regWins;
+      }
+      if(lossesText) {
+        lossesText.textContent = this.torontoStats.regLosses;
+      }
+      if(wrText) {
+        wrText.textContent = Number(Math.round(this.torontoStats.wr + 'e3') + 'e-3');
       }
     },
     scrollPrev: function(evt) {

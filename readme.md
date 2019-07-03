@@ -52,7 +52,7 @@ Let's see how they went from chumps to champs.
 <MainText :slide="2">
 
 COACH: ???  
-SEASON RECORD: ?? wins, ?? losses  
+SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
 - The NBA expands into Canada, and the Toronto Raptors are established alongside the Vancouver Grizzlies.
 - The Raptors do not do well in their inaugural season.
@@ -63,7 +63,7 @@ SEASON RECORD: ?? wins, ?? losses
 <MainText :slide="3">
 
 COACH: ???  
-SEASON RECORD: ?? wins, ?? losses  
+SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
 - Ut eleifend lacus elit, ornare cursus nisi volutpat ac. Fusce diam quam, ultrices a lacus non, tempus tincidunt dolor.
 - Vestibulum a massa consectetur, ullamcorper dui et, viverra quam. Aliquam erat volutpat. Mauris interdum commodo dictum.
@@ -76,9 +76,9 @@ SEASON RECORD: ?? wins, ?? losses
 <MainText :slide="4">
 
 COACH: ???  
-SEASON RECORD: ?? wins, ?? losses  
+SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
-- Etiam sit amet sapien sed urna aliquam rutrum. Donec laoreet, arcu tempor viverra ullamcorper, ante mauris semper erat, et pharetra tellus nulla vitae nulla.
+- The worst season in Raptors history, by win-rate.
 - Aliquam vulputate turpis vel maximus venenatis. Aliquam erat volutpat. Aenean tempus commodo nisi consequat scelerisque. Suspendisse eu ex fermentum, euismod dolor non, tempus erat.
 - Nulla at blandit leo. Nam lorem neque, dapibus sit amet condimentum non, elementum eu leo. Proin eleifend nisl vel neque egestas, a lobortis tortor dapibus.
 
@@ -88,7 +88,7 @@ SEASON RECORD: ?? wins, ?? losses
 <MainText :slide="5">
 
 COACH: ???  
-SEASON RECORD: ?? wins, ?? losses  
+SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
 - Etiam sit amet ipsum vitae dui pulvinar tempor eget semper nibh. Curabitur blandit volutpat purus.
 - In eget tincidunt sem. Mauris nulla diam, aliquet faucibus leo et, tincidunt sodales nulla.
@@ -102,7 +102,7 @@ SEASON RECORD: ?? wins, ?? losses
 <MainText :slide="6">
 
 COACH: Butch Carter  
-SEASON RECORD: 45 wins, 37 losses  
+SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 PLAYOFFS: First round exit vs Knicks
 
 - First playoffs appearance
@@ -115,7 +115,7 @@ PLAYOFFS: First round exit vs Knicks
 <MainText :slide="7">
 
 COACH: ???  
-SEASON RECORD: ?? wins, ?? losses  
+SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
 - Curabitur a tempor elit. Proin vel facilisis nisl, non fermentum risus.
 - Quisque dictum, purus non fermentum iaculis, nibh magna porttitor enim, sit amettincidunt enim quam ultricies nisl.
@@ -127,7 +127,7 @@ SEASON RECORD: ?? wins, ?? losses
 <MainText :slide="8">
 
 COACH: ???  
-SEASON RECORD: ?? wins, ?? losses  
+SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
 - Praesent pretium id justo sit amet mollis. Phasellus imperdiet diam dolor, ullamcorper dignissim sapien porta eu.
 - Donec gravida sapien quis porta semper. Proin eu nunc diam. Donec ligula mi, faucibus et porttitor rutrum, semper et ante.
@@ -140,7 +140,7 @@ SEASON RECORD: ?? wins, ?? losses
 <MainText :slide="9">
 
 COACH: ???  
-SEASON RECORD: ?? wins, ?? losses  
+SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
 - Maecenas imperdiet sagittis enim, a posuere dolor lobortis vitae.
 - Quisque elit ipsum, tempor sed semper vitae, elementum id libero.
@@ -154,7 +154,7 @@ SEASON RECORD: ?? wins, ?? losses
 <MainText :slide="10">
 
 COACH: ???  
-SEASON RECORD: ?? wins, ?? losses  
+SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
 - Etiam sit amet sapien sed urna aliquam rutrum. Donec laoreet, arcu tempor viverra ullamcorper, ante mauris semper erat, et pharetra tellus nulla vitae nulla.
 - Aliquam vulputate turpis vel maximus venenatis. Aliquam erat volutpat. Aenean tempus commodo nisi consequat scelerisque. Suspendisse eu ex fermentum, euismod dolor non, tempus erat.
@@ -166,7 +166,7 @@ SEASON RECORD: ?? wins, ?? losses
 <MainText :slide="11">
 
 COACH: ???  
-SEASON RECORD: ?? wins, ?? losses  
+SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
 - Ut eleifend lacus elit, ornare cursus nisi volutpat ac. Fusce diam quam, ultrices a lacus non, tempus tincidunt dolor.
 - Vestibulum a massa consectetur, ullamcorper dui et, viverra quam. Aliquam erat volutpat. Mauris interdum commodo dictum.
@@ -179,7 +179,7 @@ SEASON RECORD: ?? wins, ?? losses
 <MainText :slide="12">
 
 COACH: ???  
-SEASON RECORD: ?? wins, ?? losses  
+SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
 - Praesent pretium id justo sit amet mollis. Phasellus imperdiet diam dolor, ullamcorper dignissim sapien porta eu.
 - Donec gravida sapien quis porta semper. Proin eu nunc diam. Donec ligula mi, faucibus et porttitor rutrum, semper et ante.
@@ -192,7 +192,7 @@ SEASON RECORD: ?? wins, ?? losses
 <MainText :slide="13">
 
 COACH: ???  
-SEASON RECORD: ?? wins, ?? losses  
+SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 PLAYOFFS: ???
 
 - Playoffs! Neat!
@@ -206,7 +206,7 @@ PLAYOFFS: ???
 <MainText :slide="14">
 
 COACH: ???  
-SEASON RECORD: ?? wins, ?? losses  
+SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 PLAYOFFS: ???
 
 - Morbi velit elit, condimentum in est eget, aliquam ornare arcu.
@@ -221,7 +221,7 @@ PLAYOFFS: ???
 <MainText :slide="15">
 
 COACH: ???  
-SEASON RECORD: ?? wins, ?? losses  
+SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
 - Maecenas imperdiet sagittis enim, a posuere dolor lobortis vitae.
 - Quisque elit ipsum, tempor sed semper vitae, elementum id libero.
@@ -235,7 +235,7 @@ SEASON RECORD: ?? wins, ?? losses
 <MainText :slide="16">
 
 COACH: ???  
-SEASON RECORD: ?? wins, ?? losses  
+SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
 - Ut eleifend lacus elit, ornare cursus nisi volutpat ac. Fusce diam quam, ultrices a lacus non, tempus tincidunt dolor.
 - Vestibulum a massa consectetur, ullamcorper dui et, viverra quam. Aliquam erat volutpat. Mauris interdum commodo dictum.
@@ -248,7 +248,7 @@ SEASON RECORD: ?? wins, ?? losses
 <MainText :slide="17">
 
 COACH: ???  
-SEASON RECORD: ?? wins, ?? losses  
+SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
 - Integer imperdiet venenatis pulvinar. Morbi ac molestie felis.
 - Morbi vitae dolor in ligula finibus finibus. Donec varius lobortis lectus et feugiat.
@@ -261,7 +261,7 @@ SEASON RECORD: ?? wins, ?? losses
 <MainText :slide="18">
 
 COACH: ???  
-SEASON RECORD: ?? wins, ?? losses  
+SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
 - Ut eleifend lacus elit, ornare cursus nisi volutpat ac. Fusce diam quam, ultrices a lacus non, tempus tincidunt dolor.
 - Vestibulum a massa consectetur, ullamcorper dui et, viverra quam. Aliquam erat volutpat. Mauris interdum commodo dictum.
@@ -274,7 +274,7 @@ SEASON RECORD: ?? wins, ?? losses
 <MainText :slide="19">
 
 COACH: ???  
-SEASON RECORD: ?? wins, ?? losses  
+SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
 - Morbi velit elit, condimentum in est eget, aliquam ornare arcu.
 - Pellentesque aliquam lobortis odio sed laoreet. Aenean nisl sapien, elementum sed efficitur et, finibus non orci.
@@ -288,7 +288,7 @@ SEASON RECORD: ?? wins, ?? losses
 <MainText :slide="20">
 
 COACH: ???  
-SEASON RECORD: ?? wins, ?? losses  
+SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 PLAYOFFS: ???
 
 - The Raptors finally return to the Playoffs
@@ -303,7 +303,7 @@ PLAYOFFS: ???
 <MainText :slide="21">
 
 COACH: ???  
-SEASON RECORD: ?? wins, ?? losses  
+SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 PLAYOFFS: ???
 
 - Etiam eget elementum lorem. Aenean gravida tempus ex, sit amet dictum sapien semper sed.
@@ -316,7 +316,7 @@ PLAYOFFS: ???
 <MainText :slide="22">
 
 COACH: ???  
-SEASON RECORD: ?? wins, ?? losses  
+SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 PLAYOFFS: ???
 
 - Integer imperdiet venenatis pulvinar. Morbi ac molestie felis.
@@ -330,7 +330,7 @@ PLAYOFFS: ???
 <MainText :slide="23">
 
 COACH: ???  
-SEASON RECORD: ?? wins, ?? losses  
+SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 PLAYOFFS: ???
 
 - Maecenas imperdiet sagittis enim, a posuere dolor lobortis vitae.
@@ -345,7 +345,7 @@ PLAYOFFS: ???
 <MainText :slide="24">
 
 COACH: ???  
-SEASON RECORD: ?? wins, ?? losses  
+SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 PLAYOFFS: ???
 
 - Cras gravida mauris mi, a iaculis diam auctor ut. Pellentesque laoreet tortor viverra dictum egestas.
@@ -361,7 +361,7 @@ PLAYOFFS: ???
 <MainText :slide="25">
 
 COACH: ???  
-SEASON RECORD: ?? wins, ?? losses  
+SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 PLAYOFFS: Won the NBA championship
 
 - WE THE CHAMPS, BETCH
