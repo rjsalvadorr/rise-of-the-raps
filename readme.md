@@ -7,30 +7,30 @@ category: home
 ---
 
 <h1 class="main-title main-title--mobile main-title--1" data-slide="1">Rise of the Raptors</h1>
-<h1 class="main-title main-title--mobile main-title--2" data-slide="2">1996</h1>
-<h1 class="main-title main-title--mobile main-title--3" data-slide="3">1997</h1>
-<h1 class="main-title main-title--mobile main-title--4" data-slide="4">1998</h1>
-<h1 class="main-title main-title--mobile main-title--5" data-slide="5">1999</h1>
-<h1 class="main-title main-title--mobile main-title--6" data-slide="6">2000</h1>
-<h1 class="main-title main-title--mobile main-title--7" data-slide="7">2001</h1>
-<h1 class="main-title main-title--mobile main-title--8" data-slide="8">2002</h1>
-<h1 class="main-title main-title--mobile main-title--9" data-slide="9">2003</h1>
-<h1 class="main-title main-title--mobile main-title--10" data-slide="10">2004</h1>
-<h1 class="main-title main-title--mobile main-title--11" data-slide="11">2005</h1>
-<h1 class="main-title main-title--mobile main-title--12" data-slide="12">2006</h1>
-<h1 class="main-title main-title--mobile main-title--13" data-slide="13">2007</h1>
-<h1 class="main-title main-title--mobile main-title--14" data-slide="14">2008</h1>
-<h1 class="main-title main-title--mobile main-title--15" data-slide="15">2009</h1>
-<h1 class="main-title main-title--mobile main-title--16" data-slide="16">2010</h1>
-<h1 class="main-title main-title--mobile main-title--17" data-slide="17">2011</h1>
-<h1 class="main-title main-title--mobile main-title--18" data-slide="18">2012</h1>
-<h1 class="main-title main-title--mobile main-title--19" data-slide="19">2013</h1>
-<h1 class="main-title main-title--mobile main-title--20" data-slide="20">2014</h1>
-<h1 class="main-title main-title--mobile main-title--21" data-slide="21">2015</h1>
-<h1 class="main-title main-title--mobile main-title--22" data-slide="22">2016</h1>
-<h1 class="main-title main-title--mobile main-title--23" data-slide="23">2017</h1>
-<h1 class="main-title main-title--mobile main-title--24" data-slide="24">2018</h1>
-<h1 class="main-title main-title--mobile main-title--25" data-slide="25">2019</h1>
+<h1 class="main-title main-title--mobile main-title--2" data-slide="2">1995-96</h1>
+<h1 class="main-title main-title--mobile main-title--3" data-slide="3">1996-97</h1>
+<h1 class="main-title main-title--mobile main-title--4" data-slide="4">1997-98</h1>
+<h1 class="main-title main-title--mobile main-title--5" data-slide="5">1998-99</h1>
+<h1 class="main-title main-title--mobile main-title--6" data-slide="6">1999-00</h1>
+<h1 class="main-title main-title--mobile main-title--7" data-slide="7">2000-01</h1>
+<h1 class="main-title main-title--mobile main-title--8" data-slide="8">2001-02</h1>
+<h1 class="main-title main-title--mobile main-title--9" data-slide="9">2002-03</h1>
+<h1 class="main-title main-title--mobile main-title--10" data-slide="10">2003-04</h1>
+<h1 class="main-title main-title--mobile main-title--11" data-slide="11">2004-05</h1>
+<h1 class="main-title main-title--mobile main-title--12" data-slide="12">2005-06</h1>
+<h1 class="main-title main-title--mobile main-title--13" data-slide="13">2006-07</h1>
+<h1 class="main-title main-title--mobile main-title--14" data-slide="14">2007-08</h1>
+<h1 class="main-title main-title--mobile main-title--15" data-slide="15">2008-09</h1>
+<h1 class="main-title main-title--mobile main-title--16" data-slide="16">2009-10</h1>
+<h1 class="main-title main-title--mobile main-title--17" data-slide="17">2010-11</h1>
+<h1 class="main-title main-title--mobile main-title--18" data-slide="18">2011-12</h1>
+<h1 class="main-title main-title--mobile main-title--19" data-slide="19">2012-13</h1>
+<h1 class="main-title main-title--mobile main-title--20" data-slide="20">2013-14</h1>
+<h1 class="main-title main-title--mobile main-title--21" data-slide="21">2014-15</h1>
+<h1 class="main-title main-title--mobile main-title--22" data-slide="22">2015-16</h1>
+<h1 class="main-title main-title--mobile main-title--23" data-slide="23">2016-17</h1>
+<h1 class="main-title main-title--mobile main-title--24" data-slide="24">2017-18</h1>
+<h1 class="main-title main-title--mobile main-title--25" data-slide="25">2018-19</h1>
 
 <Graphic></Graphic>
 
@@ -50,7 +50,7 @@ Let's see how they went from chumps to champs.
 
 </MainText>
 
-<h1 class="main-title main-title--desktop main-title--2" data-slide="2">1996</h1>
+<h1 class="main-title main-title--desktop main-title--2" data-slide="2">1995-96</h1>
 <MainText :slide="2">
 
 HEAD COACH  
@@ -62,11 +62,12 @@ SEASON RECORD
 ---
 
 - The NBA expands into Canada, and the Toronto Raptors are established alongside the Vancouver Grizzlies.
-- The Raptors do not do well in their inaugural season.
+- Damon Stoudamire, the Raptors' first ever draft pick (7th overall), is named Rookie of the Year.
+- Brendan Malone is fired after the season.
 
 </MainText>
 
-<h1 class="main-title main-title--desktop main-title--3" data-slide="3">1997</h1>
+<h1 class="main-title main-title--desktop main-title--3" data-slide="3">1996-97</h1>
 <MainText :slide="3">
 
 HEAD COACH  
@@ -77,31 +78,30 @@ SEASON RECORD
 
 ---
 
-- Ut eleifend lacus elit, ornare cursus nisi volutpat ac. Fusce diam quam, ultrices a lacus non, tempus tincidunt dolor.
-- Vestibulum a massa consectetur, ullamcorper dui et, viverra quam. Aliquam erat volutpat. Mauris interdum commodo dictum.
-- Donec blandit vestibulum nisl, nec tempus ex lobortis id. Quisque euismod placerat purus et maximus.
-- Vivamus eget finibus ante. Aliquam id libero fermentum, mattis leo quis, pretium metus. 
+- Darrell Walker (one of Brendan Malone's assistant coaches) becomes head coach.
+- The NBA season starts in Toronto, to commemorate the league's 50th anniversary (the first ever NBA game was played in Toronto).
 
 </MainText>
 
-<h1 class="main-title main-title--desktop main-title--4" data-slide="4">1998</h1>
+<h1 class="main-title main-title--desktop main-title--4" data-slide="4">1997-98</h1>
 <MainText :slide="4">
 
 HEAD COACH  
-Darrell Walker  
+Darrell Walker, Butch Carter  
 
 SEASON RECORD  
 <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
 ---
 
-- The worst season in Raptors history, by win-rate.
-- Aliquam vulputate turpis vel maximus venenatis. Aliquam erat volutpat. Aenean tempus commodo nisi consequat scelerisque. Suspendisse eu ex fermentum, euismod dolor non, tempus erat.
-- Nulla at blandit leo. Nam lorem neque, dapibus sit amet condimentum non, elementum eu leo. Proin eleifend nisl vel neque egestas, a lobortis tortor dapibus.
+- The Raptors draft Tracy McGrady (9th overall).
+- In February, the Raptors trade Damon Stoudamire to the Portland Trail Blazers.
+- Due to the trade, Darrell Walker resigns as head coach. Assistant coach Butch Carter takes over the role.
+- The worst season record in Raptors history.
 
 </MainText>
 
-<h1 class="main-title main-title--desktop main-title--5" data-slide="5">1999</h1>
+<h1 class="main-title main-title--desktop main-title--5" data-slide="5">1998-99</h1>
 <MainText :slide="5">
 
 HEAD COACH  
@@ -112,15 +112,12 @@ SEASON RECORD
 
 ---
 
-- Etiam sit amet ipsum vitae dui pulvinar tempor eget semper nibh. Curabitur blandit volutpat purus.
-- In eget tincidunt sem. Mauris nulla diam, aliquet faucibus leo et, tincidunt sodales nulla.
-- Curabitur felis elit, rutrum ut lacinia ac, faucibus ac lacus. Morbi congue elementum est, a euismod felis rhoncus in.
-- Quisque a est id ante ultricies sollicitudin et ut ante.
-- Duis at auctor leo. Donec lobortis, metus a pellentesque accumsan, enim diam mattis libero.
+- Raptors make draft-day deal to acquire Vince Carter from the Golden State Warriors.
+- In February, the team moves from the SkyDome to the Air Canada Centre.
 
 </MainText>
 
-<h1 class="main-title main-title--desktop main-title--6" data-slide="6">2000</h1>
+<h1 class="main-title main-title--desktop main-title--6" data-slide="6">1999-00</h1>
 <MainText :slide="6">
 
 HEAD COACH  
@@ -140,7 +137,7 @@ First round loss vs. Knicks
 
 </MainText>
 
-<h1 class="main-title main-title--desktop main-title--7" data-slide="7">2001</h1>
+<h1 class="main-title main-title--desktop main-title--7" data-slide="7">2000-01</h1>
 <MainText :slide="7">
 
 HEAD COACH  
@@ -160,7 +157,7 @@ Second round loss vs. 76ers
 
 </MainText>
 
-<h1 class="main-title main-title--desktop main-title--8" data-slide="8">2002</h1>
+<h1 class="main-title main-title--desktop main-title--8" data-slide="8">2001-02</h1>
 <MainText :slide="8">
 
 HEAD COACH  
@@ -181,7 +178,7 @@ First round loss vs. Pistons
 
 </MainText>
 
-<h1 class="main-title main-title--desktop main-title--9" data-slide="9">2003</h1>
+<h1 class="main-title main-title--desktop main-title--9" data-slide="9">2002-03</h1>
 <MainText :slide="9">
 
 HEAD COACH  
@@ -200,7 +197,7 @@ SEASON RECORD
 
 </MainText>
 
-<h1 class="main-title main-title--desktop main-title--10" data-slide="10">2004</h1>
+<h1 class="main-title main-title--desktop main-title--10" data-slide="10">2003-04</h1>
 <MainText :slide="10">
 
 HEAD COACH  
@@ -218,7 +215,7 @@ SEASON RECORD
 
 </MainText>
 
-<h1 class="main-title main-title--desktop main-title--11" data-slide="11">2005</h1>
+<h1 class="main-title main-title--desktop main-title--11" data-slide="11">2004-05</h1>
 <MainText :slide="11">
 
 HEAD COACH  
@@ -236,7 +233,7 @@ SEASON RECORD
 
 </MainText>
 
-<h1 class="main-title main-title--desktop main-title--12" data-slide="12">2006</h1>
+<h1 class="main-title main-title--desktop main-title--12" data-slide="12">2005-06</h1>
 <MainText :slide="12">
 
 HEAD COACH  
@@ -254,7 +251,7 @@ SEASON RECORD
 
 </MainText>
 
-<h1 class="main-title main-title--desktop main-title--13" data-slide="13">2007</h1>
+<h1 class="main-title main-title--desktop main-title--13" data-slide="13">2006-07</h1>
 <MainText :slide="13">
 
 HEAD COACH  
@@ -275,7 +272,7 @@ First round loss vs Nets
 
 </MainText>
 
-<h1 class="main-title main-title--desktop main-title--14" data-slide="14">2008</h1>
+<h1 class="main-title main-title--desktop main-title--14" data-slide="14">2007-08</h1>
 <MainText :slide="14">
 
 HEAD COACH  
@@ -297,7 +294,7 @@ First round loss vs Magic
 
 </MainText>
 
-<h1 class="main-title main-title--desktop main-title--15" data-slide="15">2009</h1>
+<h1 class="main-title main-title--desktop main-title--15" data-slide="15">2008-09</h1>
 <MainText :slide="15">
 
 HEAD COACH  
@@ -316,7 +313,7 @@ SEASON RECORD
 
 </MainText>
 
-<h1 class="main-title main-title--desktop main-title--16" data-slide="16">2010</h1>
+<h1 class="main-title main-title--desktop main-title--16" data-slide="16">2009-10</h1>
 <MainText :slide="16">
 
 HEAD COACH  
@@ -334,7 +331,7 @@ SEASON RECORD
 
 </MainText>
 
-<h1 class="main-title main-title--desktop main-title--17" data-slide="17">2011</h1>
+<h1 class="main-title main-title--desktop main-title--17" data-slide="17">2010-11</h1>
 <MainText :slide="17">
 
 HEAD COACH  
@@ -352,7 +349,7 @@ SEASON RECORD
 
 </MainText>
 
-<h1 class="main-title main-title--desktop main-title--18" data-slide="18">2012</h1>
+<h1 class="main-title main-title--desktop main-title--18" data-slide="18">2011-12</h1>
 <MainText :slide="18">
 
 HEAD COACH  
@@ -370,7 +367,7 @@ SEASON RECORD
 
 </MainText>
 
-<h1 class="main-title main-title--desktop main-title--19" data-slide="19">2013</h1>
+<h1 class="main-title main-title--desktop main-title--19" data-slide="19">2012-13</h1>
 <MainText :slide="19">
 
 HEAD COACH  
@@ -389,7 +386,7 @@ SEASON RECORD
 
 </MainText>
 
-<h1 class="main-title main-title--desktop main-title--20" data-slide="20">2014</h1>
+<h1 class="main-title main-title--desktop main-title--20" data-slide="20">2013-14</h1>
 <MainText :slide="20">
 
 HEAD COACH  
@@ -410,7 +407,7 @@ First round loss vs. Nets
 
 </MainText>
 
-<h1 class="main-title main-title--desktop main-title--21" data-slide="21">2015</h1>
+<h1 class="main-title main-title--desktop main-title--21" data-slide="21">2014-15</h1>
 <MainText :slide="21">
 
 HEAD COACH  
@@ -430,7 +427,7 @@ First round loss vs. Wizards
 
 </MainText>
 
-<h1 class="main-title main-title--desktop main-title--22" data-slide="22">2016</h1>
+<h1 class="main-title main-title--desktop main-title--22" data-slide="22">2015-16</h1>
 <MainText :slide="22">
 
 HEAD COACH  
@@ -451,7 +448,7 @@ Lost Eastern Conference Finals vs. Cavaliers
 
 </MainText>
 
-<h1 class="main-title main-title--desktop main-title--23" data-slide="23">2017</h1>
+<h1 class="main-title main-title--desktop main-title--23" data-slide="23">2016-17</h1>
 <MainText :slide="23">
 
 HEAD COACH  
@@ -473,7 +470,7 @@ Second round loss vs Cavaliers
 
 </MainText>
 
-<h1 class="main-title main-title--desktop main-title--24" data-slide="24">2018</h1>
+<h1 class="main-title main-title--desktop main-title--24" data-slide="24">2017-18</h1>
 <MainText :slide="24">
 
 HEAD COACH  
@@ -496,7 +493,7 @@ Second round loss vs Cavaliers
 </MainText>
 
 
-<h1 class="main-title main-title--desktop main-title--25" data-slide="25">2019</h1>
+<h1 class="main-title main-title--desktop main-title--25" data-slide="25">2018-19</h1>
 <MainText :slide="25">
 
 HEAD COACH  
