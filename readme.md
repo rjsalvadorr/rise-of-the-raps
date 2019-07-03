@@ -440,7 +440,7 @@ SEASON RECORD
 <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
 PLAYOFFS  
-Lost the Eastern Conference Finals vs. Cavaliers
+Lost Eastern Conference Finals vs. Cavaliers
 
 ---
 
@@ -461,7 +461,7 @@ SEASON RECORD
 <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
 
 PLAYOFFS  
-First round loss vs Cavaliers
+Second round loss vs Cavaliers
 
 ---
 
