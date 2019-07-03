@@ -1,8 +1,8 @@
 ////////////////////////////////////////////////////////////////////////////////
 ///// GLOBAL TEXT STYLES
 
-$heading-margin-top: 0.66rem;
-$heading-margin-bottom: 0.66rem;
+$heading-margin-top: 0;
+$heading-margin-bottom: 1rem;
 
 $body-font-size: 16px;
 $body-font-size-mobile: 14px;
@@ -38,16 +38,16 @@ div, span, p, a, li, ol, ul, {
 }
 
 p {
-  margin-top: $space-unit;
+  padding-bottom: $space-unit;
 }
 
 ol, ul {
-  margin-top: $space-unit;
-  padding-inline-start: $space-unit * 0.75;
+  padding-bottom: $space-unit;
+  padding-inline-start: $space-unit;
 }
 
 li {
-  margin-top: $space-unit * 0.75;
+  padding-bottom: $space-unit * 0.75;
 }
 
 h1, h2, h3, h4, h5, h6 {

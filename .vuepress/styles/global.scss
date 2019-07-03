@@ -25,6 +25,10 @@ code {
   border-radius: $border-radius;
 }
 
+hr {
+  margin-bottom: 20px;
+}
+
 .content-wrapper {
   padding-top: $space-unit;
   padding-right: $space-unit;
@@ -77,14 +81,12 @@ code {
     .text-wrapper {
       width: calc(33% - 20px);
       margin-left: 67%;
-    }
-    
-    .main-title {
-      text-align: left; 
+      padding-left: $space-unit;
     }
   }
 
   .main-title {
+    text-align: left;
     padding: 0 $space-unit;
 
     &--mobile {
@@ -95,8 +97,18 @@ code {
       display: block;
     }
   }
+
   .main-text {
     padding: 0 $space-unit;
+  }
+}
+
+/* Larger than laptop */
+@media (min-width: 1000px) {
+  .content-wrapper--home {
+    .text-wrapper {
+      padding-top: $space-unit * 3;
+    }
   }
 }
 

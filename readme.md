@@ -41,6 +41,8 @@ The world now knows that the Toronto Raptors are an awesome team.
 But they weren't always awesome.
 Let's see how they went from chumps to champs.
 
+---
+
 - Each slide shows key events for every Raptors season
 - The season summary shows the strength of each team (shown by size)
 - The season's champion is the largest circle, with a thicker trim
@@ -51,8 +53,13 @@ Let's see how they went from chumps to champs.
 <h1 class="main-title main-title--desktop main-title--2" data-slide="2">1996</h1>
 <MainText :slide="2">
 
-HEAD COACH: Brendan Malone  
-SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+HEAD COACH:  
+Brendan Malone  
+
+SEASON RECORD:  
+<span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+
+---
 
 - The NBA expands into Canada, and the Toronto Raptors are established alongside the Vancouver Grizzlies.
 - The Raptors do not do well in their inaugural season.
@@ -62,8 +69,13 @@ SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</
 <h1 class="main-title main-title--desktop main-title--3" data-slide="3">1997</h1>
 <MainText :slide="3">
 
-HEAD COACH: Darrell Walker  
-SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+HEAD COACH:  
+Darrell Walker  
+
+SEASON RECORD:  
+<span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+
+---
 
 - Ut eleifend lacus elit, ornare cursus nisi volutpat ac. Fusce diam quam, ultrices a lacus non, tempus tincidunt dolor.
 - Vestibulum a massa consectetur, ullamcorper dui et, viverra quam. Aliquam erat volutpat. Mauris interdum commodo dictum.
@@ -75,8 +87,13 @@ SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</
 <h1 class="main-title main-title--desktop main-title--4" data-slide="4">1998</h1>
 <MainText :slide="4">
 
-HEAD COACH: Darrell Walker  
-SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+HEAD COACH:  
+Darrell Walker  
+
+SEASON RECORD:  
+<span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+
+---
 
 - The worst season in Raptors history, by win-rate.
 - Aliquam vulputate turpis vel maximus venenatis. Aliquam erat volutpat. Aenean tempus commodo nisi consequat scelerisque. Suspendisse eu ex fermentum, euismod dolor non, tempus erat.
@@ -87,8 +104,13 @@ SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</
 <h1 class="main-title main-title--desktop main-title--5" data-slide="5">1999</h1>
 <MainText :slide="5">
 
-HEAD COACH: Butch Carter  
-SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+HEAD COACH:  
+Butch Carter  
+
+SEASON RECORD:  
+<span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+
+---
 
 - Etiam sit amet ipsum vitae dui pulvinar tempor eget semper nibh. Curabitur blandit volutpat purus.
 - In eget tincidunt sem. Mauris nulla diam, aliquet faucibus leo et, tincidunt sodales nulla.
@@ -101,9 +123,16 @@ SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</
 <h1 class="main-title main-title--desktop main-title--6" data-slide="6">2000</h1>
 <MainText :slide="6">
 
-HEAD COACH: Butch Carter  
-SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
-PLAYOFFS: First round exit vs Knicks
+HEAD COACH:  
+Butch Carter  
+
+SEASON RECORD:  
+<span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+
+PLAYOFFS:  
+First round loss vs. Knicks
+
+---
 
 - First playoffs appearance
 - Curabitur scelerisque sagittis justo at commodo. Pellentesque vitae velit neque. Proin erat sapien, pulvinar tincidunt sem sed
@@ -114,9 +143,16 @@ PLAYOFFS: First round exit vs Knicks
 <h1 class="main-title main-title--desktop main-title--7" data-slide="7">2001</h1>
 <MainText :slide="7">
 
-HEAD COACH: Lenny Wilkens  
-SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
-PLAYOFFS: ???
+HEAD COACH:  
+Lenny Wilkens  
+
+SEASON RECORD:  
+<span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+
+PLAYOFFS:  
+Second round loss vs. 76ers
+
+---
 
 - Curabitur a tempor elit. Proin vel facilisis nisl, non fermentum risus.
 - Quisque dictum, purus non fermentum iaculis, nibh magna porttitor enim, sit amettincidunt enim quam ultricies nisl.
@@ -127,9 +163,16 @@ PLAYOFFS: ???
 <h1 class="main-title main-title--desktop main-title--8" data-slide="8">2002</h1>
 <MainText :slide="8">
 
-HEAD COACH: Lenny Wilkens  
-SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
-PLAYOFFS: ???
+HEAD COACH:  
+Lenny Wilkens  
+
+SEASON RECORD:  
+<span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+
+PLAYOFFS:  
+First round loss vs. Pistons
+
+---
 
 - Praesent pretium id justo sit amet mollis. Phasellus imperdiet diam dolor, ullamcorper dignissim sapien porta eu.
 - Donec gravida sapien quis porta semper. Proin eu nunc diam. Donec ligula mi, faucibus et porttitor rutrum, semper et ante.
@@ -141,8 +184,13 @@ PLAYOFFS: ???
 <h1 class="main-title main-title--desktop main-title--9" data-slide="9">2003</h1>
 <MainText :slide="9">
 
-HEAD COACH: Lenny Wilkens  
-SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+HEAD COACH:  
+Lenny Wilkens  
+
+SEASON RECORD:  
+<span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+
+---
 
 - Maecenas imperdiet sagittis enim, a posuere dolor lobortis vitae.
 - Quisque elit ipsum, tempor sed semper vitae, elementum id libero.
@@ -155,8 +203,14 @@ SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</
 <h1 class="main-title main-title--desktop main-title--10" data-slide="10">2004</h1>
 <MainText :slide="10">
 
-HEAD COACH: Kevin O'Neill  
-SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+HEAD COACH:  
+Kevin O'Neill
+
+
+SEASON RECORD:  
+<span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+
+---
 
 - Etiam sit amet sapien sed urna aliquam rutrum. Donec laoreet, arcu tempor viverra ullamcorper, ante mauris semper erat, et pharetra tellus nulla vitae nulla.
 - Aliquam vulputate turpis vel maximus venenatis. Aliquam erat volutpat. Aenean tempus commodo nisi consequat scelerisque. Suspendisse eu ex fermentum, euismod dolor non, tempus erat.
@@ -167,8 +221,13 @@ SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</
 <h1 class="main-title main-title--desktop main-title--11" data-slide="11">2005</h1>
 <MainText :slide="11">
 
-HEAD COACH: Sam Mitchell  
-SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+HEAD COACH:  
+Sam Mitchell  
+
+SEASON RECORD:  
+<span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+
+---
 
 - Ut eleifend lacus elit, ornare cursus nisi volutpat ac. Fusce diam quam, ultrices a lacus non, tempus tincidunt dolor.
 - Vestibulum a massa consectetur, ullamcorper dui et, viverra quam. Aliquam erat volutpat. Mauris interdum commodo dictum.
@@ -180,8 +239,13 @@ SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</
 <h1 class="main-title main-title--desktop main-title--12" data-slide="12">2006</h1>
 <MainText :slide="12">
 
-HEAD COACH: Sam Mitchell  
-SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+HEAD COACH:  
+Sam Mitchell  
+
+SEASON RECORD:  
+<span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+
+---
 
 - Praesent pretium id justo sit amet mollis. Phasellus imperdiet diam dolor, ullamcorper dignissim sapien porta eu.
 - Donec gravida sapien quis porta semper. Proin eu nunc diam. Donec ligula mi, faucibus et porttitor rutrum, semper et ante.
@@ -193,9 +257,16 @@ SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</
 <h1 class="main-title main-title--desktop main-title--13" data-slide="13">2007</h1>
 <MainText :slide="13">
 
-HEAD COACH: Sam Mitchell  
-SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
-PLAYOFFS: ???
+HEAD COACH:  
+Sam Mitchell  
+
+SEASON RECORD:  
+<span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+
+PLAYOFFS:  
+First round loss vs Nets
+
+---
 
 - Playoffs! Neat!
 - Morbi vitae dolor in ligula finibus finibus. Donec varius lobortis lectus et feugiat.
@@ -207,9 +278,16 @@ PLAYOFFS: ???
 <h1 class="main-title main-title--desktop main-title--14" data-slide="14">2008</h1>
 <MainText :slide="14">
 
-HEAD COACH: Sam Mitchell  
-SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
-PLAYOFFS: ???
+HEAD COACH:  
+Sam Mitchell  
+
+SEASON RECORD:  
+<span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+
+PLAYOFFS:  
+First round loss vs Magic
+
+---
 
 - Morbi velit elit, condimentum in est eget, aliquam ornare arcu.
 - Pellentesque aliquam lobortis odio sed laoreet. Aenean nisl sapien, elementum sed efficitur et, finibus non orci.
@@ -222,8 +300,13 @@ PLAYOFFS: ???
 <h1 class="main-title main-title--desktop main-title--15" data-slide="15">2009</h1>
 <MainText :slide="15">
 
-HEAD COACH: Sam Mitchell, Jay Triano  
-SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+HEAD COACH:  
+Sam Mitchell, Jay Triano  
+
+SEASON RECORD:  
+<span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+
+---
 
 - Maecenas imperdiet sagittis enim, a posuere dolor lobortis vitae.
 - Quisque elit ipsum, tempor sed semper vitae, elementum id libero.
@@ -236,8 +319,13 @@ SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</
 <h1 class="main-title main-title--desktop main-title--16" data-slide="16">2010</h1>
 <MainText :slide="16">
 
-HEAD COACH: Jay Triano  
-SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+HEAD COACH:  
+Jay Triano  
+
+SEASON RECORD:  
+<span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+
+---
 
 - Ut eleifend lacus elit, ornare cursus nisi volutpat ac. Fusce diam quam, ultrices a lacus non, tempus tincidunt dolor.
 - Vestibulum a massa consectetur, ullamcorper dui et, viverra quam. Aliquam erat volutpat. Mauris interdum commodo dictum.
@@ -249,8 +337,13 @@ SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</
 <h1 class="main-title main-title--desktop main-title--17" data-slide="17">2011</h1>
 <MainText :slide="17">
 
-HEAD COACH: Jay Triano  
-SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+HEAD COACH:  
+Jay Triano  
+
+SEASON RECORD:  
+<span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+
+---
 
 - Integer imperdiet venenatis pulvinar. Morbi ac molestie felis.
 - Morbi vitae dolor in ligula finibus finibus. Donec varius lobortis lectus et feugiat.
@@ -262,8 +355,13 @@ SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</
 <h1 class="main-title main-title--desktop main-title--18" data-slide="18">2012</h1>
 <MainText :slide="18">
 
-HEAD COACH: Dwane Casey  
-SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+HEAD COACH:  
+Dwane Casey  
+
+SEASON RECORD:  
+<span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+
+---
 
 - Ut eleifend lacus elit, ornare cursus nisi volutpat ac. Fusce diam quam, ultrices a lacus non, tempus tincidunt dolor.
 - Vestibulum a massa consectetur, ullamcorper dui et, viverra quam. Aliquam erat volutpat. Mauris interdum commodo dictum.
@@ -275,8 +373,13 @@ SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</
 <h1 class="main-title main-title--desktop main-title--19" data-slide="19">2013</h1>
 <MainText :slide="19">
 
-HEAD COACH: Dwane Casey  
-SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+HEAD COACH:  
+Dwane Casey  
+
+SEASON RECORD:  
+<span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+
+---
 
 - Morbi velit elit, condimentum in est eget, aliquam ornare arcu.
 - Pellentesque aliquam lobortis odio sed laoreet. Aenean nisl sapien, elementum sed efficitur et, finibus non orci.
@@ -289,12 +392,18 @@ SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</
 <h1 class="main-title main-title--desktop main-title--20" data-slide="20">2014</h1>
 <MainText :slide="20">
 
-HEAD COACH: Dwane Casey  
-SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
-PLAYOFFS: ???
+HEAD COACH:  
+Dwane Casey  
+
+SEASON RECORD:  
+<span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+
+PLAYOFFS:  
+First round loss vs. Nets
+
+---
 
 - The Raptors finally return to the Playoffs
-- Quisque elit ipsum, tempor sed semper vitae, elementum id libero.
 - Phasellus rhoncus, ex eu bibendum auctor, metus quam porta tortor, a iaculis eros orci ac dolor.
 - Integer laoreet venenatis dui, quis viverra nulla pulvinar sed. Donec augue nulla, cursus nec ligula nec, dignissim consectetur diam.
 - Suspendisse ac nisl malesuada, viverra velit vitae, tincidunt ex.
@@ -304,9 +413,16 @@ PLAYOFFS: ???
 <h1 class="main-title main-title--desktop main-title--21" data-slide="21">2015</h1>
 <MainText :slide="21">
 
-HEAD COACH: Dwane Casey  
-SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
-PLAYOFFS: ???
+HEAD COACH:  
+Dwane Casey  
+
+SEASON RECORD:  
+<span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+
+PLAYOFFS:  
+First round loss vs. Wizards
+
+---
 
 - Etiam eget elementum lorem. Aenean gravida tempus ex, sit amet dictum sapien semper sed.
 - Nunc hendrerit ligula dictum, sollicitudin neque ut, semper risus.
@@ -317,11 +433,18 @@ PLAYOFFS: ???
 <h1 class="main-title main-title--desktop main-title--22" data-slide="22">2016</h1>
 <MainText :slide="22">
 
-HEAD COACH: Dwane Casey  
-SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
-PLAYOFFS: ???
+HEAD COACH:  
+Dwane Casey  
 
-- Integer imperdiet venenatis pulvinar. Morbi ac molestie felis.
+SEASON RECORD:  
+<span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+
+PLAYOFFS:  
+Lost the Eastern Conference Finals vs. Cavaliers
+
+---
+
+- First-ever ECF appearance for the Raptors
 - Morbi vitae dolor in ligula finibus finibus. Donec varius lobortis lectus et feugiat.
 - Praesent pellentesque tortor eget molestie sollicitudin. Fusce nec velit non arcu blandit ornare non eu nisi.
 - Donec sollicitudin, urna ut egestas varius, orci velit pretium justo, a vestibulum sapien ligula vel ligula.
@@ -331,9 +454,16 @@ PLAYOFFS: ???
 <h1 class="main-title main-title--desktop main-title--23" data-slide="23">2017</h1>
 <MainText :slide="23">
 
-HEAD COACH: Dwane Casey  
-SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
-PLAYOFFS: ???
+HEAD COACH:  
+Dwane Casey  
+
+SEASON RECORD:  
+<span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+
+PLAYOFFS:  
+First round loss vs Bucks
+
+---
 
 - Maecenas imperdiet sagittis enim, a posuere dolor lobortis vitae.
 - Quisque elit ipsum, tempor sed semper vitae, elementum id libero.
@@ -346,9 +476,16 @@ PLAYOFFS: ???
 <h1 class="main-title main-title--desktop main-title--24" data-slide="24">2018</h1>
 <MainText :slide="24">
 
-HEAD COACH: Dwane Casey  
-SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
-PLAYOFFS: ???
+HEAD COACH:  
+Dwane Casey  
+
+SEASON RECORD:  
+<span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+
+PLAYOFFS:  
+First round loss vs Wizards
+
+---
 
 - Cras gravida mauris mi, a iaculis diam auctor ut. Pellentesque laoreet tortor viverra dictum egestas.
 - Nullam feugiat ligula vel commodo imperdiet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
@@ -362,9 +499,16 @@ PLAYOFFS: ???
 <h1 class="main-title main-title--desktop main-title--25" data-slide="25">2019</h1>
 <MainText :slide="25">
 
-HEAD COACH: Nick Nurse  
-SEASON RECORD: <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
-PLAYOFFS: Won the NBA championship
+HEAD COACH:  
+Nick Nurse  
+
+SEASON RECORD:  
+<span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
+
+PLAYOFFS:  
+Won the NBA Finals
+
+---
 
 - WE THE CHAMPS, BETCH
 - Pellentesque aliquam lobortis odio sed laoreet. Aenean nisl sapien, elementum sed efficitur et, finibus non orci.
