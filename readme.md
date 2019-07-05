@@ -131,12 +131,12 @@ First round loss vs. Knicks
 
 ---
 
-- The Raptors make the playoffs for the first time.
 - Vince Carter becomes the first Raptor to play in the All-Star game.
 - The NBA brings back the Slam Dunk Contest this season. Vince Carter and Tracy McGrady compete,
-with Carter winning in a now legendary contest. Carter's thunderous dunks revitalize the NBA dunk contest,  
+with Carter winning in a now legendary contest. Carter's thunderous dunks revitalize the NBA dunk contest, 
 and _"Vinsanity"_ takes over the city of Toronto.
-- The Raptors suffer a sweep by the Knicks. Butch Carter is fired, and replaced by **Lenny Wilkens**.
+- The Raptors make the playoffs for the first time.
+- The Raptors exit the playoffs for the first time, by suffering a sweep from the Knicks. Butch Carter is then fired, and replaced by **Lenny Wilkens**.
 - Tracy McGrady leaves Toronto, and signs with the Orlando Magic.
 
 </MainText>
@@ -155,7 +155,7 @@ Second round loss vs. 76ers
 
 ---
 
-- The Raptors win their first ever playoff series, beating the Knicks in game of the first round.
+- The Raptors win their first ever playoff series, beating the Knicks in game 5 of the first round.
 - Vince Carter misses the final shot in game 7 of the second round (vs. 76ers). This playoffs run becomes the team's
 deepest run for many years, and the Raps will not surpass this point until the 2015-16 season.
 - The Vancouver Grizzlies move to Memphis, making the Raptors the only NBA team in Canada.
