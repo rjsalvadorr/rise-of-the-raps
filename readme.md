@@ -46,7 +46,6 @@ Let's see how they went from chumps to champs.
 - Each slide shows key events for every Raptors season
 - The season summary shows the strength of each team (shown by size)
 - The season's champion is the largest circle, with a thicker trim
-- Teams that didn't make the playoffs are shown in faded colours
 
 </MainText>
 
@@ -78,7 +77,7 @@ SEASON RECORD
 
 ---
 
-- Darrell Walker (one of Brendan Malone's assistant coaches) becomes head coach.
+- Assistant coach Darrell Walker takes over as head coach.
 - The NBA season starts in Toronto, to commemorate the league's 50th anniversary (the first ever NBA game was played in Toronto).
 
 </MainText>

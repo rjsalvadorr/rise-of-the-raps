@@ -18,6 +18,19 @@ import SeasonStats from "../utils/season-stats";
 import LeftArrow from "./LeftArrow.vue";
 import RightArrow from "./RightArrow.vue";
 
+const getTeamOpacity = (teamAbbrev, isText) => {
+  if(teamAbbrev === "TOR") {
+    return 1;
+  } else {
+    if(isText) {
+      return 0.4;
+    }
+    else {
+      return 0.3;
+    }
+  }
+}
+
 export default {
   name: 'Graphic',
   data: function() {
@@ -172,14 +185,7 @@ export default {
           return `#${d.data.colours.bg}`
         })
         .attr("opacity", function(d) {
-          if(d.data.playoffs) {
-            return 1;
-          } else {
-            if(d.data.teamAbbrev === "TOR") {
-              return 0.4;
-            }
-            return 0.25;
-          }
+          return getTeamOpacity(d.data.teamAbbrev);
         })
         .attr("cx", function (d) { return d.x; })
         .attr("cy", function (d) { return d.y; });
@@ -192,14 +198,7 @@ export default {
           return `#${d.data.colours.text}`
         })
         .attr("opacity", function(d) {
-          if(d.data.playoffs) {
-            return 1;
-          } else {
-            if(d.data.teamAbbrev === "TOR") {
-              return 0.4;
-            }
-            return 0.25;
-          }
+          return getTeamOpacity(d.data.teamAbbrev, true);
         })
         .style("font-size", function (d) {
           return `${ d.r / 1.33 }px`;
@@ -231,14 +230,7 @@ export default {
           return `#${d.data.colours.bg}`
         })
         .attr("opacity", function(d) {
-          if(d.data.playoffs) {
-            return 1;
-          } else {
-            if(d.data.teamAbbrev === "TOR") {
-              return 0.4;
-            }
-            return 0.25;
-          }
+          return getTeamOpacity(d.data.teamAbbrev);
         })
         .attr("class", function (d) {
           const champMod = d.data.champion ? 'circle--champion' : '';
@@ -266,14 +258,7 @@ export default {
         })
         .transition(t)
         .attr("opacity", function(d) {
-          if(d.data.playoffs) {
-            return 1;
-          } else {
-            if(d.data.teamAbbrev === "TOR") {
-              return 0.4;
-            }
-            return 0.25;
-          }
+          return getTeamOpacity(d.data.teamAbbrev, true);
         });
     }
   },
