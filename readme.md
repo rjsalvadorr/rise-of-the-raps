@@ -61,8 +61,8 @@ SEASON RECORD
 ---
 
 - The NBA expands into Canada, and the Toronto Raptors are established alongside the Vancouver Grizzlies.
-- Damon Stoudamire, the Raptors' first ever draft pick (7th overall), is named Rookie of the Year.
-- Brendan Malone is fired after the season.
+- **Damon Stoudamire**, the Raptors' first ever draft pick (7th overall), is named Rookie of the Year.
+- **Brendan Malone** is fired after the season.
 
 </MainText>
 
@@ -77,7 +77,7 @@ SEASON RECORD
 
 ---
 
-- Assistant coach Darrell Walker takes over as head coach.
+- Assistant coach **Darrell Walker** takes over as head coach.
 - The NBA season starts in Toronto, to commemorate the league's 50th anniversary (the first ever NBA game was played in Toronto).
 
 </MainText>
@@ -93,7 +93,7 @@ SEASON RECORD
 
 ---
 
-- The Raptors draft Tracy McGrady (9th overall).
+- The Raptors draft **Tracy McGrady** (9th overall).
 - In February, the Raptors trade Damon Stoudamire to the Portland Trail Blazers.
 - Due to the trade, Darrell Walker resigns as head coach. Assistant coach Butch Carter takes over the role.
 - The worst season record in Raptors history.
@@ -111,8 +111,9 @@ SEASON RECORD
 
 ---
 
-- Raptors make draft-day deal to acquire Vince Carter from the Golden State Warriors.
+- Raptors make draft-day deal to acquire McGrady's distant cousin **Vince Carter** from the Golden State Warriors.  
 - In February, the team moves from the SkyDome to the Air Canada Centre.
+- Carter is named Rookie of the Year at the end of the season.
 
 </MainText>
 
@@ -130,9 +131,13 @@ First round loss vs. Knicks
 
 ---
 
-- First playoffs appearance
-- Curabitur scelerisque sagittis justo at commodo. Pellentesque vitae velit neque. Proin erat sapien, pulvinar tincidunt sem sed
-- Auctor pharetra neque. Nam id pretium enim. Suspendisse rutrum ligula ac mi auctor mattis.
+- The Raptors make the playoffs for the first time.
+- Vince Carter becomes the first Raptor to play in the All-Star game.
+- The NBA brings back the Slam Dunk Contest this season. Vince Carter and Tracy McGrady compete,
+with Carter winning in a now legendary contest. Carter's thunderous dunks revitalize the NBA dunk contest,  
+and _"Vinsanity"_ takes over the city of Toronto.
+- The Raptors suffer a sweep by the Knicks. Butch Carter is fired, and replaced by **Lenny Wilkens**.
+- Tracy McGrady leaves Toronto, and signs with the Orlando Magic.
 
 </MainText>
 
@@ -150,9 +155,10 @@ Second round loss vs. 76ers
 
 ---
 
-- Curabitur a tempor elit. Proin vel facilisis nisl, non fermentum risus.
-- Quisque dictum, purus non fermentum iaculis, nibh magna porttitor enim, sit amettincidunt enim quam ultricies nisl.
-- Nulla maximus laoreet rhoncus. Vivamus a libero lorem. Vestibulum nec tincidunt justo.
+- The Raptors win their first ever playoff series, beating the Knicks in game of the first round.
+- Vince Carter misses the final shot in game 7 of the second round (vs. 76ers). This playoffs run becomes the team's
+deepest run for many years, and the Raps will not surpass this point until the 2015-16 season.
+- The Vancouver Grizzlies move to Memphis, making the Raptors the only NBA team in Canada.
 
 </MainText>
 

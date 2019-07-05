@@ -23,10 +23,10 @@ const getTeamOpacity = (teamAbbrev, isText) => {
     return 1;
   } else {
     if(isText) {
-      return 0.4;
+      return 0.5;
     }
     else {
-      return 0.3;
+      return 0.2;
     }
   }
 }
