@@ -37,15 +37,14 @@ category: home
 <h1 class="main-title main-title--desktop main-title--1" data-slide="1">Rise of the Raptors</h1>
 <MainText :slide="1">
 
-The world now knows that the Toronto Raptors are an awesome team.
-But they weren't always awesome.
-Let's see how they went from chumps to champs.
+The National Basketball Association has finally produced its first Canadian champion.
+
+The ascent of the Toronto Raptors to the Larry O'Brien Championship Trophy has been 24 seasons in the making. Follow along to see the history of the franchise, from its humbling early seasons, through the ebbs and flows of the eras of superstars like Vince Carter and Chris Bosh, and finally, to Kawhi Leonard and his legendary 2018-19 squad.
 
 ---
 
 - Each slide shows key events for every Raptors season
-- The season summary shows the strength of each team (shown by size)
-- The season's champion is the largest circle, with a thicker trim
+- The season summary shows the relative strength of each team (shown by size)
 
 </MainText>
 
@@ -93,10 +92,10 @@ SEASON RECORD
 
 ---
 
-- The Raptors draft **Tracy McGrady** (9th overall).
-- In February, the Raptors trade Damon Stoudamire to the Portland Trail Blazers.
+- In the 1997 draft, the Raptors draft **Tracy McGrady** (9th overall).
+- Later in the season, the Raptors trade Damon Stoudamire to the Portland Trail Blazers.
 - Due to the trade, Darrell Walker resigns as head coach. Assistant coach Butch Carter takes over the role.
-- The worst season record in Raptors history.
+- This team finishes with worst season record in Raptors history.
 
 </MainText>
 
@@ -111,7 +110,7 @@ SEASON RECORD
 
 ---
 
-- Raptors make draft-day deal to acquire McGrady's distant cousin **Vince Carter** from the Golden State Warriors.  
+- The Raptors make a draft-day deal to acquire McGrady's distant cousin **Vince Carter** from the Golden State Warriors.  
 - In February, the team moves from the SkyDome to the Air Canada Centre.
 - Carter is named Rookie of the Year at the end of the season.
 
@@ -176,10 +175,8 @@ First round loss vs. Pistons
 
 ---
 
-- Praesent pretium id justo sit amet mollis. Phasellus imperdiet diam dolor, ullamcorper dignissim sapien porta eu.
-- Donec gravida sapien quis porta semper. Proin eu nunc diam. Donec ligula mi, faucibus et porttitor rutrum, semper et ante.
-- Quisque elementum feugiat arcu, condimentum convallis mi.
-- Quisque varius, diam in vehicula ornare, ante ipsum imperdiet dolor, vel vehicula lacus urna non ipsum.
+- **Hakeem Olajuwon** joins the Raptors for his final season in the NBA.
+- The Raptors clinch a playoff spot on the last day of the regular season.
 
 </MainText>
 
@@ -187,7 +184,7 @@ First round loss vs. Pistons
 <MainText :slide="9">
 
 HEAD COACH  
-Lenny Wilkens  
+Lenny Wilkens, Kevin O'Neill  
 
 SEASON RECORD  
 <span class="text-wins">??</span>W-<span class="text-losses">??</span>L (<span class="text-winrate">??</span>)  
@@ -206,7 +203,7 @@ SEASON RECORD
 <MainText :slide="10">
 
 HEAD COACH  
-Kevin O'Neill
+Kevin O'Neill, Sam Mitchell
 
 
 SEASON RECORD  
@@ -214,9 +211,8 @@ SEASON RECORD
 
 ---
 
-- Etiam sit amet sapien sed urna aliquam rutrum. Donec laoreet, arcu tempor viverra ullamcorper, ante mauris semper erat, et pharetra tellus nulla vitae nulla.
-- Aliquam vulputate turpis vel maximus venenatis. Aliquam erat volutpat. Aenean tempus commodo nisi consequat scelerisque. Suspendisse eu ex fermentum, euismod dolor non, tempus erat.
-- Nulla at blandit leo. Nam lorem neque, dapibus sit amet condimentum non, elementum eu leo. Proin eleifend nisl vel neque egestas, a lobortis tortor dapibus.
+- The Raptors select **Chris Bosh** (4th overall) in the 2003 draft. 
+- Kevin O'Neill is fired as head coach and replaced by **Sam Mitchell**.
 
 </MainText>
 
@@ -231,10 +227,7 @@ SEASON RECORD
 
 ---
 
-- Ut eleifend lacus elit, ornare cursus nisi volutpat ac. Fusce diam quam, ultrices a lacus non, tempus tincidunt dolor.
-- Vestibulum a massa consectetur, ullamcorper dui et, viverra quam. Aliquam erat volutpat. Mauris interdum commodo dictum.
-- Donec blandit vestibulum nisl, nec tempus ex lobortis id. Quisque euismod placerat purus et maximus.
-- Vivamus eget finibus ante. Aliquam id libero fermentum, mattis leo quis, pretium metus. 
+- The _Vinsanity_ era ends, as Vince Carter is traded to the New Jersey Nets.
 
 </MainText>
 
@@ -249,10 +242,8 @@ SEASON RECORD
 
 ---
 
-- Praesent pretium id justo sit amet mollis. Phasellus imperdiet diam dolor, ullamcorper dignissim sapien porta eu.
-- Donec gravida sapien quis porta semper. Proin eu nunc diam. Donec ligula mi, faucibus et porttitor rutrum, semper et ante.
-- Quisque elementum feugiat arcu, condimentum convallis mi.
-- Quisque varius, diam in vehicula ornare, ante ipsum imperdiet dolor, vel vehicula lacus urna non ipsum.
+- Jan 22 2006: The Lakers visit Toronto, and Kobe Bryant scores an eye-popping 81 points against the Raptors.
+- GM Rob Babcock is fired and replaced by **Bryan Colangelo**.
 
 </MainText>
 
@@ -270,10 +261,10 @@ First round loss vs Nets
 
 ---
 
-- Playoffs! Neat!
-- Morbi vitae dolor in ligula finibus finibus. Donec varius lobortis lectus et feugiat.
-- Praesent pellentesque tortor eget molestie sollicitudin. Fusce nec velit non arcu blandit ornare non eu nisi.
-- Donec sollicitudin, urna ut egestas varius, orci velit pretium justo, a vestibulum sapien ligula vel ligula.
+- The Raptors get first pick in the 2006 draft. With this pick, the Raps select future draft bust **Andrea Bargnani**.
+- The Raps return to the playoffs, and lose to Vince Carter and the Nets in game 6 of the first round.
+- Sam Mitchell is named Coach of the Year.
+- Raptors GM Bryan Colangelo is named Executive of the Year.
 
 </MainText>
 
@@ -310,11 +301,7 @@ SEASON RECORD
 
 ---
 
-- Maecenas imperdiet sagittis enim, a posuere dolor lobortis vitae.
-- Quisque elit ipsum, tempor sed semper vitae, elementum id libero.
-- Phasellus rhoncus, ex eu bibendum auctor, metus quam porta tortor, a iaculis eros orci ac dolor.
-- Integer laoreet venenatis dui, quis viverra nulla pulvinar sed. Donec augue nulla, cursus nec ligula nec, dignissim consectetur diam.
-- Suspendisse ac nisl malesuada, viverra velit vitae, tincidunt ex.
+- Coach Mitchell is fired and replaced by Jay Triano.
 
 </MainText>
 
@@ -329,10 +316,9 @@ SEASON RECORD
 
 ---
 
-- Ut eleifend lacus elit, ornare cursus nisi volutpat ac. Fusce diam quam, ultrices a lacus non, tempus tincidunt dolor.
-- Vestibulum a massa consectetur, ullamcorper dui et, viverra quam. Aliquam erat volutpat. Mauris interdum commodo dictum.
-- Donec blandit vestibulum nisl, nec tempus ex lobortis id. Quisque euismod placerat purus et maximus.
-- Vivamus eget finibus ante. Aliquam id libero fermentum, mattis leo quis, pretium metus. 
+- With the 9th pick in the 2009 draft, the Raptors select **DeMar DeRozan**.
+- Chris Bosh suffers a season-ending injury (facial fractures) in a game vs. the Cavaliers late in the season.
+- After the season, Chris Bosh signs with the Miami Heat and joins LeBron James and Dwyane Wade.
 
 </MainText>
 
@@ -347,10 +333,7 @@ SEASON RECORD
 
 ---
 
-- Integer imperdiet venenatis pulvinar. Morbi ac molestie felis.
-- Morbi vitae dolor in ligula finibus finibus. Donec varius lobortis lectus et feugiat.
-- Praesent pellentesque tortor eget molestie sollicitudin. Fusce nec velit non arcu blandit ornare non eu nisi.
-- Donec sollicitudin, urna ut egestas varius, orci velit pretium justo, a vestibulum sapien ligula vel ligula.
+- After the season, head coach Jay Triano is replaced by Dwane Casey. Casey will become the longest-serving head coach in Raptors history, and lays some of the foundations for the team's first championship.
 
 </MainText>
 
@@ -365,10 +348,7 @@ SEASON RECORD
 
 ---
 
-- Ut eleifend lacus elit, ornare cursus nisi volutpat ac. Fusce diam quam, ultrices a lacus non, tempus tincidunt dolor.
-- Vestibulum a massa consectetur, ullamcorper dui et, viverra quam. Aliquam erat volutpat. Mauris interdum commodo dictum.
-- Donec blandit vestibulum nisl, nec tempus ex lobortis id. Quisque euismod placerat purus et maximus.
-- Vivamus eget finibus ante. Aliquam id libero fermentum, mattis leo quis, pretium metus. 
+- In the 2011 draft, the Raptors draft **Jonas Valančiūnas** with the 5th overall pick.
 
 </MainText>
 
@@ -383,11 +363,8 @@ SEASON RECORD
 
 ---
 
-- Morbi velit elit, condimentum in est eget, aliquam ornare arcu.
-- Pellentesque aliquam lobortis odio sed laoreet. Aenean nisl sapien, elementum sed efficitur et, finibus non orci.
-- Praesent iaculis eu leo in ultricies. Donec eu luctus lorem, pretium vestibulum quam.
-- Vivamus gravida, lectus ac pretium hendrerit, dui dolor sagittis libero, in vehicula velit lacus eu quam.
-- Sed vestibulum tellus eu metus pharetra commodo. Nam euismod sed nisl eget semper.
+- In the offseason, the Raptors acquire **Kyle Lowry** from a trade with the Houston Rockets. Lowry and DeRozan begin to develop one of the greatest bromances in NBA history.
+- At the end of the season, GM Bryan Colangelo is replaced by Nuggets GM **Masai Ujiri**, the future architect of the Raptors' first championship team.
 
 </MainText>
 
@@ -405,10 +382,10 @@ First round loss vs. Nets
 
 ---
 
-- The Raptors finally return to the Playoffs
-- Phasellus rhoncus, ex eu bibendum auctor, metus quam porta tortor, a iaculis eros orci ac dolor.
-- Integer laoreet venenatis dui, quis viverra nulla pulvinar sed. Donec augue nulla, cursus nec ligula nec, dignissim consectetur diam.
-- Suspendisse ac nisl malesuada, viverra velit vitae, tincidunt ex.
+- Drake is named the Raptors' Global Ambassador.
+- The "WE THE NORTH" marketing campaign is launched.
+- The Raptors return to the playoffs again. Before game one of the Raptors-Nets series, Masai Ujiri addresses a crowd of fans in Jurassic Park and ends his speech by yelling "F--K BROOKLYN!". The NBA slaps a
+$25,000 fine on Ujiri for hyping up the home crowd.
 
 </MainText>
 
@@ -446,10 +423,8 @@ Lost Eastern Conference Finals vs. Cavaliers
 
 ---
 
-- First-ever ECF appearance for the Raptors
-- Morbi vitae dolor in ligula finibus finibus. Donec varius lobortis lectus et feugiat.
-- Praesent pellentesque tortor eget molestie sollicitudin. Fusce nec velit non arcu blandit ornare non eu nisi.
-- Donec sollicitudin, urna ut egestas varius, orci velit pretium justo, a vestibulum sapien ligula vel ligula.
+- For the first time ever, the Raptors host the NBA All-Star game.
+- The Raptors make the Eastern Conference Finals for the first time. They lose in game 6 vs. LeBron James and the Cavaliers.
 
 </MainText>
 
@@ -489,11 +464,7 @@ Second round loss vs Cavaliers
 
 ---
 
-- Cras gravida mauris mi, a iaculis diam auctor ut. Pellentesque laoreet tortor viverra dictum egestas.
-- Nullam feugiat ligula vel commodo imperdiet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-- In mauris ligula, dapibus eget fermentum at, maximus quis erat.
-- Mauris arcu eros, posuere et justo vel, elementum commodo odio.
-- Fusce mollis metus ac convallis molestie. Morbi et leo vitae arcu tristique vestibulum.
+- In the offseason, Dwane Casey is named Coach of the Year. The award doesn't help with job security, since he gets fired pretty soon.
 
 </MainText>
 
@@ -512,10 +483,9 @@ Won the NBA Finals
 
 ---
 
-- WE THE CHAMPS, BETCH
-- Pellentesque aliquam lobortis odio sed laoreet. Aenean nisl sapien, elementum sed efficitur et, finibus non orci.
-- Praesent iaculis eu leo in ultricies. Donec eu luctus lorem, pretium vestibulum quam.
-- Vivamus gravida, lectus ac pretium hendrerit, dui dolor sagittis libero, in vehicula velit lacus eu quam.
-- Sed vestibulum tellus eu metus pharetra commodo. Nam euismod sed nisl eget semper.
+- In a surprising move, the Raptors trade franchise hero DeMar DeRozan and young centre Jakob Poeltl to the Spurs for superstar **Kawhi Leonard** and **Danny Green**.
+- The team fires Dwane Casey (who is Coach of the Year) and replace him with assistant coach **Nick Nurse**.
+- The roster shake-ups continue, with the Raptors trading Jonas Valančiūnas, Delon Wright, and C.J. Miles for **Marc Gasol**. Free agent **Jeremy Lin** also signs with the team.
+- WE THE CHAMPS, BETCH.
 
 </MainText>
