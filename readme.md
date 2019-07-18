@@ -333,7 +333,7 @@ SEASON RECORD
 
 ---
 
-- After the season, head coach Jay Triano is replaced by Dwane Casey. Casey will become the longest-serving head coach in Raptors history, and lays some of the foundations for the team's first championship.
+- After the season, head coach Jay Triano is replaced by Dwane Casey, who will become the longest-serving head coach in Raptors history.
 
 </MainText>
 
@@ -384,8 +384,11 @@ First round loss vs. Nets
 
 - Drake is named the Raptors' Global Ambassador.
 - The "WE THE NORTH" marketing campaign is launched.
-- The Raptors return to the playoffs again. Before game one of the Raptors-Nets series, Masai Ujiri addresses a crowd of fans in Jurassic Park and ends his speech by yelling "F--K BROOKLYN!". The NBA slaps a
-$25,000 fine on Ujiri for hyping up the home crowd.
+- The Raptors return to the playoffs again. Before game one of the Raptors-Nets
+series, Masai Ujiri addresses a crowd of fans in Jurassic Park and ends his
+speech by yelling "F--K BROOKLYN!". The NBA slaps a $25,000 fine on Ujiri for
+hyping up the home crowd.
+- The team gets bounced by the Nets in game 7 of their series.
 
 </MainText>
 
@@ -403,9 +406,7 @@ First round loss vs. Wizards
 
 ---
 
-- Etiam eget elementum lorem. Aenean gravida tempus ex, sit amet dictum sapien semper sed.
-- Nunc hendrerit ligula dictum, sollicitudin neque ut, semper risus.
-- Nullam consectetur vulputate felis, interdum dictum tortor molestie blandit..
+- The Raptors return to the playoffs again, and are swept by the Wizards in the first round.
 
 </MainText>
 
@@ -424,7 +425,9 @@ Lost Eastern Conference Finals vs. Cavaliers
 ---
 
 - For the first time ever, the Raptors host the NBA All-Star game.
-- The Raptors make the Eastern Conference Finals for the first time. They lose in game 6 vs. LeBron James and the Cavaliers.
+- In the playoffs, the Raps move past the Pacers (7 games), and the Heat (7 games).
+- The Raptors make the Eastern Conference Finals for the first time, where they lose in game 6 vs.
+LeBron James and the Cavaliers.
 
 </MainText>
 
@@ -442,11 +445,8 @@ Second round loss vs Cavaliers
 
 ---
 
-- Maecenas imperdiet sagittis enim, a posuere dolor lobortis vitae.
-- Quisque elit ipsum, tempor sed semper vitae, elementum id libero.
-- Phasellus rhoncus, ex eu bibendum auctor, metus quam porta tortor, a iaculis eros orci ac dolor.
-- Integer laoreet venenatis dui, quis viverra nulla pulvinar sed. Donec augue nulla, cursus nec ligula nec, dignissim consectetur diam.
-- Suspendisse ac nisl malesuada, viverra velit vitae, tincidunt ex.
+- In the playoffs, the Raps beat the Bucks (6 games), and meet the Cavaliers in the second round.
+LeBron & co. promptly sweep the team.
 
 </MainText>
 
@@ -464,7 +464,11 @@ Second round loss vs Cavaliers
 
 ---
 
-- In the offseason, Dwane Casey is named Coach of the Year. The award doesn't help with job security, since he gets fired pretty soon.
+- In the playoffs, the Raps eliminate the Wizards in the first round. In the
+second round, the team falls to LeBron James and the Cavs yet again. Toronto is
+dubbed LeBronto by basketball media and trolls.
+- In the offseason, Dwane Casey is named Coach of the Year.
+- Soon after winning COTY, the team fires Dwane Casey and replaces him with assistant coach **Nick Nurse**.
 
 </MainText>
 
@@ -483,9 +487,9 @@ Won the NBA Finals
 
 ---
 
-- In a surprising move, the Raptors trade franchise hero DeMar DeRozan and young centre Jakob Poeltl to the Spurs for superstar **Kawhi Leonard** and **Danny Green**.
-- The team fires Dwane Casey (who is Coach of the Year) and replace him with assistant coach **Nick Nurse**.
-- The roster shake-ups continue, with the Raptors trading Jonas Valančiūnas, Delon Wright, and C.J. Miles for **Marc Gasol**. Free agent **Jeremy Lin** also signs with the team.
+- A few weeks after firing Casey, the Raptors then trade franchise hero DeMar DeRozan
+and young centre Jakob Poeltl to the Spurs for superstar **Kawhi Leonard** and **Danny Green**.
+- The roster shake-ups continue in the middle of the season, with the Raptors trading Jonas Valančiūnas, Delon Wright, and C.J. Miles for **Marc Gasol**. Free agent **Jeremy Lin** also signs with the team.
 - WE THE CHAMPS, BETCH.
 
 </MainText>
