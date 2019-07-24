@@ -161,7 +161,7 @@ the Raptors alongside Vince Carter.
 - The Raptors win their first ever playoff series, beating the Knicks in game 5 of the first round.
 - The second round against the Philadelphia 76ers starts well, with a game 1 victory. In game 3,
 Vince Carter sets the franchise record for most points scored in a playoff game, putting up 50 against the Sixers.
-- Vince Carter misses the final shot in game 7 of the second round. This playoffs run becomes the team's
+- Vince Carter misses the final shot in game 7 of the second round, and the Raptors lose their series against Philly. This playoffs run becomes the team's
 deepest run for many years, and the Raps will not surpass this point until the 2015-16 season.
 - Vince Carter is named to the All-NBA Second Team.
 
