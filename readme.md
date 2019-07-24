@@ -138,6 +138,7 @@ with Carter winning in a now legendary contest. Carter's thunderous dunks revita
 and _"Vinsanity"_ takes over the city of Toronto.
 - The Raptors make the playoffs for the first time.
 - The Raptors exit the playoffs for the first time, by suffering a sweep from the Knicks. Butch Carter is then fired, and replaced by **Lenny Wilkens**.
+- Vince Carter is named to the All-NBA Third Team.
 - Tracy McGrady leaves Toronto, and signs with the Orlando Magic.
 
 </MainText>
@@ -160,6 +161,11 @@ Second round loss vs. 76ers
 - Vince Carter misses the final shot in game 7 of the second round (vs. 76ers). This playoffs run becomes the team's
 deepest run for many years, and the Raps will not surpass this point until the 2015-16 season.
 - The Vancouver Grizzlies move to Memphis, making the Raptors the only NBA team in Canada.
+- Vince Carter is named to the All-NBA Second Team.
+- Antonio Davis plays in the All-Star Game for the first and only time in his career, representing
+the Raptors alongside Vince Carter.
+- On May 11 th , 2001, Vince Carter sets the franchise record for most points scored in a playoff
+game, putting up 50 against the Philadelphia 76ers.
 
 </MainText>
 
@@ -179,6 +185,7 @@ First round loss vs. Pistons
 
 - **Hakeem Olajuwon** joins the Raptors for his final season in the NBA.
 - The Raptors clinch a playoff spot on the last day of the regular season.
+- Vince Carter represents the Raptors for the third straight All-Star Game.
 
 </MainText>
 
@@ -193,11 +200,7 @@ SEASON RECORD
 
 ---
 
-- Maecenas imperdiet sagittis enim, a posuere dolor lobortis vitae.
-- Quisque elit ipsum, tempor sed semper vitae, elementum id libero.
-- Phasellus rhoncus, ex eu bibendum auctor, metus quam porta tortor, a iaculis eros orci ac dolor.
-- Integer laoreet venenatis dui, quis viverra nulla pulvinar sed. Donec augue nulla, cursus nec ligula nec, dignissim consectetur diam.
-- Suspendisse ac nisl malesuada, viverra velit vitae, tincidunt ex.
+- Vince Carter represents the Raptors for the fourth straight All-Star Game.
 
 </MainText>
 
@@ -215,6 +218,7 @@ SEASON RECORD
 
 - The Raptors select **Chris Bosh** (4th overall) in the 2003 draft. 
 - Kevin O'Neill is fired as head coach and replaced by **Sam Mitchell**.
+- Vince Carter represents the Raptors for the fifth straight All-Star Game.
 
 </MainText>
 
@@ -246,6 +250,7 @@ SEASON RECORD
 
 - Jan 22 2006: The Lakers visit Toronto, and Kobe Bryant scores an eye-popping 81 points against the Raptors.
 - GM Rob Babcock is fired and replaced by **Bryan Colangelo**.
+- Chris Bosh plays in the All-Star Game for the first time.
 
 </MainText>
 
@@ -263,10 +268,12 @@ First round loss vs Nets
 
 ---
 
-- The Raptors get first pick in the 2006 draft. With this pick, the Raps select future draft bust **Andrea Bargnani**.
+- The Raptors get first pick in the 2006 draft. With this pick, the Raps select **Andrea Bargnani**.
 - The Raps return to the playoffs, and lose to Vince Carter and the Nets in game 6 of the first round.
 - Sam Mitchell is named Coach of the Year.
 - Raptors GM Bryan Colangelo is named Executive of the Year.
+- Chris Bosh is named to the All-NBA Second Team, and represents the Raptors for the second straight All-Star Game.
+- The Raptors win the Atlantic Division for the first time.
 
 </MainText>
 
@@ -284,11 +291,7 @@ First round loss vs Magic
 
 ---
 
-- Morbi velit elit, condimentum in est eget, aliquam ornare arcu.
-- Pellentesque aliquam lobortis odio sed laoreet. Aenean nisl sapien, elementum sed efficitur et, finibus non orci.
-- Praesent iaculis eu leo in ultricies. Donec eu luctus lorem, pretium vestibulum quam.
-- Vivamus gravida, lectus ac pretium hendrerit, dui dolor sagittis libero, in vehicula velit lacus eu quam.
-- Sed vestibulum tellus eu metus pharetra commodo. Nam euismod sed nisl eget semper.
+- Chris Bosh represents the Raptors for the third straight All-Star Game.
 
 </MainText>
 
@@ -304,6 +307,7 @@ SEASON RECORD
 ---
 
 - Coach Mitchell is fired and replaced by Jay Triano.
+- Chris Bosh represents the Raptors for the fourth straight All-Star Game.
 
 </MainText>
 
@@ -319,8 +323,11 @@ SEASON RECORD
 ---
 
 - With the 9th pick in the 2009 draft, the Raptors select **DeMar DeRozan**.
+- Chris Bosh represents the Raptors for the fifth straight All-Star Game.
 - Chris Bosh suffers a season-ending injury (facial fractures) in a game vs. the Cavaliers late in the season.
-- After the season, Chris Bosh signs with the Miami Heat and joins LeBron James and Dwyane Wade.
+- January 3 2010: Chris Bosh passes Vince Carter to become the franchise’s all-time leading
+scorer.
+- After the season, Chris Bosh signs with the Miami Heat to join LeBron James and Dwyane Wade.
 
 </MainText>
 
@@ -336,6 +343,8 @@ SEASON RECORD
 ---
 
 - After the season, head coach Jay Triano is replaced by Dwane Casey, who will become the longest-serving head coach in Raptors history.
+- December 11 2010: The visiting Raptors completed their largest come-from-behind
+victory in franchise history, overcoming a 25-point deficit to defeat the Pistons in Detroit.
 
 </MainText>
 
@@ -366,6 +375,7 @@ SEASON RECORD
 ---
 
 - In the offseason, the Raptors acquire **Kyle Lowry** from a trade with the Houston Rockets. Lowry and DeRozan begin to develop one of the greatest bromances in NBA history.
+- Terrence Ross becomes the second Raptor to win the Slam Dunk competition.
 - At the end of the season, GM Bryan Colangelo is replaced by Nuggets GM **Masai Ujiri**, the future architect of the Raptors' first championship team.
 
 </MainText>
@@ -386,6 +396,8 @@ First round loss vs. Nets
 
 - Drake is named the Raptors' Global Ambassador.
 - The "WE THE NORTH" marketing campaign is launched.
+- DeMar DeRozan plays in the All-Star Game for the first time.
+- The Raps win the Atlantic Division for the second time.
 - The Raptors return to the playoffs again. Before game one of the Raptors-Nets
 series, Masai Ujiri addresses a crowd of fans in Jurassic Park and ends his
 speech by yelling "F--K BROOKLYN!". The NBA slaps a $25,000 fine on Ujiri for
@@ -408,7 +420,10 @@ First round loss vs. Wizards
 
 ---
 
+- Kyle Lowry plays in the All-Star Game for the first time.
+- The Raptors win the Atlantic Division for the third time.
 - The Raptors return to the playoffs again, and are swept by the Wizards in the first round.
+- Lou Williams is named Sixth Man of the Year.
 
 </MainText>
 
@@ -426,10 +441,15 @@ Lost Eastern Conference Finals vs. Cavaliers
 
 ---
 
+- The Raptors set a franchise record after winning 11 consecutive games from January 6 2016 to January 20 2016.
 - For the first time ever, the Raptors host the NBA All-Star game.
+- Kyle Lowry and DeMar DeRozan each make their second appearance representing the Raptors
+at the All-Star Game.
+- The Raptors win the Atlantic Division for the fourth time.
 - In the playoffs, the Raps move past the Pacers (7 games), and the Heat (7 games).
 - The Raptors make the Eastern Conference Finals for the first time, where they lose in game 6 vs.
 LeBron James and the Cavaliers.
+- Kyle Lowry is named to the All-NBA Third Team.
 
 </MainText>
 
@@ -447,8 +467,13 @@ Second round loss vs Cavaliers
 
 ---
 
+- December 28 2016: DeMar DeRozan passes Chris Bosh to become the franchise’s all-
+time leading scorer.
+- Kyle Lowry and DeMar DeRozan each make their third appearance representing the Raptors at
+the All-Star Game.
 - In the playoffs, the Raps beat the Bucks (6 games), and meet the Cavaliers in the second round.
 LeBron & co. promptly sweep the team.
+- DeMar DeRozan is named to the All-NBA Third Team.
 
 </MainText>
 
@@ -466,11 +491,16 @@ Second round loss vs Cavaliers
 
 ---
 
+- Kyle Lowry and DeMar DeRozan each make their fourth appearance representing the Raptors
+at the All-Star Game alongside head coach Dwane Casey.
+- The Raptors tie a franchise record after winning 11 consecutive games from February 26 2016 to
+March 18 2016.
+- The Raptors win the Atlantic Division for the fifth time.
 - In the playoffs, the Raps eliminate the Wizards in the first round. In the
 second round, the team falls to LeBron James and the Cavs yet again. Toronto is
 dubbed LeBronto by basketball media and trolls.
+- DeMar DeRozan is named to the All-NBA Second Team.
 - In the offseason, Dwane Casey is named Coach of the Year.
-- Soon after winning COTY, the team fires Dwane Casey and replaces him with assistant coach **Nick Nurse**.
 
 </MainText>
 
@@ -489,9 +519,16 @@ Won the NBA Finals
 
 ---
 
+- Soon after winning COTY, the team fires Dwane Casey and replaces him with assistant coach **Nick Nurse**.
 - A few weeks after firing Casey, the Raptors then trade franchise hero DeMar DeRozan
 and young centre Jakob Poeltl to the Spurs for superstar **Kawhi Leonard** and **Danny Green**.
+- Kawhi Leonard plays in the All-Star Game for the third time in his career, representing the
+Raptors alongside Kyle Lowry, who plays for the fifth straight season.
 - The roster shake-ups continue in the middle of the season, with the Raptors trading Jonas Valančiūnas, Delon Wright, and C.J. Miles for **Marc Gasol**. Free agent **Jeremy Lin** also signs with the team.
-- WE THE CHAMPS, BETCH.
+- The Raptors win the Atlantic Division for the sixth time.
+- In the playoffs, the Raptors defeat the Orlando Magic in the first round (4-1). The second round against the Philadelphia 76ers ends with Kawhi Leonard making "The Shot" in the closing moments of game 7. Leonard's shot is the first game-winning buzzer-beater in a game 7 of the playoffs. The Raptors then defeat the Milwaukee Bucks in the Eastern Conference Finals (4-2) and make the NBA finals for the first time.
+- The Raptors start the Finals with a home win against the Golden State Warriors. The Warriors rally to take game 2 in Toronto, then the Raptors take the next two games at Oracle Arena in Oakland. Kevin Durant returns in game 5 (in Toronto), but his comeback is cut short when his right Achilles tendon is ruptured after 11 minutes on the floor. Game 5 ends with a Warriors victory.
+- Game 6 in Oakland starts with Kyle Lowry making 11 points in the first 3 minutes of the game. Late in the 3rd quarter, disaster strikes the Warriors again as Klay Thompson suffers an ACL tear as he is fouled while dunking. Fred VanVleet Sr. becomes the leading scorer of the 4th quarter, giving Raptors a lead twice during the 4th. The Raptors win the game (114-110), and the 2019 NBA Finals.
+- Kawhi Leonard wins the Finals MVP award, and is named to the All-NBA Second Team.
 
 </MainText>
