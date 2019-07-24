@@ -156,15 +156,14 @@ Second round loss vs. 76ers
 
 ---
 
-- The Raptors win their first ever playoff series, beating the Knicks in game 5 of the first round.
-- Vince Carter misses the final shot in game 7 of the second round (vs. 76ers). This playoffs run becomes the team's
-deepest run for many years, and the Raps will not surpass this point until the 2015-16 season.
-- The Vancouver Grizzlies move to Memphis, making the Raptors the only NBA team in Canada.
-- Vince Carter is named to the All-NBA Second Team.
 - Antonio Davis plays in the All-Star Game for the first and only time in his career, representing
 the Raptors alongside Vince Carter.
-- On May 11 th , 2001, Vince Carter sets the franchise record for most points scored in a playoff
-game, putting up 50 against the Philadelphia 76ers.
+- The Raptors win their first ever playoff series, beating the Knicks in game 5 of the first round.
+- The second round against the Philadelphia 76ers starts well, with a game 1 victory. In game 3,
+Vince Carter sets the franchise record for most points scored in a playoff game, putting up 50 against the Sixers.
+- Vince Carter misses the final shot in game 7 of the second round. This playoffs run becomes the team's
+deepest run for many years, and the Raps will not surpass this point until the 2015-16 season.
+- Vince Carter is named to the All-NBA Second Team.
 
 </MainText>
 
@@ -182,6 +181,7 @@ First round loss vs. Pistons
 
 ---
 
+- The Vancouver Grizzlies move to Memphis, making the Raptors the only NBA team in Canada.
 - **Hakeem Olajuwon** joins the Raptors for his final season in the NBA.
 - The Raptors clinch a playoff spot on the last day of the regular season.
 - Vince Carter represents the Raptors for the third straight All-Star Game.
