@@ -6,6 +6,7 @@ $heading-margin-bottom: 1rem;
 
 $body-font-size: 16px;
 $body-font-size-mobile: 14px;
+$line-height: 1.2rem;
 
 // Type scale courtesy of https://type-scale.com/
 $text-scale-mobile-1: 2.488;
@@ -27,14 +28,14 @@ body {
   // Just change this variable to effectively change all text sizes.
   // The font scale is tied directly to this (via rem units)
   font-size: $body-font-size-mobile;
-  line-height: $body-font-size-mobile * 1.15;
+  line-height: $body-font-size-mobile * 1.2;
 }
 
 div, span, p, a, li, ol, ul, {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.15rem;
+  line-height: $line-height;
 }
 
 p {
@@ -60,27 +61,27 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 1rem * $text-scale-mobile-1;
-  line-height: 1.15rem * $text-scale-mobile-1;
+  line-height: $line-height * $text-scale-mobile-1;
 }
 h2 {
   font-size: 1rem * $text-scale-mobile-2;
-  line-height: 1.15rem * $text-scale-mobile-2;
+  line-height: $line-height * $text-scale-mobile-2;
 }
 h3 {
   font-size: 1rem * $text-scale-mobile-3;
-  line-height: 1.15rem * $text-scale-mobile-3;
+  line-height: $line-height * $text-scale-mobile-3;
 }
 h4 {
   font-size: 1rem * $text-scale-mobile-4;
-  line-height: 1.15rem * $text-scale-mobile-4;
+  line-height: $line-height * $text-scale-mobile-4;
 }
 h5 {
   font-size: 1rem * $text-scale-mobile-5;
-  line-height: 1.15rem * $text-scale-mobile-5;
+  line-height: $line-height * $text-scale-mobile-5;
 }
 h6 {
   font-size: 1rem * $text-scale-mobile-6;
-  line-height: 1.15rem * $text-scale-mobile-6;
+  line-height: $line-height * $text-scale-mobile-6;
 }
 
 /* Larger than tablet */
@@ -91,27 +92,27 @@ h6 {
   }
   h1 {
     font-size: 1rem * $text-scale-1;
-    line-height: 1.15rem * $text-scale-1;
+    line-height: $line-height * $text-scale-1;
   }
   h2 {
     font-size: 1rem * $text-scale-2;
-    line-height: 1.15rem * $text-scale-2;
+    line-height: $line-height * $text-scale-2;
   }
   h3 {
     font-size: 1rem * $text-scale-3;
-    line-height: 1.15rem * $text-scale-3;
+    line-height: $line-height * $text-scale-3;
   }
   h4 {
     font-size: 1rem * $text-scale-4;
-    line-height: 1.15rem * $text-scale-4;
+    line-height: $line-height * $text-scale-4;
   }
   h5 {
     font-size: 1rem * $text-scale-5;
-    line-height: 1.15rem * $text-scale-5;
+    line-height: $line-height * $text-scale-5;
   }
   h6 {
     font-size: 1rem * $text-scale-6;
-    line-height: 1.15rem * $text-scale-6;
+    line-height: $line-height * $text-scale-6;
   }
 }
 

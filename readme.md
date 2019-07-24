@@ -341,9 +341,9 @@ SEASON RECORD
 
 ---
 
-- After the season, head coach Jay Triano is replaced by Dwane Casey, who will become the longest-serving head coach in Raptors history.
 - December 11 2010: The visiting Raptors completed their largest come-from-behind
 victory in franchise history, overcoming a 25-point deficit to defeat the Pistons in Detroit.
+- After the season, head coach Jay Triano is replaced by Dwane Casey, who will become the longest-serving head coach in Raptors history.
 
 </MainText>
 
