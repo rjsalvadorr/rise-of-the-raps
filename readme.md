@@ -398,9 +398,8 @@ First round loss vs. Nets
 - DeMar DeRozan plays in the All-Star Game for the first time.
 - The Raps win the Atlantic Division for the second time.
 - The Raptors return to the playoffs again. Before game one of the Raptors-Nets
-series, Masai Ujiri addresses a crowd of fans in Jurassic Park and ends his
-speech by yelling "F--K BROOKLYN!". The NBA slaps a $25,000 fine on Ujiri for
-hyping up the home crowd.
+series, Masai Ujiri addresses fans in Jurassic Park and ends his
+speech by yelling "F--K BROOKLYN!".
 - The team gets bounced by the Nets in game 7 of their series.
 
 </MainText>
@@ -539,20 +538,18 @@ Raptors alongside Kyle Lowry, who plays for the fifth straight season.
 <h1 class="main-title main-title--desktop main-title--26" data-slide="26">Credits &amp; shout outs</h1>
 <MainText :slide="26">
 
-**PROGRAMMING, DESIGN, COPY**
+**PROGRAMMING, DESIGN, COPY** - RJ Salvador
 
-RJ Salvador
-
-**RESEARCH, COPY**
-
-Jacob Scott
+**RESEARCH, COPY** - Jacob Scott
 
 **DATA RESOURCES**
 
-- https://www.basketball-reference.com/
-- https://teamcolorcodes.com/nba-team-color-codes/
+- [https://www.basketball-reference.com/](https://www.basketball-reference.com/)
+- [https://teamcolorcodes.com/nba-team-color-codes/](https://teamcolorcodes.com/nba-team-color-codes/)
 
-Curious about the infographic methodology?  
-[I got you, fam](/methodology).
+Curious about the infographic methodology? [I got you, fam](/methodology).
+
+Got questions? Comments? Complaints?  
+Send them to [rjsalvadorr@gmail.com](mailto:rjsalvadorr@gmail.com)
 
 </MainText>

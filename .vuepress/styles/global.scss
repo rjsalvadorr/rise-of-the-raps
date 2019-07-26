@@ -23,6 +23,7 @@ code {
   background-color: darken($body-bg-color, 10%);
   padding: 0 $space-unit / 4;
   border-radius: $border-radius;
+  margin-bottom: 20px;
 }
 
 hr {
@@ -108,6 +109,21 @@ hr {
   .content-wrapper--home {
     .text-wrapper {
       padding-top: $space-unit * 3;
+    }
+  }
+
+  .content-wrapper--methodology {
+    max-width: 960px;
+    margin: 0 auto;
+
+    h1, h2, h3, h4, h5, h6 {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
     }
   }
 }
