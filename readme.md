@@ -31,6 +31,7 @@ category: home
 <h1 class="main-title main-title--mobile main-title--23" data-slide="23">2016-17</h1>
 <h1 class="main-title main-title--mobile main-title--24" data-slide="24">2017-18</h1>
 <h1 class="main-title main-title--mobile main-title--25" data-slide="25">2018-19</h1>
+<h1 class="main-title main-title--mobile main-title--26" data-slide="25">Credits &amp; shout outs</h1>
 
 <Graphic></Graphic>
 
@@ -158,10 +159,10 @@ Second round loss vs. 76ers
 
 - Antonio Davis plays in the All-Star Game for the first and only time in his career, representing
 the Raptors alongside Vince Carter.
-- The Raptors win their first ever playoff series, beating the Knicks in game 5 of the first round.
+- The Raptors win a playoff series for the first time, beating the Knicks in game 5 of the first round.
 - The second round against the Philadelphia 76ers starts well, with a game 1 victory. In game 3,
 Vince Carter sets the franchise record for most points scored in a playoff game, putting up 50 against the Sixers.
-- Vince Carter misses the final shot in game 7 of the second round, and the Raptors lose their series against Philly. This playoffs run becomes the team's
+- Vince Carter misses the final shot in game 7 of the second round, and the Raptors lose their series against Philadelphia. This playoffs run becomes the team's
 deepest run for many years, and the Raps will not surpass this point until the 2015-16 season.
 - Vince Carter is named to the All-NBA Second Team.
 
@@ -182,9 +183,8 @@ First round loss vs. Pistons
 ---
 
 - The Vancouver Grizzlies move to Memphis, making the Raptors the only NBA team in Canada.
-- **Hakeem Olajuwon** joins the Raptors for his final season in the NBA.
-- The Raptors clinch a playoff spot on the last day of the regular season.
 - Vince Carter represents the Raptors for the third straight All-Star Game.
+- The Raptors clinch a playoff spot on the last day of the regular season.
 
 </MainText>
 
@@ -215,7 +215,7 @@ SEASON RECORD
 
 ---
 
-- The Raptors select **Chris Bosh** (4th overall) in the 2003 draft. 
+- The Raptors select **Chris Bosh** in the 2003 draft (4th overall). 
 - Kevin O'Neill is fired as head coach and replaced by **Sam Mitchell**.
 - Vince Carter represents the Raptors for the fifth straight All-Star Game.
 
@@ -323,7 +323,6 @@ SEASON RECORD
 
 - With the 9th pick in the 2009 draft, the Raptors select **DeMar DeRozan**.
 - Chris Bosh represents the Raptors for the fifth straight All-Star Game.
-- Chris Bosh suffers a season-ending injury (facial fractures) in a game vs. the Cavaliers late in the season.
 - January 3 2010: Chris Bosh passes Vince Carter to become the franchise’s all-time leading
 scorer.
 - After the season, Chris Bosh signs with the Miami Heat to join LeBron James and Dwyane Wade.
@@ -373,6 +372,7 @@ SEASON RECORD
 
 ---
 
+- In the 2012 draft, the Raptors draft **Terrence Ross** with the 8th overall pick.
 - In the offseason, the Raptors acquire **Kyle Lowry** from a trade with the Houston Rockets. Lowry and DeRozan begin to develop one of the greatest bromances in NBA history.
 - Terrence Ross becomes the second Raptor to win the Slam Dunk competition.
 - At the end of the season, GM Bryan Colangelo is replaced by Nuggets GM **Masai Ujiri**, the future architect of the Raptors' first championship team.
@@ -448,6 +448,7 @@ at the All-Star Game.
 - In the playoffs, the Raps move past the Pacers (7 games), and the Heat (7 games).
 - The Raptors make the Eastern Conference Finals for the first time, where they lose in game 6 vs.
 LeBron James and the Cavaliers.
+- [#WeTheOther](https://twitter.com/MackoAndCauz/status/732561906901372931)
 - Kyle Lowry is named to the All-NBA Third Team.
 
 </MainText>
@@ -519,15 +520,39 @@ Won the NBA Finals
 ---
 
 - Soon after winning COTY, the team fires Dwane Casey and replaces him with assistant coach **Nick Nurse**.
-- A few weeks after firing Casey, the Raptors then trade franchise hero DeMar DeRozan
-and young centre Jakob Poeltl to the Spurs for superstar **Kawhi Leonard** and **Danny Green**.
+- A few weeks after firing Casey, the Raptors trade franchise hero DeMar DeRozan
+and budding young centre Jakob Poeltl to the Spurs for superstar **Kawhi Leonard** and **Danny Green**.
 - Kawhi Leonard plays in the All-Star Game for the third time in his career, representing the
 Raptors alongside Kyle Lowry, who plays for the fifth straight season.
 - The roster shake-ups continue in the middle of the season, with the Raptors trading Jonas Valančiūnas, Delon Wright, and C.J. Miles for **Marc Gasol**. Free agent **Jeremy Lin** also signs with the team.
-- The Raptors win the Atlantic Division for the sixth time.
+- The Raptors win the Atlantic Division for the sixth time, and Kawhi Leonard is named to the NBA All-Defensive Second Team.
 - In the playoffs, the Raptors defeat the Orlando Magic in the first round (4-1). The second round against the Philadelphia 76ers ends with Kawhi Leonard making "The Shot" in the closing moments of game 7. Leonard's shot is the first game-winning buzzer-beater in a game 7 of the playoffs. The Raptors then defeat the Milwaukee Bucks in the Eastern Conference Finals (4-2) and make the NBA finals for the first time.
 - The Raptors start the Finals with a home win against the Golden State Warriors. The Warriors rally to take game 2 in Toronto, then the Raptors take the next two games at Oracle Arena in Oakland. Kevin Durant returns in game 5 (in Toronto), but his comeback is cut short when his right Achilles tendon is ruptured after 11 minutes on the floor. Game 5 ends with a Warriors victory.
 - Game 6 in Oakland starts with Kyle Lowry making 11 points in the first 3 minutes of the game. Late in the 3rd quarter, disaster strikes the Warriors again as Klay Thompson suffers an ACL tear as he is fouled while dunking. Fred VanVleet Sr. becomes the leading scorer of the 4th quarter, giving Raptors a lead twice during the 4th. The Raptors win the game (114-110), and the 2019 NBA Finals.
-- Kawhi Leonard wins the Finals MVP award, and is named to the All-NBA Second Team.
+- Kawhi Leonard wins the Finals MVP award
+- Pascal Siakam is named the Most Improved Player, the first Raptor to win the honor.
+- June 17 2019: In one of the longest parades in sports history, the city of Toronto celebrates the Raptors victory over a five-hour parade.
+
+</MainText>
+
+
+<h1 class="main-title main-title--desktop main-title--26" data-slide="26">Credits &amp; shout outs</h1>
+<MainText :slide="26">
+
+**PROGRAMMING, DESIGN, COPY**
+
+RJ Salvador
+
+**RESEARCH, COPY**
+
+Jacob Scott
+
+**DATA RESOURCES**
+
+- https://www.basketball-reference.com/
+- https://teamcolorcodes.com/nba-team-color-codes/
+
+Curious about the infographic methodology?  
+[I got you, fam](/methodology).
 
 </MainText>

@@ -7,7 +7,7 @@
     <div class="graphic-wrapper"></div>
     <div class="scroll-btn scroll-btn--right" v-on:click="scrollNext">
       <!-- <img class="scroll-btn-icon"src="/icons/right-arrow.svg" /> -->
-      <RightArrow class="scroll-btn-icon" :hidden="currentSlide === 25"></RightArrow>
+      <RightArrow class="scroll-btn-icon" :hidden="currentSlide === 26"></RightArrow>
     </div>
   </div>
 </template>
@@ -44,7 +44,7 @@ export default {
   },
   computed: {
     currentYear: function() {
-      if(this.currentSlide === 1) {
+      if(this.currentSlide === 1 || this.currentSlide === 26) {
         return 2019;
       }
       return 1996 + this.currentSlide - 2;
@@ -79,7 +79,6 @@ export default {
       const winsText = document.querySelector('.main-text.active .text-wins');
       const lossesText = document.querySelector('.main-text.active .text-losses');
       const wrText = document.querySelector('.main-text.active .text-winrate');
-      console.log(this.torontoStats, winsText, lossesText);
 
       if(winsText) {
         winsText.textContent = this.torontoStats.regWins;
@@ -98,7 +97,7 @@ export default {
       this.updateGraphic();
     },
     scrollNext: function(evt) {
-      if(this.currentSlide < 25) {
+      if(this.currentSlide < 26) {
         this.currentSlide = this.currentSlide + 1;
       }
       this.updateGraphic();
