@@ -1,5 +1,5 @@
 <template>
-  <div class="theme-container" @keyup.esc="toggleDebugPanel()">
+  <div :class="`theme-container theme-container--${$page.frontmatter.category}`" @keyup.esc="toggleDebugPanel()">
     <div class="theme-content">
       <div :class="getContentClasses($page)">
         <slot>

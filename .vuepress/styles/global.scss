@@ -112,9 +112,13 @@ hr {
     }
   }
 
+  .theme-container.theme-container--methodology {
+    height: auto !important;
+  }
+
   .content-wrapper--methodology {
-    max-width: 960px;
-    margin: 0 auto;
+    // max-width: 960px;
+    // margin: 0 auto;
 
     h1, h2, h3, h4, h5, h6 {
       text-align: center;

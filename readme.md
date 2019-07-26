@@ -31,7 +31,7 @@ category: home
 <h1 class="main-title main-title--mobile main-title--23" data-slide="23">2016-17</h1>
 <h1 class="main-title main-title--mobile main-title--24" data-slide="24">2017-18</h1>
 <h1 class="main-title main-title--mobile main-title--25" data-slide="25">2018-19</h1>
-<h1 class="main-title main-title--mobile main-title--26" data-slide="25">Credits &amp; shout outs</h1>
+<h1 class="main-title main-title--mobile main-title--26" data-slide="26">Credits &amp; shout outs</h1>
 
 <Graphic></Graphic>
 
