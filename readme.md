@@ -61,9 +61,10 @@ SEASON RECORD
 ---
 
 - The NBA expands into Canada, and the Toronto Raptors are established alongside the Vancouver Grizzlies.
-- **Damon Stoudamire**, the Raptors' first ever draft pick (7th overall), is named Rookie of the Year.
+- **Damon Stoudamire** becomes the Raptors' first ever draft pick (7th overall).
 - The Raptors play their opening game on November 3, 1995 in their home arena, the SkyDome. They win against the New Jersey Nets (94-79).
-- **Brendan Malone** is fired after the season.
+- Stoudamire is named Rookie of the Year.
+- Coach **Brendan Malone** is fired after the season.
 
 </MainText>
 
