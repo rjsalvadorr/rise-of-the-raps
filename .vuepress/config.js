@@ -20,5 +20,6 @@ module.exports = {
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
     ['link', { rel: 'stylesheet', href: `https://fonts.googleapis.com/css?family=Bungee+Shade|Open+Sans:400&display=swap` }],
   ],
-  dest: 'dist'
+  dest: 'dist',
+  base: '/apps/rise-of-the-raptors/'
 }

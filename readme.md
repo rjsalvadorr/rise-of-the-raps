@@ -547,7 +547,7 @@ Raptors alongside Kyle Lowry, who plays for the fifth straight season.
 - [https://www.basketball-reference.com/](https://www.basketball-reference.com/)
 - [https://teamcolorcodes.com/nba-team-color-codes/](https://teamcolorcodes.com/nba-team-color-codes/)
 
-Curious about the infographic methodology? [I got you, fam](/methodology).
+Curious about the infographic methodology? [I got you, fam](./methodology).
 
 Got questions? Comments? Complaints?  
 Send them to [rjsalvadorr@gmail.com](mailto:rjsalvadorr@gmail.com)

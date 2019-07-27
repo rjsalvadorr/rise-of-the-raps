@@ -268,7 +268,7 @@ export default {
     ///////////////////////////////////////////////////////////////////////////////
     ///  LOADING DATA
 
-    const seasonData = d3.csv("../data/stats.csv", ({ Type, Year, Rk, Team, W, L, ORtg, DRtg }) => {
+    const seasonData = d3.csv("./data/stats.csv", ({ Type, Year, Rk, Team, W, L, ORtg, DRtg }) => {
       that.seasonStats.addData({ Year, Rk, Team, W, L, ORtg, DRtg }, Type);
     });
 
