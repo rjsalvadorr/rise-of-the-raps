@@ -247,7 +247,7 @@ SEASON RECORD
 
 ---
 
-- Jan 22 2006: The Lakers visit Toronto, and Kobe Bryant scores an eye-popping 81 points against the Raptors.
+- Jan 22 2006: The Raptors play against the Lakers in Los Angeles, and Kobe Bryant scores an eye-popping 81 points against the Raptors.
 - GM Rob Babcock is fired and replaced by **Bryan Colangelo**.
 - Chris Bosh plays in the All-Star Game for the first time.
 
