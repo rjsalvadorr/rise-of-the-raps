@@ -20,7 +20,7 @@
   "homepage": "https://github.com/rjsalvadorr/rise-of-the-raps#readme",
   "dependencies": {
     "d3": "^5.9.2",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "luxon": "^1.13.0",
     "node-sass": "^4.12.0",
     "sass-loader": "^7.1.0",
